@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electabuzz" nameDescription="a electabuzz" race="electric" experience="1100" speed="237" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="281" corpse="11871"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1151" chance="30" range="2"/>
+		<attack name="Low Kick" interval="1677" chance="12" range="1"/>
+		<attack name="Thunder Punch" interval="1253" chance="15" range="1"/>
+		<attack name="Thunder Shock" interval="1154" chance="30" range="6"/>
+		<attack name="Thunderbolt" interval="1680" chance="12" range="6"/>
+		<attack name="Thunder Wave" interval="1681" chance="12" range="6"/>
+		<attack name="Thunder" interval="1832" chance="9" range="6"/>
+		<attack name="Electric Storm" interval="3258" chance="4" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="ELECTABUZZ!"/>
+    </voices>
+    <loot>
+        <item id="11444" chance="3000" count="1"/> --thunder stone
+        <item id="12244" chance="3000" count="1"/> --ancient stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

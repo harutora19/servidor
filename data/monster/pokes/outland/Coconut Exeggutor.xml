@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Coconut Exeggutor" nameDescription="a coconut exeggutor" race="grass" experience="4004" speed="500" manacost="0">
+    <health now="220" max="220"/>
+    <look type="4001" corpse="11874"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Seed Bomb" interval="1851" chance="10" range="1"/>
+		<attack name="Egg Bomb" interval="1252" chance="30" range="6"/>
+		<attack name="Leaf Blade" interval="1303" chance="20" range="6"/>
+		<attack name="Confusion" interval="1854" chance="10" range="1"/>
+		<attack name="Psyshock" interval="1930" chance="9" range="1"/>
+		<attack name="Bullet Seed" interval="2081" chance="7" range="6"/>
+		<attack name="Solar Beam" interval="2957" chance="5" range="1"/>
+		<attack name="Leaf Storm" interval="3358" chance="4" range="1"/>
+		<attack name="Hypnosis" interval="4509" chance="5" range="1"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MEGANIUM!"/>
+    </voices>
+   <loot>
+        <item id="11441" chance="2500" count="1"/> --leaf stone
+        <item id="11452" chance="2500" countmax="1"/> --enigma stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

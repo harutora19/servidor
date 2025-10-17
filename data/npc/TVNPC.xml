@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Omisa  " speed="0">
+	<health now="9350" max="9350"/>
+	<look type="647" head="116" body="114" legs="114" feet="114"/>
+	<parameters>
+	</parameters>
+</npc>

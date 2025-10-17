@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kirlia" nameDescription="a kirlia" race="ghost" experience="500" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1847" corpse="14706"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Psybeam" interval="901" chance="20" range="6"/>
+		<attack name="Psywave" interval="952" chance="15" range="6"/>
+		<attack name="Psy Pulse" interval="903" chance="20" range="6"/>
+		<attack name="Confusion" interval="1529" chance="9" range="6"/>
+		<attack name="Psychic" interval="1605" chance="8" range="6"/>
+		<attack name="Calm Mind" interval="2356" chance="6" range="6"/>
+		<attack name="Hypnosis" interval="4607" chance="4" range="6"/>
+		<attack name="Reflect" interval="2558" chance="5" range="6"/>
+		<attack name="Restore" interval="13709" chance="2" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Kirlia!"/>
+    </voices>
+    <loot>
+        <item id="11452" chance="4000" count="1" countmax="1"/> --enigma stone
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

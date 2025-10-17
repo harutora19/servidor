@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Graveler" nameDescription="a graveler" race="ground" experience="450" speed="216" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="247" corpse="12140"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Rock Throw" interval="1451" chance="30" range="6"/>
+		<attack name="Rock Slide" interval="1502" chance="20" range="6"/>
+		<attack name="Stone Edge" interval="1553" chance="15" range="6"/>
+		<attack name="Earth Power" interval="3554" chance="4" range="6"/>
+		<attack name="Falling Rocks" interval="3955" chance="3" range="6"/>
+		<attack name="Harden" interval="2956" chance="6" range="6"/>
+		<attack name="Selfdestruct" interval="4357" chance="3" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="GRAVELER!"/>
+    </voices>
+    <loot>
+        <item id="11445" chance="3000" count="1" countmax="1"/> --rock stone
+        <item id="11451" chance="3000" countmax="1"/> --earth stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

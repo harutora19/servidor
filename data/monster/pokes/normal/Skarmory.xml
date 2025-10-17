@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skarmory" nameDescription="a skarmory" race="steel" experience="1100" speed="335" manacost="0">
+  <health now="40" max="40"/>
+  <look type="398" corpse="4433"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="1101" chance="20" range="6"/>
+		<attack name="Peck" interval="1052" chance="30" range="1"/>
+		<attack name="Slash" interval="1103" chance="20" range="1"/>
+		<attack name="Swift" interval="1104" chance="20" range="6"/>
+		<attack name="Air Slash" interval="2555" chance="6" range="6"/>
+		<attack name="Air Cutter" interval="1881" chance="7" range="6"/>
+		<attack name="Steel Wing" interval="1582" chance="12" range="6"/>
+		<attack name="Aerial Ace" interval="3158" chance="4" range="6"/>
+		<attack name="Agility" interval="1659" chance="10" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="SKAAR!"/>
+<voice sentence="MOORY!"/>
+<voice sentence="SKARMORY!"/>
+  </voices>
+  <loot>
+        <item id="11453" chance="3000" count="1"/> --heart stone
+        <item id="12232" chance="500" count="1"/> <!--Metal Stone-->
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="255" head="115" body="0" legs="114" feet="86"/>
+<parameters>
+<parameter key="message_greet" value="Olá amigo consumidor, eu tenho artigos para lhe ajudar em sua jornada, diga {trade} para ver as ofertas, ou {sell mais nome do item} para me vender algum loot!!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value= "poke ball,2394,5;
+great ball,2391,20;
+super ball,2393,50;
+ultra ball,2392,130;
+small potion,12347,5;
+great potion,12348,10;
+ultra potion,12346,22;
+hyper potion,12345,50;
+full restore,12343,100;
+revive,12344,100;
+bag box,12338,100000;
+medicine,12349,10;
+tv cam,12330,10000;"/>
+</parameters>
+</npc>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwhirl" nameDescription="a poliwhirl" race="water" experience="250" speed="224" manacost="0">
+    <health now="1000" max="1000"/>
+    <look type="212" head="15" body="35" legs="95" feet="113" corpse="11944"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="1501" chance="20" range="6"/>
+		<attack name="Doubleslap" interval="1452" chance="30" range="1"/>
+		<attack name="Bubbles" interval="1503" chance="20" range="6"/>
+		<attack name="Water Gun" interval="1554" chance="15" range="6"/>
+		<attack name="Ice Beam" interval="1980" chance="12" range="6"/>
+		<attack name="Hammer Arm" interval="4706" chance="5" range="6"/>
+		<attack name="Dynamic Punch" interval="1982" chance="12" range="6"/>
+		<attack name="Hypnosis" interval="3708" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="POLIWHIRL!"/>
+    </voices>
+    <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+        <item id="11446" chance="3000" count="1" countmax="1"/> --punch stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

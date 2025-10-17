@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Electrode" nameDescription="a Shiny electrode" race="electric" experience="336" speed="277" manacost="0">
+  <health now="120" max="120"/>
+  <look type="516" corpse="12520"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Magic Coat" interval="2651" chance="5" range="6"/>
+		<attack name="Thunder Shock" interval="932" chance="38" range="6"/>
+		<attack name="Spark" interval="973" chance="25" range="6"/>
+		<attack name="Thunder Wave" interval="974" chance="25" range="6"/>
+		<attack name="Rollout" interval="1645" chance="9" range="6"/>
+		<attack name="Charge Beam" interval="1466" chance="13" range="6"/>
+		<attack name="Eerie Impulse" interval="1782" chance="7" range="6"/>
+		<attack name="Electric Storm" interval="2538" chance="6" range="6"/>
+		<attack name="Selfdestruct" interval="3859" chance="3" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="ELECTRODE!"/>
+ </voices>
+
+  <loot>
+          <item id="11444" chance="20000" count="1"/>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vaporeon" nameDescription="a vaporeon" race="water" experience="650" speed="247" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="215" corpse="11974"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<!-- <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/> -->
+		<attack name="Quick Attack" interval="1251" chance="30" range="2"/>
+		<attack name="Bite" interval="1302" chance="20" range="1"/>
+		<attack name="Water Gun" interval="1353" chance="15" range="6"/>
+		<attack name="BubbleBeam" interval="1354" chance="15" range="6"/>
+		<attack name="Water Pulse" interval="1355" chance="15" range="6"/>
+		<attack name="Muddy Water" interval="1781" chance="12" range="6"/>
+		<attack name="Aurora Beam" interval="1782" chance="12" range="6"/>
+		<attack name="Hydro Cannon" interval="2008" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="VAPOREON!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="60"/> --water gem
+        <item id="12170" chance="50" count="1" countmax="1"/> --water pendant --water pendant
+        <item id="11442" chance="5" count="1" countmax="1"/> --water stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

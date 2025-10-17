@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ziraldo" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="299" feet="25"/>
+<parameters>
+<parameter key="message_greet" value="Hello dear customer! Are you here to see my offers? Come on, lets {trade}!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_sellable" value= "metal coat,12232,25000;
+ancient stone,12244,25000;
+crystal stone,11449,5000;
+water stone,11442,5000;
+leaf stone,11441,5000;
+fire stone,11447,5000;
+thunder stone,11444,5000;
+rock stone,11445,5000;
+earth stone,11451,5000;
+heart stone,11453,5000;
+darkness stone,11450,5000;
+enigma stone,11452,5000;
+coccon stone,11448,5000;
+venom stone,11443,5000;
+ice stone,11454,5000;
+feather stone,12417,5000;
+punch stone,11446,5000;"/>
+</parameters>
+</npc>

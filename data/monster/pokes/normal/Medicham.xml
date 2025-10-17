@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Medicham" nameDescription="a medicham" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1889" corpse="14724"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Fire Punch" interval="831" chance="17" range="1"/>
+		<attack name="Ice Punch" interval="832" chance="17" range="1"/>
+		<attack name="Thunder Punch" interval="833" chance="17" range="1"/>
+		<attack name="Psy Pulse" interval="744" chance="34" range="6"/>
+		<attack name="Psyshock" interval="1282" chance="12" range="6"/>
+		<attack name="Hi Jump Kick" interval="2358" chance="6" range="6"/>
+		<attack name="Focus Energy" interval="1509" chance="8" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Medichan!"/>
+    </voices>
+	<loot>
+        <item id="11446" chance="4000" count="1" countmax="1"/> --punch stone
+		<item id="11452" chance="4000" countmax="1"/> -- enigma stone
+		
+	</loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

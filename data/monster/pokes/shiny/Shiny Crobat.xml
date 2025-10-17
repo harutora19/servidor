@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Crobat" nameDescription="a Shiny crobat" race="poison" experience="484" speed="255" manacost="0">
+  <health now="140" max="140"/>
+  <look type="1578" corpse="12743"/>
+	<strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Leech Life" interval="721" chance="43" range="6"/>
+		<attack name="Bite" interval="752" chance="30" range="1"/>
+		<attack name="Poison Fang" interval="753" chance="30" range="1"/>
+		<attack name="Toxic" interval="854" chance="15" range="6"/>
+		<attack name="Whirlwind" interval="1355" chance="10" range="6"/>
+		<attack name="Wing Attack" interval="1431" chance="9" range="6"/>
+		<attack name="Air Cutter" interval="1507" chance="8" range="6"/>
+		<attack name="Cross Poison" interval="2258" chance="6" range="6"/>
+		<attack name="Venom Gale" interval="2859" chance="4" range="6"/>
+		<attack name="Super Sonic" interval="810" chance="20" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="CROO!"/>
+<voice sentence="BAAT!"/>
+<voice sentence="CROBAT!"/>
+</voices>
+    <loot>
+		  <item id="11443" chance="3000" count="1"/> --venom stone
+		  <item id="11453" chance="3000" count="1"/> --heart stone
+		  <item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

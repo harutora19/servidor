@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hariyama" nameDescription="a hariyama" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3855" corpse="14756"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Low Kick" interval="751" chance="30" range="1"/>
+		<attack name="Rock Tomb" interval="1232" chance="14" range="6"/>
+		<attack name="Stone Edge" interval="853" chance="15" range="6"/>
+		<attack name="Triple Kick" interval="774" chance="25" range="1"/>
+		<attack name="Close Combat" interval="1430" chance="9" range="1"/>
+		<attack name="Ground Chop" interval="1506" chance="8" range="6"/>
+		<attack name="Fist Machine" interval="1432" chance="9" range="6"/>
+		<attack name="Destroyer Hand" interval="1583" chance="7" range="6"/>
+		<attack name="Dynamic Punch" interval="2359" chance="6" range="6"/>
+		<attack name="Detect" interval="1585" chance="7" range="6"/>
+		<attack name="Strafe" interval="1286" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Hariyama!"/>
+    </voices>
+    <loot>
+	
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

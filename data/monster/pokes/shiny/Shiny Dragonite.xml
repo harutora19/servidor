@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dragonite" nameDescription="a shiny dragonite" race="dragon" experience="1536" speed="257" manacost="0">
+  <health now="270" max="270"/>
+  <look type="3530" corpse="12569"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+	<flags>
+	<flag summonable="1"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="97"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="ExtremeSpeed" interval="851" chance="15" range="6"/>
+		<attack name="Feather Dance" interval="792" chance="22" range="6"/>
+		<attack name="Ice Punch" interval="833" chance="17" range="1"/>
+		<attack name="Dragon Claw" interval="814" chance="19" range="1"/>
+		<attack name="Thunder Wave" interval="855" chance="15" range="6"/>
+		<attack name="Dragon Breath" interval="856" chance="15" range="6"/>
+		<attack name="Twister" interval="1237" chance="14" range="6"/>
+		<attack name="Wing Attack" interval="1268" chance="13" range="6"/>
+		<attack name="Aerial Ace" interval="2959" chance="4" range="6"/>
+		<attack name="Draco Meteor" interval="2460" chance="5" range="6"/>
+		<attack name="Outrage" interval="1586" chance="7" range="6"/>
+	</attacks>
+	<voices interval="5000" chance="10">
+		<voice sentence="DRAGONITE!"/>
+	</voices>
+	<loot>
+		<item id="11449" chance="100" count="1"/> --crystal stone
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

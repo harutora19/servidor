@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jumpluff" nameDescription="a jumpluff" race="grass" experience="450" speed="270" manacost="0">
+  <health now="40" max="40"/>
+  <look type="358" corpse="9801"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Absorb" interval="1401" chance="20" range="1"/>
+		<attack name="Feather Dance" interval="1402" chance="20" range="6"/>
+		<attack name="U-Turn" interval="1303" chance="60" range="6"/>
+		<attack name="Synthesis" interval="1954" chance="10" range="6"/>
+		<attack name="Bullet Seed" interval="1955" chance="10" range="6"/>
+		<attack name="Air Slash" interval="2856" chance="6" range="6"/>
+		<attack name="Sleep Powder" interval="4107" chance="8" range="6"/>
+		<attack name="Solar Beam" interval="1958" chance="10" range="6"/>
+		<attack name="Poison Powder" interval="1409" chance="20" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="JUUMP!"/>
+<voice sentence="PLUUFF!"/>
+<voice sentence="JUMPLUFF!"/>
+  </voices>
+  <loot>
+        <item id="11441" chance="3000" count="1" countmax="1"/> --leaf stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

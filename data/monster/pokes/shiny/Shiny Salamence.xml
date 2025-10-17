@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Salamence" nameDescription="a Shiny Salamence " race="dragon" experience="1500" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1742" head="65" body="90" legs="95" feet="113" corpse="14754"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="771" chance="25" range="1"/>
+		<attack name="Crunch" interval="812" chance="19" range="6"/>
+		<attack name="Dragon Tail" interval="813" chance="19" range="1"/>
+		<attack name="Dragon Claw" interval="814" chance="19" range="1"/>
+		<attack name="Dragon Breath" interval="1355" chance="10" range="6"/>
+		<attack name="Dragon Pulse" interval="1266" chance="13" range="6"/>
+		<attack name="Wing Attack" interval="1327" chance="11" range="6"/>
+		<attack name="Hyper Beam" interval="1433" chance="9" range="6"/>
+		<attack name="Draco Meteor" interval="2459" chance="5" range="6"/>
+		<attack name="Scary Face" interval="1585" chance="7" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Salamence!"/>
+    </voices>
+    <loot>
+    </loot>
+    <loot>
+        <item id="11449" chance="3000" count="1"/> --crystal stone
+        <item id="12159" chance="30" count="1" countmax="2"/> --dragon tooth
+        <item id="12275" chance="15" count="1" countmax="1"/> --big wing
+        <item id="12338" chance="1" count="1"/> 
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+    </loot>
+	    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

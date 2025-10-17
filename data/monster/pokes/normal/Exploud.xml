@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exploud" nameDescription="a exploud" race="ghost" experience="500" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1924" corpse="14764"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="801" chance="20" range="3"/>
+		<attack name="Hyper Voice" interval="1277" chance="12" range="6"/>
+		<attack name="Dizzy Punch" interval="853" chance="15" range="1"/>
+		<attack name="Body Slam" interval="1279" chance="12" range="1"/>
+		<attack name="Echoed Voice" interval="1355" chance="10" range="6"/>
+		<attack name="Rest" interval="12906" chance="3" range="6"/>
+		<attack name="Earthquake" interval="4727" chance="5" range="6"/>
+		<attack name="Hyper Beam" interval="2458" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Exploud!"/>
+    </voices>
+    <loot>
+	
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

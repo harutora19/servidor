@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dewgong" nameDescription="a dewgong" race="water" experience="1100" speed="227" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="110" corpse="11859"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Aqua Tail" interval="1401" chance="20" range="1"/>
+		<attack name="Headbutt" interval="1352" chance="30" range="1"/>
+		<attack name="Bubble Blast" interval="2103" chance="8" range="6"/>
+		<attack name="Ice Shards" interval="1454" chance="15" range="6"/>
+		<attack name="Ice Beam" interval="1880" chance="12" range="6"/>
+		<attack name="Icy Wind" interval="1456" chance="15" range="6"/>
+		<attack name="Aurora Beam" interval="1882" chance="12" range="6"/>
+		<attack name="Blizzard" interval="2858" chance="6" range="6"/>
+		<attack name="Rest" interval="11809" chance="5" range="6"/>
+		<attack name="Safeguard" interval="2110" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DEWGONG!"/>
+    </voices>
+    <loot>
+        <item id="11454" chance="3000" count="1" countmax="1"/> --ice stone
+		<item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

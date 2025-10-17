@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Nidoking" nameDescription="a Shiny nidoking" race="poison" experience="852" speed="279" manacost="0">
+  <health now="210" max="210"/>
+  <look type="635" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Crunch" interval="741" chance="34" range="1"/>
+		<attack name="Horn Attack" interval="752" chance="30" range="2"/>
+		<attack name="Poison Fang" interval="753" chance="30" range="1"/>
+		<attack name="Poison Jab" interval="804" chance="20" range="6"/>
+		<attack name="Toxic Spikes" interval="805" chance="20" range="6"/>
+		<attack name="Venom Motion" interval="1356" chance="10" range="6"/>
+		<attack name="Sludge Rain" interval="1507" chance="8" range="6"/>
+		<attack name="Cross Poison" interval="1508" chance="8" range="6"/>
+		<attack name="Rage" interval="819" chance="19" range="6"/>
+		<attack name="Fear" interval="1270" chance="13" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="NIDOKING!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shadow" nameDescription="a shadow" race="ghost" experience="0" speed="217" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="1937" head="65" body="90" legs="95" feet="113" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="1276" chance="12" range="1"/>
+		<attack name="Shadow Ball" interval="792" chance="22" range="6"/>
+		<attack name="Shadow Punch" interval="813" chance="19" range="1"/>
+		<attack name="Night Shade" interval="1279" chance="12" range="6"/>
+		<attack name="Shadow Storm" interval="2255" chance="6" range="6"/>
+		<attack name="Nightmare" interval="2656" chance="5" range="6"/>
+		<attack name="Hypnosis" interval="3507" chance="8" range="6"/>
+		<attack name="Fear" interval="1358" chance="10" range="6"/>
+		<attack name="Dark Eye" interval="1284" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="..."/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

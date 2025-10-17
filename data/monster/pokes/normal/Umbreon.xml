@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Umbreon" nameDescription="an umbreon" race="dark" experience="450" speed="275" manacost="0">
+  <health now="40" max="40"/>
+  <look type="378" corpse="4567"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1351" chance="30" range="2"/>
+		<attack name="Bite" interval="1352" chance="30" range="1"/>
+		<attack name="Shadowave" interval="1403" chance="20" range="6"/>
+		<attack name="Pursuit" interval="1454" chance="15" range="6"/>
+		<attack name="Dark Pulse" interval="1405" chance="20" range="6"/>
+		<attack name="Confuse Ray" interval="2106" chance="8" range="6"/>
+		<attack name="Last Resort" interval="1957" chance="10" range="6"/>
+		<attack name="Assurance" interval="2108" chance="8" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="UUMBRE!"/>
+<voice sentence="BREOON!"/>
+<voice sentence="UMBREON!"/>
+  </voices>
+  <loot>
+        <item id="12204" chance="50" count="1" countmax="1"/> --traces of ghost
+        <item id="12745" chance="100" countmax="80"/> --darkness gem
+        <item id="12206" chance="100" countmax="80"/> --essence of dark
+        <item id="12194" chance="50" count="1" countmax="1"/> --future orb
+        <item id="12240" chance="40" count="1" countmax="1"/> --bag of poisonus dust
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

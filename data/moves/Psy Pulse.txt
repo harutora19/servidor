@@ -1,0 +1,34 @@
+ Butterfree
+Clefairy
+Clefable
+Jigglypuff
+Wigglytuff
+Venonat
+Venomoth
+Poliwag
+Poliwhirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+Slowpoke
+Slowbro
+Gastly
+Haunter
+Gengar
+Drowzee
+Hypno
+Exeggcute
+Exeggutor
+Chansey
+Staryu
+Starmie
+Mr. Mime
+Jynx
+Electabuzz
+Magmar
+Lapras
+Porygon
+Snorlax
+Mewtwo
+Mew

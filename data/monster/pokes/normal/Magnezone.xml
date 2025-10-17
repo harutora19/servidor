@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magnezone" nameDescription="a magnezone" race="electric" experience="650" speed="285" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="1731" corpse="14783"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="2"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Super Sonic" interval="1351" chance="10" range="6"/>
+		<attack name="Thunder Shock" interval="732" chance="38" range="6"/>
+		<attack name="Spark" interval="773" chance="25" range="6"/>
+		<attack name="Tri-Attack" interval="834" chance="17" range="6"/>
+		<attack name="Sonicboom" interval="1355" chance="10" range="6"/>
+		<attack name="Thunder Wave" interval="1326" chance="11" range="6"/>
+		<attack name="Magnet Bomb" interval="1582" chance="7" range="6"/>
+		<attack name="Zap Cannon" interval="1508" chance="8" range="6"/>
+		<attack name="Hyper Beam" interval="2359" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MAGNEZONE!"/>
+    </voices>
+    <loot>
+        <item id="11444" chance="4000" count="1" countmax="1"/> --thunder stone
+		<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

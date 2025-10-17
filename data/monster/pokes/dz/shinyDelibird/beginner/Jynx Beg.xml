@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jynx" nameDescription="a jynx" race="psychic" experience="1" speed="200" manacost="0">
+    <health now="1100" max="1100"/>
+    <look type="869" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Psywave" interval="1253" chance="15" range="6"/>
+		<attack name="Psy Pulse" interval="1204" chance="20" range="6"/>
+		<attack name="Ice Punch" interval="1680" chance="12" range="1"/>
+		<attack name="Ice Beam" interval="1681" chance="12" range="6"/>
+		<attack name="Icy Wind" interval="1832" chance="9" range="6"/>
+		<attack name="Aurora Beam" interval="1258" chance="15" range="6"/>
+		<attack name="Blizzard" interval="2859" chance="5" range="6"/>
+</attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="JYNX!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Swablu" nameDescription="a swablu" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1884" corpse="14722"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Peck" interval="1041" chance="34" range="1"/>
+		<attack name="Feather Dance" interval="1092" chance="22" range="6"/>
+		<attack name="Sing" interval="1878" chance="7" range="6"/>
+		<attack name="Disarming Voice" interval="1594" chance="12" range="6"/>
+		<attack name="Dragon Breath" interval="1565" chance="13" range="6"/>
+		<attack name="Draco Pulse" interval="1581" chance="12" range="6"/>
+		<attack name="Roost" interval="12107" chance="4" range="6"/>
+		<attack name="Tailwind" interval="1733" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Swablu!"/>
+    </voices>
+    <loot>
+        <item id="11449" chance="4000" count="1" countmax="1"/> --crystal stone
+		<item id="12417" chance="4000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

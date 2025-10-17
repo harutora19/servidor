@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Feraligatr" nameDescription="a feraligatr" race="water" experience="1100" speed="227" manacost="0">
+    <health now="280" max="280"/>
+  <look type="329" corpse="3288"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+ <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Crunch" interval="3500" chance="30" range="1"/>
+		<attack name="Bubbles" interval="1002" chance="20" range="6"/>
+		<attack name="Water Pulse" interval="1478" chance="12" range="6"/>
+		<attack name="Ice Fang" interval="1479" chance="12" range="1"/>
+		<attack name="Thrash" interval="1780" chance="7" range="6"/>
+		<attack name="Hydro Cannon" interval="2656" chance="5" range="6"/>
+		<attack name="Waterfall" interval="4387" chance="20" range="6"/>
+		<attack name="Hydro Dance" interval="3258" chance="4" range="6"/>
+		<attack name="Scary Face" interval="1784" chance="7" range="6"/>
+		<attack name="Agility" interval="2460" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="LIGATR!"/>
+<voice sentence="FERA!"/>
+<voice sentence="FERALIGATR!"/>
+</voices>
+    <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone --water stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

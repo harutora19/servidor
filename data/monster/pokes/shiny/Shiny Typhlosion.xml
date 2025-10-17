@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Typhlosion" nameDescription="a Shiny typhlosion" race="fire" experience="1604" speed="247" manacost="0">
+    <health now="170" max="170"/>
+  <look type="1819" corpse="12849"/>
+	<targetchange interval="1000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="731" chance="38" range="2"/>
+		<attack name="Swift" interval="772" chance="25" range="6"/>
+		<attack name="Ember" interval="753" chance="30" range="6"/>
+		<attack name="Flamethrower" interval="854" chance="15" range="6"/>
+		<attack name="Flame Wheel" interval="4425" chance="9" range="6"/>
+		<attack name="SmokeScreen" interval="1356" chance="10" range="6"/>
+		<attack name="Eruption" interval="2457" chance="5" range="6"/>
+		<attack name="Lava Plume" interval="1433" chance="9" range="6"/>
+		<attack name="Inferno" interval="3059" chance="4" range="6"/>
+		<attack name="Defense Curl" interval="1585" chance="7" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="TY!"/>
+<voice sentence="TYPHLOSION!"/>
+  </voices>
+ <loot>
+        <item id="11447" chance="20000" count="1"/> --fire stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

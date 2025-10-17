@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Unown Legion" nameDescription="an unown legion" race="ghost" experience="200" speed="250" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1791" corpse="14727"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Dark Pulse" interval="741" chance="34" range="6"/>
+		<attack name="Hidden Power" interval="1382" chance="10" range="6"/>
+		<attack name="Psychic" interval="1458" chance="9" range="6"/>
+		<attack name="Split" interval="2354" chance="6" range="6"/>
+		<attack name="Psy Impact" interval="3255" chance="3" range="6"/>
+		<attack name="Metronome" interval="2856" chance="4" range="6"/>
+		<attack name="Unown Strike" interval="717" chance="50" range="6"/>
+		<attack name="Instant Teleportation" interval="2258" chance="6" range="6"/>
+		<attack name="Barrier" interval="2259" chance="6" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="?"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

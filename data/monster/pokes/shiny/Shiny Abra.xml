@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Abra" nameDescription="a abra" race="psychic" experience="204" speed="254" manacost="0">
+  <health now="30" max="30"/>
+  <look type="491" corpse="12482"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="2"/>
+ <flag staticattack="100"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Shadow Ball" interval="731" chance="38" range="6"/>
+		<attack name="Shadowave" interval="802" chance="20" range="6"/>
+		<attack name="Dark Pulse" interval="803" chance="20" range="6"/>
+		<attack name="Night Shade" interval="1324" chance="11" range="6"/>
+		<attack name="Ominous Wind" interval="1385" chance="10" range="6"/>
+		<attack name="Invisible" interval="10246" chance="25" range="6"/>
+		<attack name="Nightmare" interval="2517" chance="5" range="6"/>
+		<attack name="Hypnosis" interval="4308" chance="5" range="6"/>
+		<attack name="Reflect" interval="2339" chance="6" range="6"/>
+		<attack name="Restore" interval="12010" chance="3" range="6"/>
+		<attack name="Morph" interval="661" chance="1.#INF" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="ABRA!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

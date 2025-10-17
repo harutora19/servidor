@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Jynx" nameDescription="a elder jynx" race="psychic" experience="6500" speed="255" manacost="0">
+  <health now="340" max="340"/>
+  <look type="499" head="65" body="80" legs="95" feet="113" corpse="12544"/>
+  <targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lovely Kiss" interval="801" chance="20" range="3"/>
+		<attack name="Doubleslap" interval="752" chance="30" range="1"/>
+		<attack name="Psywave" interval="853" chance="15" range="6"/>
+		<attack name="Ice Punch" interval="1279" chance="12" range="1"/>
+		<attack name="Ice Beam" interval="1280" chance="12" range="6"/>
+		<attack name="Icy Wind" interval="1431" chance="9" range="6"/>
+		<attack name="Aurora Beam" interval="857" chance="15" range="6"/>
+		<attack name="Blizzard" interval="2458" chance="5" range="6"/>
+		<attack name="Great Love" interval="2259" chance="6" range="6"/>
+</attacks>
+ <voices interval="5000" chance="10">
+ <voice sentence="JYNX!"/>
+ </voices>
+
+   <loot>
+        <item id="11454" chance="6000" count="1" countmax="1"/> --ice stone
+        <item id="12244" chance="1000" count="1" countmax="1"/> --ancient stone
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

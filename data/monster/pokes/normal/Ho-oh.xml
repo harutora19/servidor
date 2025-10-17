@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ho-Oh" nameDescription="a ho-oh" race="water" experience="10000" speed="227" manacost="0">
+    <health now="170" max="170"/>
+    <look type="417" corpse="3297"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Ember" interval="801" chance="20" range="6"/>
+		<attack name="Whirlwind" interval="852" chance="15" range="6"/>
+		<attack name="Fire Blast" interval="833" chance="17" range="6"/>
+		<attack name="Sacred Fire" interval="844" chance="16" range="6"/>
+		<attack name="Ancient Power" interval="1235" chance="14" range="6"/>
+		<attack name="Extrasensory" interval="1281" chance="12" range="6"/>
+		<attack name="Tornado" interval="1357" chance="10" range="6"/>
+		<attack name="Calm Mind" interval="2458" chance="5" range="6"/>
+		<attack name="Magma Storm" interval="1509" chance="8" range="6"/>
+		<attack name="Inferno" interval="1435" chance="9" range="6"/>
+		<attack name="Sunny Day" interval="3636" chance="7" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="HOOOO!"/>
+<voice sentence="OOOOH!"/>
+<voice sentence="HO-OH!"/>
+  </voices>
+    <loot>
+      </loot>
+    <script>
+        <event name="Spawn"/>
+     </script>
+</monster>
+

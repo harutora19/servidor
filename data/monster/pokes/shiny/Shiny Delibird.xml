@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Delibird" nameDescription="a shiny delibird" race="ice" experience="450" speed="296" manacost="0">
+  <health now="40" max="40"/>
+  <look type="3012" corpse="17721"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Present" interval="1601" chance="20" range="6"/>
+		<attack name="Doubleslap" interval="1552" chance="30" range="1"/>
+		<attack name="Pluck" interval="1603" chance="20" range="1"/>
+		<attack name="Wing Attack" interval="2079" chance="12" range="6"/>
+		<attack name="Ice Beam" interval="2155" chance="10" range="6"/>
+		<attack name="Blizzard" interval="3456" chance="5" range="6"/>
+		<attack name="Rest" interval="12007" chance="5" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="DELII!"/>
+<voice sentence="BIIRD!"/>
+<voice sentence="DELIBIRD!"/>
+  </voices>
+  <loot>
+        <item id="11454" chance="3000" count="1" countmax="1"/> --ice stone
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

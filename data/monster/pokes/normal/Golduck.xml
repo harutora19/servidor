@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golduck" nameDescription="a golduck" race="water" experience="650" speed="235" manacost="0">
+    <health now="1200" max="1200"/>
+    <look type="99" corpse="11884"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Water Gun" interval="1351" chance="15" range="6"/>
+		<attack name="Fury Swipes" interval="1302" chance="20" range="6"/>
+		<attack name="Water Pulse" interval="1778" chance="12" range="6"/>
+		<attack name="Confusion" interval="1854" chance="10" range="6"/>
+		<attack name="Psychic" interval="1855" chance="10" range="6"/>
+		<attack name="Hydro Dance" interval="3556" chance="4" range="6"/>
+		<attack name="Hydropump" interval="3017" chance="5" range="6"/>
+    </attacks>
+   	<defenses armor="0" defense="0">
+    </defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="GOLDUCK!"/>
+    </voices>
+    <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

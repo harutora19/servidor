@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magneton" nameDescription="a magneton" race="electric" experience="650" speed="265" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="223" corpse="11914"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="2"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Super Sonic" interval="1926" chance="9" range="6"/>
+		<attack name="Thunder Shock" interval="1252" chance="30" range="6"/>
+		<attack name="Spark" interval="1303" chance="20" range="6"/>
+		<attack name="Tri-Attack" interval="1779" chance="12" range="6"/>
+		<attack name="Thunder" interval="1930" chance="9" range="6"/>
+		<attack name="Electric Storm" interval="2756" chance="6" range="6"/>
+		<attack name="Zap Cannon" interval="2007" chance="8" range="6"/>
+		<attack name="Hyper Beam" interval="1783" chance="12" range="6"/>
+		<attack name="Sonicboom" interval="1859" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MAGNETON!"/>
+    </voices>
+    <loot>
+        <item id="11444" chance="3000" count="1" countmax="1"/> --thunder stone
+		<item id="12232" chance="500" count="1"/> <!--Metal Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

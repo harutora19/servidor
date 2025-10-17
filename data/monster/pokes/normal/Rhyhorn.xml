@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rhyhorn" nameDescription="a rhyhorn" race="ground" experience="250" speed="242" manacost="0">
+    <health now="900" max="900"/>
+    <look type="77" corpse="11955"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Horn Attack" interval="2076" chance="12" range="2"/>
+		<attack name="Stone Edge" interval="1652" chance="15" range="6"/>
+		<attack name="Rock Throw" interval="2078" chance="12" range="6"/>
+		<attack name="Crusher Stomp" interval="2379" chance="7" range="6"/>
+		<attack name="Bulldoze" interval="2380" chance="7" range="6"/>
+		<attack name="Rock Drill" interval="2231" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="RHYHORN!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

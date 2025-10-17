@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Milotic" nameDescription="a milotic" race="ghost" experience="1400" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1912" corpse="14793"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-206" max="-249"/>
+    <attack name="Bubblebeam" interval="2758" chance="30" range="10"/>
+    <attack name="Water Gun" interval="2899" chance="29" range="6"/>
+    <attack name="Ice Beam" interval="3152" chance="29" range="6"/>
+	<attack name="Aurora Beam" interval="3052" chance="29" range="6"/>
+	<attack name="Surf" interval="3252" chance="26" range="6"/>
+	<attack name="Hydropump" interval="4252" chance="26" range="6"/>
+	<attack name="Blizzard" interval="4252" chance="26" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Milotic!"/>
+    </voices>
+    <loot>
+        <item id="11442" chance="4000" count="1" countmax="1"/> --water stone
+        <item id="15074" chance="250" count="1"/> -- prism scale
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

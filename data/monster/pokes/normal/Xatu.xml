@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Xatu" nameDescription="a xatu" race="psychic" experience="650" speed="267" manacost="0">
+  <health now="40" max="40"/>
+  <look type="347" corpse="4758"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Peck" interval="1251" chance="30" range="1"/>
+		<attack name="Feather Dance" interval="1302" chance="20" range="6"/>
+		<attack name="Psy Pulse" interval="1354" chance="15" range="6"/>
+		<attack name="Psychic" interval="1856" chance="10" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="XAAA!"/>
+<voice sentence="TUUU!"/>
+<voice sentence="XATU!"/>
+  </voices>
+  <loot>
+        <item id="11452" chance="3000" count="1" countmax="1"/>
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

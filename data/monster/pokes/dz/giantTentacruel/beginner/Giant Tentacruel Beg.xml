@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="a tentacruel" race="water" experience="1" speed="200" manacost="0">
+    <health now="10000000" max="10000000"/>
+    <look type="3061" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Super Sonic" interval="951" chance="20" range="6"/>
+		<attack name="Wrap" interval="3152" chance="15" range="6"/>
+		<attack name="Bubbles" interval="903" chance="30" range="6"/>
+		<attack name="Poison Jab" interval="964" chance="19" range="6"/>
+		<attack name="Waterball" interval="1005" chance="15" range="6"/>
+		<attack name="BubbleBeam" interval="1006" chance="15" range="6"/>
+		<attack name="Acid" interval="957" chance="20" range="6"/>
+		<attack name="Poison Bomb" interval="1433" chance="12" range="6"/>
+		<attack name="Mortal Gas" interval="1734" chance="7" range="6"/>
+		<attack name="Hydropump" interval="2610" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="TENTACRUEL!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

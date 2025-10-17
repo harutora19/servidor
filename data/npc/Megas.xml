@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="O louco dos megas" script="megas.lua" walkinterval="0" floorchange="0">
+<health now="150" max="150"/>
+<look type="3645" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+
+<parameters>
+	<parameter key="message_greet" value="Olá |PLAYERNAME|, gostaria de transformar seu pokémon em {mega}?"/>
+</parameters>
+</npc>

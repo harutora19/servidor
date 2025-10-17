@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mareep" nameDescription="a mareep" race="electric" experience="250" speed="232" manacost="0">
+    <health now="30" max="30"/>
+  <look type="349" corpse="3568"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Charge" interval="2351" chance="8" range="6"/>
+		<attack name="Tackle" interval="1602" chance="30" range="1"/>
+		<attack name="Fire Punch" interval="2128" chance="12" range="1"/>
+		<attack name="Cotton Spore" interval="2279" chance="9" range="6"/>
+		<attack name="Thunder Shock" interval="1605" chance="30" range="6"/>
+		<attack name="Thunder Wave" interval="1706" chance="15" range="6"/>
+		<attack name="Thunder Punch" interval="2132" chance="12" range="1"/>
+		<attack name="Zap Cannon" interval="2208" chance="10" range="6"/>
+      </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="FLAAA!"/>
+<voice sentence="FFYY!"/>
+<voice sentence="FLAAFFY!"/>
+ </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Honchkrow" nameDescription="an shiny honchkrow" race="ghost" experience="200" speed="300" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3913" corpse="17512"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Pluck" interval="731" chance="38" range="1"/>
+		<attack name="Pursuit" interval="812" chance="19" range="6"/>
+		<attack name="Night Shade" interval="1263" chance="13" range="6"/>
+		<attack name="Wing Attack" interval="1234" chance="14" range="6"/>
+		<attack name="Sucker Punch" interval="835" chance="17" range="1"/>
+		<attack name="Assurance" interval="1326" chance="11" range="6"/>
+		<attack name="Air Slash" interval="1267" chance="13" range="6"/>
+		<attack name="Torment" interval="2258" chance="6" range="6"/>
+		<attack name="Crow Swarm" interval="1584" chance="7" range="6"/>
+		<attack name="Night Daze" interval="2860" chance="4" range="6"/>
+		<attack name="Tailwind" interval="1511" chance="8" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="HOOONCH!"/>
+        <voice sentence="KROOOOW!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

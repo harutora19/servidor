@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Phanpy" nameDescription="a phanpy" race="ground" experience="250" speed="227" manacost="0">
+    <health now="40" max="40"/>
+  <look type="403" corpse="3583"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Tackle" interval="1551" chance="30" range="1"/>
+		<attack name="Take Down" interval="1602" chance="20" range="6"/>
+		<attack name="Horn Attack" interval="1603" chance="20" range="2"/>
+		<attack name="Rollout" interval="2079" chance="12" range="6"/>
+		<attack name="Defense Curl" interval="2230" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="PHAAN!"/>
+<voice sentence="PYYY!"/>
+<voice sentence="PHANPY!"/>
+  </voices>
+  <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

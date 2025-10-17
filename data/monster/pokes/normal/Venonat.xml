@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venonat" nameDescription="a venonat" race="bug" experience="100" speed="207" manacost="0">
+    <health now="300" max="300"/>
+    <look type="52" corpse="11976"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1601" chance="20" range="6"/>
+		<attack name="Psybeam" interval="1652" chance="15" range="6"/>
+		<attack name="Silver Wind" interval="2078" chance="12" range="6"/>
+		<attack name="Confusion" interval="2079" chance="12" range="6"/>
+		<attack name="Psychic" interval="1655" chance="15" range="6"/>
+		<attack name="Sleep Powder" interval="4806" chance="5" range="6"/>
+		<attack name="Poison Powder" interval="1657" chance="15" range="6"/>
+		<attack name="Stun Spore" interval="2083" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="VENONAT!"/>
+    </voices>
+    <loot>
+        <item id="12171" chance="30" count="1" countmax="1"/> --pot of moss bug
+        <item id="12184" chance="20" count="1" countmax="1"/> --bug antenna
+        <item id="12185" chance="10" count="1" countmax="1"/> --bug venom
+		<item id="13783" chance="100" countmax="20"/> --bug gosme
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

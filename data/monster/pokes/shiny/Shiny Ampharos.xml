@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Ampharos" nameDescription="an Shiny ampharos" race="electric" experience="1072" speed="252" manacost="0">
+  <health now="90" max="90"/>
+  <look type="1809" corpse="12835"/>
+	 <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Charge" interval="1501" chance="8" range="6"/>
+		<attack name="Fire Punch" interval="1277" chance="12" range="1"/>
+		<attack name="Cotton Spore" interval="1428" chance="9" range="6"/>
+		<attack name="Thunderbolt" interval="854" chance="15" range="6"/>
+		<attack name="Thunder Shock" interval="755" chance="30" range="6"/>
+		<attack name="Thunder Wave" interval="856" chance="15" range="6"/>
+		<attack name="Thunder Punch" interval="1282" chance="12" range="1"/>
+		<attack name="Thunder" interval="1583" chance="7" range="6"/>
+		<attack name="Electro Field" interval="2859" chance="4" range="6"/>
+		<attack name="Signal Beam" interval="1585" chance="7" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="AMPHAA!"/>
+      <voice sentence="PHAROOS!"/>
+      <voice sentence="AMPHAROS!"/>
+  </voices>
+    <loot>
+        <item id="11444" chance="100" count="1"/>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

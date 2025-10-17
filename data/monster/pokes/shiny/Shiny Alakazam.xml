@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Alakazam" nameDescription="a Shiny alakazam" race="psychic" experience="876" speed="267" manacost="0">
+  <health now="120" max="120"/>
+  <look type="574" corpse="12484"/>
+  <targetchange interval="0" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="2"/>
+ <flag staticattack="100"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Psybeam" interval="751" chance="30" range="6"/>
+		<attack name="Psywave" interval="802" chance="20" range="6"/>
+		<attack name="Psy Pulse" interval="733" chance="38" range="6"/>
+		<attack name="Confusion" interval="1234" chance="14" range="6"/>
+		<attack name="Psychic" interval="1325" chance="11" range="6"/>
+		<attack name="Psyusion" interval="2656" chance="5" range="6"/>
+		<attack name="Calm Mind" interval="1432" chance="9" range="6"/>
+		<attack name="Future Sight" interval="11208" chance="5" range="6"/>
+		<attack name="Reflect" interval="1584" chance="7" range="6"/>
+		<attack name="Restore" interval="13010" chance="2" range="6"/>
+		<attack name="Miracle Eye" interval="761" chance="30" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="ALAKAZAM!"/>
+ </voices>
+
+  <loot>
+          <item id="11452" chance="100" count="1"/> --enigma stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

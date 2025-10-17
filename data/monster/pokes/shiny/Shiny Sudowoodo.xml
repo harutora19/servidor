@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Sudowoodo" nameDescription="a shiny sudowoodo" race="rock" experience="1100" speed="237" manacost="0">
+    <health now="200" max="200"/>
+	<look type="3678" corpse="0"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>  
+</flags>
+ <attacks>
+ </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="SUDOOO!"/>
+<voice sentence="WOODOOO!"/>
+<voice sentence="SUDOWOODO!"/>
+  </voices>
+  <loot>
+        <item id="11451" chance="4" count="1" countmax="1"/> --earth stone
+        <item id="12337" chance="100" countmax="80"/> --small stone
+        <item id="12177" chance="50" countmax="1"/> --sandbag
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

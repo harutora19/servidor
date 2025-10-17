@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scizor" nameDescription="a scizor" race="steel" experience="1100" speed="277" manacost="0">
+    <health now="170" max="170"/>
+  <look type="370" corpse="4431"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1051" chance="30" range="2"/>
+		<attack name="Iron Head" interval="1152" chance="15" range="1"/>
+		<attack name="Wing Attack" interval="1653" chance="10" range="6"/>
+		<attack name="Red Fury" interval="1104" chance="20" range="6"/>
+		<attack name="Shredder Team" interval="4785" chance="8" range="6"/>
+		<attack name="X-Scissor" interval="1656" chance="10" range="6"/>
+		<attack name="Agility" interval="1807" chance="8" range="6"/>
+		<attack name="Team Claw" interval="1028" chance="43" range="6"/>
+		<attack name="Swords Dance" interval="2759" chance="5" range="6"/>
+    </attacks>
+   <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="SCIII!"/>
+<voice sentence="ZOOOR!"/>
+<voice sentence="SCIZOR!"/>
+  </voices>
+  <loot>
+        <item id="11448" chance="3000" count="1" countmax="1"/> --coccon stone
+		<item id="12232" chance="500" count="1"/> <!--Metal Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

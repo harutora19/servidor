@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Pidgeot" nameDescription="a Shiny pidgeot" race="flying" experience="884" speed="318" manacost="0">
+  <health now="160" max="160"/>
+  <look type="573" corpse="12437"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Pluck" interval="731" chance="38" range="2"/>
+		<attack name="Sand Attack" interval="772" chance="25" range="6"/>
+		<attack name="Drill Peck" interval="813" chance="19" range="1"/>
+		<attack name="Gust" interval="834" chance="17" range="6"/>
+		<attack name="Feather Dance" interval="795" chance="22" range="6"/>
+		<attack name="Air Cutter" interval="1266" chance="13" range="6"/>
+		<attack name="Air Slash" interval="1267" chance="13" range="6"/>
+		<attack name="Hurricane" interval="2258" chance="6" range="6"/>
+		<attack name="Tornado" interval="3059" chance="4" range="6"/>
+		<attack name="Agility" interval="860" chance="15" range="6"/>
+		<attack name="Roost" interval="11211" chance="5" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="PIDGEOT!"/>
+ </voices>
+
+  <loot>
+  		  <item id="11453" chance="3000" count="1"/> --heart stone
+		  <item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

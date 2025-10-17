@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charmander" nameDescription="a charmander" race="fire" experience="250" speed="227" manacost="0">
+    <health now="500" max="500"/>
+    <look type="29" corpse="11852"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Scratch" interval="1751" chance="20" range="1"/>
+		<attack name="Ember" interval="1702" chance="30" range="6"/>
+		<attack name="Flamethrower" interval="1803" chance="15" range="6"/>
+		<attack name="Fireball" interval="2229" chance="12" range="6"/>
+		<attack name="Fire Fang" interval="1805" chance="15" range="1"/>
+		<attack name="Fire Blast" interval="3406" chance="5" range="6"/>
+		<attack name="Rage" interval="3807" chance="4" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="CHARMANDER!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mawile" nameDescription="a mawile" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1859" corpse="14769"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="1500" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Dazzling Gleam" interval="4000" chance="80" range="3"/>
+		<attack name="Bite" interval="5000" chance="0" range="1"/>
+		<attack name="Play Rough" interval="5000" chance="40" range="2"/>
+		<attack name="Flash Cannon" interval="4000" chance="20" range="2"/>
+		<attack name="Heavy Metal" interval="10000" chance="40" range="2"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Mawile!"/>
+    </voices>
+  <loot>
+		<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+		<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+  </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

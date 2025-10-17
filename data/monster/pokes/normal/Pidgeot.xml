@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgeot" nameDescription="a pidgeot" race="flying" experience="1100" speed="268" manacost="0">
+    <health now="1600" max="1600"/>
+    <look type="80" corpse="11938"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1001" chance="30" range="2"/>
+		<attack name="Sand Attack" interval="7000" chance="20" range="6"/>
+		<!-- <attack name="Whirlwind" interval="1483" chance="14" range="6"/> -->
+		<attack name="Drill Peck" interval="1104" chance="15" range="1"/>
+		<attack name="Wing Attack" interval="1605" chance="10" range="6"/>
+		<attack name="Hurricane" interval="2706" chance="5" range="6"/>
+		<attack name="Tornado" interval="3507" chance="3" range="6"/>
+		<attack name="Agility" interval="1533" chance="12" range="6"/>
+		<attack name="Roost" interval="11659" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="PIDGEOT!"/>
+    </voices>
+    <loot>
+        <item id="11453" chance="3000" count="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

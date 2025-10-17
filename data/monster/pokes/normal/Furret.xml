@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Furret" nameDescription="a furret" race="normal" experience="250" speed="252" manacost="0">
+    <health now="100" max="100"/>
+  <look type="415" corpse="3291"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1451" chance="20" range="2"/>
+		<attack name="Scratch" interval="1402" chance="30" range="1"/>
+		<attack name="Fury Swipes" interval="1403" chance="30" range="6"/>
+		<attack name="Hyper Voice" interval="1504" chance="15" range="6"/>
+		<attack name="Sucker Punch" interval="2005" chance="10" range="1"/>
+		<attack name="Rest" interval="13056" chance="3" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="FURRET!"/>
+<voice sentence="REEET!"/>
+<voice sentence="FUUR!"/>
+   </voices>
+    <loot>
+        <item id="11453" chance="3000" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Kabutops" nameDescription="a Shiny kabutops" race="rock" experience="1100" speed="232" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="2230" head="65" body="85" legs="95" feet="113" corpse="17164"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="ExtremeSpeed" interval="851" chance="15" range="6"/>
+		<attack name="Bubbles" interval="722" chance="43" range="6"/>
+		<attack name="Mud Slap" interval="813" chance="19" range="6"/>
+		<attack name="Dig" interval="10524" chance="12" range="6"/>
+		<attack name="Stone Edge" interval="795" chance="22" range="6"/>
+		<attack name="Giga Drain" interval="1326" chance="11" range="6"/>
+		<attack name="Air Slash" interval="1582" chance="7" range="6"/>
+		<attack name="Aqua Jet" interval="3058" chance="14" range="6"/>
+		<attack name="Ancient Power" interval="1509" chance="8" range="6"/>
+		<attack name="Swords Dance" interval="1435" chance="9" range="6"/>
+		<attack name="Harden" interval="1361" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="KABUTOPS!"/>
+    </voices>
+    <loot>
+        <item id="12337" chance="100" countmax="50"/> --small stone
+        <item id="12196" chance="100" countmax="1"/> --stone orb
+        <item id="12161" chance="100" countmax="50"/> --water gem
+        <item id="12170" chance="100" count="1" countmax="1"/> --water pendant
+        <item id="11445" chance="4" count="1" countmax="1"/> --rock stone
+        <item id="11442" chance="4" countmax="1"/> --water stone
+        <item id="12579" chance="4" countmax="1"/> --dome fossil
+        <item id="12338" chance="1" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="War Pinsir" nameDescription="a war pinsir" race="bug" experience="4100" speed="500" manacost="0">
+  <health now="315" max="315"/>
+  <look type="53" head="60" body="77" legs="95" feet="113" corpse="11942"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bug Bite" interval="1301" chance="30" range="1"/>
+		<attack name="X-Scissor" interval="1828" chance="12" range="6"/>
+		<attack name="Fury Cutter" interval="1829" chance="12" range="6"/>
+		<attack name="Revenge" interval="1831" chance="12" range="6"/>
+		<attack name="X-Scissor" interval="1982" chance="9" range="6"/>
+		<attack name="Swords Dance" interval="3010" chance="5" range="6"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+        <voice sentence="PINSIR!"/>
+  </voices>
+	<loot>
+		<item id="11448" chance="5000" countmax="1"/> -- coccon stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+	</loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

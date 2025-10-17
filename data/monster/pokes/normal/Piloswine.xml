@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Piloswine" nameDescription="a piloswine" race="ice" experience="650" speed="303" manacost="0">
+  <health now="40" max="40"/>
+  <look type="390" corpse="3585"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Slap" interval="1301" chance="20" range="6"/>
+		<attack name="Mud Bomb" interval="1352" chance="15" range="6"/>
+		<attack name="Ice Fang" interval="1303" chance="20" range="1"/>
+		<attack name="Icy Wind" interval="1779" chance="12" range="6"/>
+		<attack name="Powder Snow" interval="1855" chance="10" range="6"/>
+		<attack name="Ice Beam" interval="1856" chance="10" range="6"/>
+		<attack name="Two Face Shock" interval="2007" chance="8" range="6"/>
+		<attack name="Earthquake" interval="5228" chance="5" range="6"/>
+		<attack name="Blizzard" interval="3359" chance="4" range="6"/>
+ </attacks>
+   <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="PILOOO!"/>
+<voice sentence="SWIIINE!"/>
+<voice sentence="PILOSWINE!"/>
+  </voices>
+  <loot>
+	<item id="11451" chance="3000" countmax="1"/> -- earth stone
+    <item id="11454" chance="3000" countmax="1"/> -- ice stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

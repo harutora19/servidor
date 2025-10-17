@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sneasel" nameDescription="a sneasel" race="dark" experience="450" speed="318" manacost="0">
+  <health now="40" max="40"/>
+  <look type="375" corpse="4439"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Scratch" interval="1451" chance="30" range="1"/>
+		<attack name="Quick Attack" interval="1452" chance="30" range="2"/>
+		<attack name="Faint Attack" interval="1503" chance="20" range="1"/>
+		<attack name="Ice Shards" interval="1554" chance="15" range="6"/>
+		<attack name="Icy Wind" interval="1555" chance="15" range="6"/>
+		<attack name="Metal Claw" interval="1506" chance="20" range="1"/>
+		<attack name="Agility" interval="2057" chance="10" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="SNEE!"/>
+<voice sentence="NEASEEL!"/>
+<voice sentence="SNEASEL!"/>
+  </voices>
+  <loot>
+        <item id="11450" chance="3000" count="1" countmax="1"/> -- darkness stone
+        <item id="11454" chance="3000" count="1" countmax="1"/> -- ice stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

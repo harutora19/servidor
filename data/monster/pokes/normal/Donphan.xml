@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Donphan" nameDescription="a donphan" race="ground" experience="650" speed="239" manacost="0">
+    <health now="120" max="120"/>
+  <look type="405" corpse="3283"/>
+	<targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Thunder Fang" interval="1401" chance="20" range="1"/>
+		<attack name="Fire Fang" interval="1402" chance="20" range="1"/>
+		<attack name="Horn Attack" interval="1403" chance="20" range="2"/>
+		<attack name="Rollout" interval="1954" chance="10" range="6"/>
+		<attack name="Cannon Ball" interval="1955" chance="10" range="6"/>
+		<attack name="Scary Face" interval="2106" chance="8" range="6"/>
+		<attack name="Earthquake" interval="5267" chance="6" range="6"/>
+		<attack name="Defense Curl" interval="2033" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="DOOON!"/>
+<voice sentence="PHAAN!"/>
+<voice sentence="DONPHAN!"/>
+  </voices>
+    <loot>
+        <item id="11451" chance="3000" count="1" countmax="1"/> --earth stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

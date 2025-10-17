@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Houndoom" nameDescription="a houndoom" race="fire2" experience="1100" speed="330" manacost="0">
+  <health now="40" max="40"/>
+  <look type="395" corpse="3555"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Roar" interval="5000" chance="10" range="3"/>
+		<attack name="Bite" interval="0" chance="0" range="1"/>
+		<attack name="Crunch" interval="2500" chance="20" range="2"/>
+		<attack name="Ember" interval="1900" chance="30" range="4"/>
+		<attack name="Faint Attack" interval="0" chance="0" range="1"/>
+		<attack name="Shadowave" interval="1881" chance="12" range="4"/>
+		<attack name="Flamethrower" interval="3000" chance="14" range="4"/>
+		<attack name="Fire Fang" interval="1883" chance="12" range="1"/>
+		<attack name="Fire Blast" interval="4000" chance="7" range="4"/>
+		<attack name="Inferno" interval="3360" chance="4" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="HOOUN!"/>
+<voice sentence="DOOOM!"/>
+<voice sentence="HOUNDOOM!"/>
+  </voices>
+  <loot>
+        <item id="11447" chance="3000" countmax="1"/> --fire stone
+        <item id="11450" chance="3000" countmax="1"/> --darkness stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

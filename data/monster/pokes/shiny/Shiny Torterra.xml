@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Torterra" nameDescription="a shiny torterra" race="ghost" experience="200" speed="300" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3910" corpse="17509"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="731" chance="38" range="1"/>
+		<attack name="Absorb" interval="792" chance="22" range="1"/>
+		<attack name="Razor Leaf" interval="773" chance="25" range="6"/>
+		<attack name="Rock Tomb" interval="814" chance="19" range="6"/>
+		<attack name="Leech Seed" interval="745" chance="34" range="6"/>
+		<attack name="Synthesis" interval="3056" chance="4" range="6"/>
+		<attack name="Wood Hammer" interval="1282" chance="12" range="1"/>
+		<attack name="Ground Collapse" interval="2258" chance="6" range="6"/>
+		<attack name="Giga Drain" interval="2359" chance="6" range="6"/>
+		<attack name="Earthquake" interval="4790" chance="5" range="6"/>
+		<attack name="Frenzy Plant" interval="4511" chance="4" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="TORRRR!"/>
+        <voice sentence="TORTERRA!"/>
+        <voice sentence="TERRAAA!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

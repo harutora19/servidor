@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dragonair" nameDescription="a Shiny dragonair" race="dragon" experience="672" speed="287" manacost="0">
+  <health now="140" max="140"/>
+  <look type="2529" corpse="12568"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Aqua Tail" interval="771" chance="25" range="1"/>
+		<attack name="Thunder Wave" interval="812" chance="19" range="6"/>
+		<attack name="Wrap" interval="3003" chance="15" range="6"/>
+		<attack name="Dragon Claw" interval="814" chance="19" range="1"/>
+		<attack name="Dragon Breath" interval="815" chance="19" range="6"/>
+		<attack name="Twister" interval="1266" chance="13" range="6"/>
+		<attack name="Dragon Pulse" interval="857" chance="15" range="6"/>
+		<attack name="Hyper Beam" interval="858" chance="15" range="6"/>
+		<attack name="Draco Meteor" interval="2459" chance="5" range="6"/>
+		<attack name="Outrage" interval="2260" chance="6" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+	</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="DRAGONAIR!"/>
+ </voices>
+
+  <loot>
+            <item id="11449" chance="100" count="1"/> --crystal stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

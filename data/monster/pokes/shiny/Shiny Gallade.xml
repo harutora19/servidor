@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Gallade" nameDescription="a shiny gallade" race="ghost" experience="200" speed="300" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3911" corpse="17510"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Low Kick" interval="751" chance="30" range="1"/>
+		<attack name="Psycho Cut" interval="752" chance="30" range="6"/>
+		<attack name="Leaf Blade" interval="733" chance="38" range="6"/>
+		<attack name="Close Combat" interval="1384" chance="10" range="1"/>
+		<attack name="Drain Punch" interval="1445" chance="9" range="1"/>
+		<attack name="Brick Break" interval="2356" chance="6" range="1"/>
+		<attack name="Focus Blast" interval="1387" chance="10" range="6"/>
+		<attack name="Revenge" interval="2558" chance="5" range="6"/>
+		<attack name="Double Team" interval="1449" chance="9" range="6"/>
+		<attack name="Swords Dance" interval="2260" chance="6" range="6"/>
+		<attack name="Miracle Eye" interval="761" chance="30" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="GALLADE!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

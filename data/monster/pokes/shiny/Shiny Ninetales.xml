@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Ninetales" nameDescription="a shiny ninetales" race="fire" experience="696" speed="318" manacost="0">
+    <health now="150" max="150"/>
+    <look type="1665" corpse="12597"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="751" chance="30" range="1"/>
+		<attack name="Confuse Ray" interval="1277" chance="12" range="6"/>
+		<attack name="Ember" interval="733" chance="38" range="6"/>
+		<attack name="Flamethrower" interval="854" chance="15" range="6"/>
+		<attack name="Flame Wheel" interval="4305" chance="12" range="6"/>
+		<attack name="Fireball" interval="836" chance="17" range="6"/>
+		<attack name="Fire Spin" interval="1432" chance="9" range="6"/>
+		<attack name="Fire Blast" interval="1508" chance="8" range="6"/>
+		<attack name="Inferno" interval="2459" chance="5" range="6"/>
+		<attack name="Safeguard" interval="1510" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="NINETALES!"/>
+    </voices>
+    <loot>
+        <item id="12152" chance="3500" countmax="1"/>
+        <item id="12157" chance="3500" countmax="1"/>
+        <item id="12162" chance="10500" countmax="80"/>
+        <item id="12271" chance="3500" count="1" countmax="1"/>
+        <item id="11447" chance="600" count="1" countmax="1"/>
+        <item id="12180" chance="1000" count="1" countmax="1"/>
+        <item id="12338" chance="550" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

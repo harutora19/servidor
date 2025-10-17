@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dodrio" nameDescription="a shiny dodrio" race="flying" experience="356" speed="308" manacost="0">
+    <health now="110" max="110"/>
+    <look type="1672" corpse="12604"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="801" chance="20" range="6"/>
+		<attack name="Quick Attack" interval="752" chance="30" range="2"/>
+		<attack name="Drill Peck" interval="853" chance="15" range="1"/>
+		<attack name="Pluck" interval="804" chance="20" range="1"/>
+		<attack name="Tri-Attack" interval="1280" chance="12" range="6"/>
+		<attack name="Air Slash" interval="1281" chance="12" range="6"/>
+		<attack name="Aerial Ace" interval="1432" chance="9" range="6"/>
+		<attack name="Roost" interval="11208" chance="5" range="6"/>
+		<attack name="Rage" interval="859" chance="15" range="6"/>
+		<attack name="Strafe" interval="860" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DODRIO!"/>
+    </voices>
+    <loot>
+        <item id="12200" chance="5500" count="1" countmax="1"/> --feather
+        <item id="12172" chance="5500" count="1" countmax="1"/> --bird break
+        <item id="11453" chance="100" count="1"/> --heart stone
+        <item id="12338" chance="550" count="1"/> --bag box --bag box
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

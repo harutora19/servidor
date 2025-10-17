@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Metagross" nameDescription="a metagross" race="steel" experience="1400" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1898" corpse="14761"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Head" interval="751" chance="30" range="1"/>
+		<attack name="Psy Ball" interval="732" chance="38" range="6"/>
+		<attack name="Hammer Arm" interval="3378" chance="9" range="6"/>
+		<attack name="Confusion" interval="1279" chance="12" range="6"/>
+		<attack name="Psychic" interval="1355" chance="10" range="6"/>
+		<attack name="Metal Claw" interval="836" chance="17" range="6"/>
+		<attack name="Flash Cannon" interval="2457" chance="5" range="6"/>
+		<attack name="Psy Impact" interval="2358" chance="6" range="6"/>
+		<attack name="Meteor Mash" interval="2259" chance="6" range="6"/>
+		<attack name="Iron Defense" interval="10610" chance="10" range="6"/>
+		<attack name="Miracle Eye" interval="761" chance="30" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Metagross!"/>
+    </voices>
+  <loot>
+	<item id="11452" countmax="1" chance="4000"/> -- enigma stone
+	<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+	<item id="15075" chance="250" count="1"/>
+	
+  </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

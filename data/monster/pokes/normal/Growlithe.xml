@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Growlithe" nameDescription="a growlithe" race="fire" experience="250" speed="237" manacost="0">
+    <health now="400" max="400"/>
+    <look type="109" corpse="11887"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Roar" interval="1651" chance="15" range="6"/>
+		<attack name="Bite" interval="1552" chance="30" range="1"/>
+		<attack name="Quick Attack" interval="1553" chance="30" range="2"/>
+		<attack name="Ember" interval="1604" chance="20" range="6"/>
+		<attack name="Flamethrower" interval="1655" chance="15" range="6"/>
+		<attack name="Fireball" interval="1656" chance="15" range="6"/>
+		<attack name="Tri Flames" interval="2382" chance="7" range="6"/>
+		<attack name="War Dog" interval="2158" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="GROWLITHE!"/>
+    </voices>
+    <loot>
+
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

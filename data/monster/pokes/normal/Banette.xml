@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Banette" nameDescription="a banette" race="ghost" experience="800" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1910" corpse="14748"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+        <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="1501" chance="8" range="1"/>
+		<attack name="Shadow Ball" interval="752" chance="30" range="4"/>
+		<attack name="Night Shade" interval="4000" chance="9" range="6"/>
+		<attack name="Shadow Storm" interval="3654" chance="3" range="6"/>
+		<attack name="Invisible" interval="10305" chance="20" range="6"/>
+		<attack name="Nightmare" interval="2656" chance="5" range="3"/>
+		<attack name="Hypnosis" interval="4507" chance="4" range="3"/>
+		<attack name="Fear" interval="1508" chance="8" range="6"/>
+		<attack name="Dark Eye" interval="1434" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Banette!"/>
+    </voices>
+    <loot>
+        <item id="11450" chance="4000" count="1" countmax="1"/> --darkness stone
+        <item id="11443" chance="4000" countmax="1"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

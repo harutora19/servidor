@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="NPCA" nameDescription="" race="ghost" experience="0" speed="250" manacost="0">
+    <health now="1000" max="1000"/>
+    <look type="510" head="0" body="0" legs="0" feet="0" corpse="3058"/> -- 3065 female
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="3"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

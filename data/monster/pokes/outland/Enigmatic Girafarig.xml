@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Enigmatic Girafarig" nameDescription="a Enigmatic girafarig" race="psychic" experience="4100" speed="500" manacost="0">
+  <health now="290" max="290"/>
+  <look type="362" head="61" body="77" legs="95" feet="113" corpse="3292"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Tackle" interval="751" chance="30" range="1"/>
+		<attack name="Crunch" interval="802" chance="20" range="6"/>
+		<attack name="Stomp" interval="1428" chance="9" range="6"/>
+		<attack name="Psybeam" interval="854" chance="15" range="6"/>
+		<attack name="Confusion" interval="1430" chance="9" range="6"/>
+		<attack name="Psychic" interval="1431" chance="9" range="6"/>
+		<attack name="Assurance" interval="2257" chance="6" range="6"/>
+		<attack name="Agility" interval="1433" chance="9" range="6"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+	<voice sentence="GIRAA!"/>
+<voice sentence="FARIIG!"/>
+<voice sentence="GIRAFARIG!"/>
+  </voices>
+   <loot>
+	<item id="11452" chance="5000" count="1"/> -- enigma stone
+	<item id="15644" chance="5000" countmax="5"/> <!--Mighty Token-->
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

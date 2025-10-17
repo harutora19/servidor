@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slaking" nameDescription="a slaking" race="ghost" experience="1500" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1926" corpse="14780"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="1351" chance="10" range="1"/>
+		<attack name="Bite" interval="802" chance="20" range="1"/>
+		<attack name="Crunch" interval="753" chance="30" range="6"/>
+		<attack name="Triple Punch" interval="854" chance="15" range="1"/>
+		<attack name="Body Slam" interval="855" chance="15" range="1"/>
+		<attack name="Focus Blast" interval="1281" chance="12" range="6"/>
+		<attack name="Hyper Beam" interval="1357" chance="10" range="6"/>
+		<attack name="Crusher Stomp" interval="1583" chance="7" range="6"/>
+		<attack name="Rest" interval="12709" chance="3" range="6"/>
+		<attack name="Harden" interval="1360" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Slaking!"/>
+    </voices>
+    <loot>
+        <item id="11453" chance="4000" count="1" countmax="1"/> --heart stone
+        <item id="15078" chance="250" count="1"/> -- power banana
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

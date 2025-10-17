@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mawile" nameDescription="a mawile" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="2071" corpse="14769"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Tail" interval="751" chance="30" range="1"/>
+		<attack name="Dazzling Gleam" interval="812" chance="19" range="6"/>
+		<attack name="Play Rough" interval="833" chance="17" range="6"/>
+		<attack name="Gyro Ball" interval="1279" chance="12" range="6"/>
+		<attack name="Flash Cannon" interval="2255" chance="6" range="6"/>
+		<attack name="Spit Up" interval="806" chance="20" range="6"/>
+		<attack name="Swallow" interval="12007" chance="3" range="6"/>
+		<attack name="Stockpile" interval="4056" chance="75" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Mawile!"/>
+    </voices>
+  <loot>
+		<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+		<item id="15782" chance="100" count="1"/> <!--Mega Stone-->
+        <item id="18421" chance="1000" count="1"/>
+  </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

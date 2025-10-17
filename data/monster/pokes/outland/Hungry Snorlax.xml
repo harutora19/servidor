@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hungry Snorlax" nameDescription="a hungry snorlax" race="normal" experience="4300" speed="500" manacost="0">
+    <health now="360" max="360"/>
+    <look type="51" head="80" body="95" legs="95" feet="113" corpse="11965"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="1426" chance="9" range="1"/>
+		<attack name="Bite" interval="802" chance="20" range="1"/>
+		<attack name="Crunch" interval="1278" chance="12" range="1"/>
+		<attack name="Triple Punch" interval="854" chance="15" range="1"/>
+		<attack name="Body Slam" interval="805" chance="20" range="1"/>
+		<attack name="Thrash" interval="856" chance="15" range="6"/>
+		<attack name="Hyper Beam" interval="1432" chance="9" range="6"/>
+		<attack name="Crusher Stomp" interval="2458" chance="5" range="6"/>
+		<attack name="Rest" interval="11209" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="SNORLAX!"/>
+    </voices>
+   <loot>
+        <item id="11453" chance="7000" count="1"/> --heart stone
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

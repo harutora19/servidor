@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vibrava" nameDescription="a vibrava" race="ghost" experience="600" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1893" corpse="14781"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Rock Throw" interval="851" chance="30" range="4"/>
+		<attack name="Rock Slide" interval="902" chance="20" range="3"/>
+		<attack name="Triple Punch" interval="1453" chance="10" range="1"/>
+		<attack name="Earth Power" interval="2954" chance="4" range="6"/>
+		<attack name="Falling Rocks" interval="3355" chance="3" range="6"/>
+		<attack name="Crusher Stomp" interval="2356" chance="6" range="6"/>
+		<attack name="Hyper Beam" interval="1457" chance="10" range="6"/>
+		<attack name="Sand Tomb" interval="1533" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Vibrava!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

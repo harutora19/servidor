@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Venusaur" nameDescription="a elder venusaur" race="grass" experience="6500" speed="255" manacost="0">
+  <health now="220" max="220"/>
+  <look type="496" head="80" body="90" legs="95" feet="113" corpse="12422"/>
+  <targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="771" chance="25" range="1"/>
+		<attack name="Razor Leaf" interval="722" chance="43" range="4"/>
+		<attack name="Vine Whip" interval="813" chance="19" range="6"/>
+		<attack name="Headbutt" interval="774" chance="25" range="1"/>
+		<attack name="Leech Seed" interval="815" chance="19" range="3"/>
+		<attack name="Bullet Seed" interval="856" chance="15" range="6"/>
+		<attack name="Solar Beam" interval="1432" chance="9" range="6"/>
+		<attack name="Sleep Powder" interval="4008" chance="5" range="6"/>
+		<attack name="Stun Spore" interval="1434" chance="9" range="6"/>
+		<attack name="Poison Powder" interval="1285" chance="12" range="6"/>
+		<attack name="Leaf Storm" interval="2261" chance="6" range="6"/>
+</attacks>
+	<voices interval="5000" chance="10">
+		<voice sentence="VENUSAUR!"/>
+	</voices>
+	<loot>
+        <item id="11441" chance="3500" count="1"/> --leaf stone
+        <item id="11443" chance="3500" count="1"/> --venom stone
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+	</loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

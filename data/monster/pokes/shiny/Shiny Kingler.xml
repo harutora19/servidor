@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Kingler" nameDescription="a Shiny kingler" race="water" experience="292" speed="117" manacost="0">
+  <health now="110" max="110"/>
+  <look type="3758"  corpse="12518"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bubbles" interval="1351" chance="30" range="6"/>
+		<attack name="BubbleBeam" interval="1452" chance="15" range="6"/>
+		<attack name="Mud Shot" interval="1453" chance="15" range="6"/>
+		<attack name="Crabhammer" interval="1954" chance="10" range="1"/>
+		<attack name="Metal Claw" interval="1405" chance="20" range="1"/>
+		<attack name="Bubble Blast" interval="2106" chance="8" range="6"/>
+		<attack name="Hyper Beam" interval="1882" chance="12" range="6"/>
+		<attack name="Guillotine" interval="1458" chance="15" range="1"/>
+		<attack name="Harden" interval="3459" chance="4" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="KINGLER!"/>
+ </voices>
+
+  <loot>
+            <item id="11442" chance="20000" count="1"/> --water stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

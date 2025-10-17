@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Beedrill" nameDescription="a shiny beedrill" race="bug" experience="276" speed="298" manacost="0">
+  <health now="90" max="90"/>
+  <look type="3945" corpse="12434"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="String Shot" interval="1451" chance="30" range="6"/>
+		<attack name="Poison Jab" interval="1512" chance="19" range="6"/>
+		<attack name="Poison Sting" interval="1453" chance="30" range="2"/>
+		<attack name="Fury Cutter" interval="1504" chance="20" range="6"/>
+		<attack name="Pin Missile" interval="1555" chance="15" range="6"/>
+		<attack name="Toxic Spikes" interval="1981" chance="12" range="6"/>
+		<attack name="Rage" interval="1982" chance="12" range="6"/>
+		<attack name="Strafe" interval="1983" chance="12" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="BEEDRILL!"/>
+ </voices>
+
+  <loot>
+          <item id="11448" chance="100" count="1"/> --coccon stone
+		  <item id="11443" chance="100" count="1"/> --venom stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slowpoke" nameDescription="a slowpoke" race="water" experience="100" speed="207" manacost="0">
+    <health now="500" max="500"/>
+    <look type="75" corpse="11964"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Aqua Tail" interval="1651" chance="30" range="1"/>
+		<attack name="Headbutt" interval="1702" chance="20" range="1"/>
+		<attack name="Iron Tail" interval="1653" chance="30" range="1"/>
+		<attack name="Waterball" interval="1704" chance="20" range="6"/>
+		<attack name="Water Gun" interval="1745" chance="16" range="6"/>
+		<attack name="Confusion" interval="2181" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="SLOWPOKE!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

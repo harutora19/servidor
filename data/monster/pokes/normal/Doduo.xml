@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Doduo" nameDescription="a doduo" race="flying" experience="250" speed="232" manacost="0">
+    <health now="400" max="400"/>
+    <look type="26" corpse="11863"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="1651" chance="20" range="6"/>
+		<attack name="Quick Attack" interval="1602" chance="30" range="2"/>
+		<attack name="Drill Peck" interval="1653" chance="20" range="1"/>
+		<attack name="Rage" interval="1704" chance="15" range="6"/>
+		<attack name="Strafe" interval="1705" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DODUO!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

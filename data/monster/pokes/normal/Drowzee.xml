@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Drowzee" nameDescription="a drowzee" race="psychic" experience="250" speed="207" manacost="0">
+    <health now="800" max="800"/>
+    <look type="94" corpse="11867"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Headbutt" interval="1651" chance="30" range="1"/>
+		<attack name="Psybeam" interval="1702" chance="20" range="6"/>
+		<attack name="Confusion" interval="2178" chance="12" range="6"/>
+		<attack name="Dream Eater" interval="2179" chance="12" range="6"/>
+		<attack name="Hypnosis" interval="4405" chance="8" range="6"/>
+		<attack name="Focus" interval="2256" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DROWZEE!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

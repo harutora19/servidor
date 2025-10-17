@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Ariados" nameDescription="an shiny ariados" race="bug" experience="484" speed="280" manacost="0">
+  <health now="90" max="90"/>
+  <look type="1670" corpse="12598"/>
+	<targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="String Shot" interval="801" chance="20" range="6"/>
+		<attack name="Leech Life" interval="732" chance="38" range="6"/>
+		<attack name="Bug Bite" interval="753" chance="30" range="1"/>
+		<attack name="Web Shot" interval="1429" chance="9" range="6"/>
+		<attack name="Fury Swipes" interval="805" chance="20" range="1"/>
+		<attack name="Fury Cutter" interval="1296" chance="12" range="6"/>
+		<attack name="Pin Missile" interval="1237" chance="14" range="6"/>
+		<attack name="Spider Web" interval="1328" chance="11" range="6"/>
+		<attack name="Psychic" interval="1284" chance="12" range="6"/>
+		<attack name="Web Rain" interval="2260" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="ARII!"/>
+<voice sentence="RIAADOS!"/>
+<voice sentence="ARIADOS!"/>
+ </voices>
+    <loot>
+        <item id="12171" chance="5500" count="1" countmax="1"/> --pot of moss bug
+		<item id="13795" chance="6500" countmax="1"/> --venom piece
+        <item id="12183" chance="5500" count="1" countmax="4"/> --some mushroom
+        <item id="12184" chance="5500" count="1" countmax="1"/> --bug antenna
+        <item id="12185" chance="5500" count="1" countmax="1"/> --bug antenna
+        <item id="12338" chance="550" count="1"/> --bag box --bag box
+        <item id="11443" chance="50" count="1"/> --venom stone
+        <item id="11448" chance="50" count="1"/> --coccon stone
+		<item id="13783" chance="10500" countmax="80"/> --bug gosme
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

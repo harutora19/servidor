@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Jolteon" nameDescription="a Shiny jolteon" race="electric" experience="580" speed="312" manacost="0">
+  <health now="110" max="110"/>
+  <look type="594" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Swift" interval="801" chance="20" range="6"/>
+		<attack name="Bite" interval="752" chance="30" range="1"/>
+		<attack name="Thunderbolt" interval="813" chance="19" range="6"/>
+		<attack name="Thunder Fang" interval="814" chance="19" range="1"/>
+		<attack name="Thunder Wave" interval="815" chance="19" range="6"/>
+		<attack name="Eerie Impulse" interval="1581" chance="7" range="6"/>
+		<attack name="Zap Cannon" interval="1387" chance="10" range="6"/>
+		<attack name="Thunder" interval="1268" chance="13" range="6"/>
+		<attack name="Electric Storm" interval="2519" chance="5" range="6"/>
+		<attack name="Safeguard" interval="1510" chance="8" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="JOLTEON!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

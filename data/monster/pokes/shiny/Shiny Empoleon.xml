@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Empoleon" nameDescription="an shiny empoleon" race="blood" experience="200" speed="300" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3908" corpse="17508"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Head" interval="731" chance="38" range="1"/>
+		<attack name="Bubbles" interval="732" chance="38" range="6"/>
+		<attack name="BubbleBeam" interval="813" chance="19" range="6"/>
+		<attack name="Metal Claw" interval="1294" chance="12" range="6"/>
+		<attack name="Impale" interval="1235" chance="14" range="6"/>
+		<attack name="Scald" interval="1356" chance="10" range="6"/>
+		<attack name="Aqua Jet" interval="3157" chance="12" range="6"/>
+		<attack name="Flash Cannon" interval="1508" chance="8" range="6"/>
+		<attack name="Meteor Mash" interval="2559" chance="5" range="6"/>
+		<attack name="Hydropump" interval="2460" chance="5" range="6"/>
+		<attack name="Swords Dance" interval="2261" chance="6" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="EMPOLEON!"/>
+        <voice sentence="LEOOON!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

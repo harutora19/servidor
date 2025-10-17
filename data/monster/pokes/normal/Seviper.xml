@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Seviper" nameDescription="a seviper" race="ghost" experience="800" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1944" corpse="14774"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Poison Fang" interval="731" chance="38" range="1"/>
+		<attack name="Poison Tail" interval="782" chance="24" range="1"/>
+		<attack name="Acid" interval="773" chance="25" range="4"/>
+		<attack name="Sting Gun" interval="854" chance="15" range="6"/>
+		<attack name="Venom Motion" interval="1355" chance="10" range="6"/>
+		<attack name="Venom Gale" interval="2556" chance="5" range="6"/>
+		<attack name="Gastro Acid" interval="2857" chance="4" range="6"/>
+		<attack name="Fear" interval="1283" chance="12" range="6"/>
+		<attack name="Rage" interval="1284" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Seviper!"/>
+    </voices>
+    <loot>
+        <item id="11443" chance="4000" count="1"/> --venom stone
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

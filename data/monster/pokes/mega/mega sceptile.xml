@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mega Sceptile" nameDescription="a mega sceptile" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="2191" corpse="14750"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="771" chance="25" range="1"/>
+		<attack name="Leaf Blade" interval="722" chance="43" range="6"/>
+		<attack name="Magical Leaf" interval="813" chance="19" range="6"/>
+		<attack name="Fury Cutter" interval="774" chance="25" range="6"/>
+		<attack name="Pursuit" interval="1325" chance="11" range="6"/>
+		<attack name="Night Slash" interval="1326" chance="11" range="6"/>
+		<attack name="X-Scissor" interval="2337" chance="6" range="6"/>
+		<attack name="Giga Drain" interval="2698" chance="5" range="6"/>
+		<attack name="Frenzy Plant" interval="3409" chance="9" range="6"/>
+		<attack name="Agility" interval="1450" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Sceptile!"/>
+    </voices>
+    <loot>
+        <item id="11441" chance="4000" count="1" countmax="1"/> --leaf stone
+        <item id="15789" chance="100" count="1"/>
+        <item id="18421" chance="1000" count="1"/>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

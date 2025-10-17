@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Gengar" nameDescription="a Shiny gengar" race="ghost" experience="976" speed="277" manacost="0">
+  <health now="130" max="130"/>
+  <look type="546" corpse="12513"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="801" chance="20" range="1"/>
+		<attack name="Shadow Ball" interval="732" chance="38" range="6"/>
+		<attack name="Psy Ball" interval="773" chance="25" range="6"/>
+		<attack name="Night Shade" interval="854" chance="15" range="6"/>
+		<attack name="Psychic" interval="1265" chance="13" range="6"/>
+		<attack name="Shadow Storm" interval="2656" chance="5" range="6"/>
+		<attack name="Invisible" interval="10247" chance="25" range="6"/>
+		<attack name="Dream Eater" interval="1283" chance="12" range="6"/>
+		<attack name="Hypnosis" interval="3209" chance="11" range="6"/>
+		<attack name="Fear" interval="1330" chance="11" range="6"/>
+		<attack name="Dark Eye" interval="761" chance="30" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="GENGAR!"/>
+ </voices>
+
+  <loot>
+          <item id="11450" chance="20000" count="1"/> --darkness stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Keldeo" nameDescription="a keldeo" race="fighting" experience="1000" speed="267" manacost="0">
+    <health now="220" max="220"/>
+    <look type="4931" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Horn Drill" interval="801" chance="20" range="6"/>
+		<attack name="Aura Sphere" interval="752" chance="30" range="6"/>
+		<attack name="Triple Kick" interval="853" chance="15" range="6"/>
+		<attack name="Bubbles" interval="804" chance="20" range="6"/>
+		<attack name="Surf" interval="1580" chance="7" range="6"/>
+		<attack name="Calm Mind" interval="3256" chance="10" range="6"/>
+		<attack name="Hydro Pump" interval="2257" chance="6" range="6"/>
+		<attack name="Reversal" interval="2358" chance="6" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="KEEL!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

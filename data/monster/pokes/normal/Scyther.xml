@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scyther" nameDescription="a scyther" race="bug" experience="1100" speed="377" manacost="0">
+    <health now="1100" max="1100"/>
+    <look type="15" corpse="11958"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1251" chance="30" range="2"/>
+		<attack name="Slash" interval="1777" chance="12" range="1"/>
+		<attack name="Wing Attack" interval="1928" chance="9" range="6"/>
+		<attack name="Fury Cutter" interval="1304" chance="20" range="6"/>
+		<attack name="Shredder Team" interval="4985" chance="8" range="6"/>
+		<attack name="Air Slash" interval="2006" chance="8" range="6"/>
+		<attack name="Agility" interval="2007" chance="8" range="6"/>
+		<attack name="Team Slice" interval="4592" chance="43" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="SCYTHER!"/>
+    </voices>
+    <loot>
+        <item id="11448" chance="3000" count="1" countmax="1"/> --coccon stone
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

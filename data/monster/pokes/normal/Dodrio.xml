@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dodrio" nameDescription="a dodrio" race="flying" experience="450" speed="258" manacost="0">
+    <health now="1100" max="1100"/>
+    <look type="120" corpse="11862"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="1401" chance="20" range="6"/>
+		<attack name="Quick Attack" interval="1352" chance="30" range="2"/>
+		<attack name="Drill Peck" interval="1453" chance="15" range="1"/>
+		<attack name="Pluck" interval="1404" chance="20" range="1"/>
+		<attack name="Tri-Attack" interval="1880" chance="12" range="6"/>
+		<attack name="Roost" interval="11806" chance="5" range="6"/>
+		<attack name="Rage" interval="1457" chance="15" range="6"/>
+		<attack name="Strafe" interval="1458" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DODRIO!"/>
+    </voices>
+    <loot>
+        <item id="11453" chance="3000" count="1" countmax="1"/> --heart stone
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

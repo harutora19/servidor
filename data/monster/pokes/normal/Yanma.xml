@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Yanma" nameDescription="an yanma" race="bug" experience="350" speed="272" manacost="0">
+  <health now="40" max="40"/>
+  <look type="379" corpse="4759"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1601" chance="20" range="6"/>
+		<attack name="Tackle" interval="1552" chance="30" range="1"/>
+		<attack name="Quick Attack" interval="1553" chance="30" range="2"/>
+		<attack name="U-Turn" interval="1604" chance="20" range="6"/>
+		<attack name="Double Team" interval="2380" chance="7" range="6"/>
+		<attack name="Wing Attack" interval="2081" chance="12" range="6"/>
+		<attack name="Air Slash" interval="3057" chance="6" range="6"/>
+		<attack name="Bug Buzz" interval="1658" chance="15" range="6"/>
+		<attack name="Hypnosis" interval="4809" chance="5" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="YAAAN!"/>
+<voice sentence="YAANMA!"/>
+<voice sentence="YANMA!"/>
+  </voices>
+  <loot>
+        <item id="12200" chance="50" count="1" countmax="1"/> --feather
+        <item id="12172" chance="50" count="1" countmax="1"/> --bird break
+        <item id="11448" chance="4" count="1" countmax="1"/>
+		<item id="13783" chance="100" countmax="80"/> --bug gosme
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

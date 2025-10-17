@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Marowak" nameDescription="a elder marowak" race="ground" experience="6500" speed="255" manacost="0">
+  <health now="140" max="140"/>
+  <look type="579" head="45" body="250" legs="95" feet="113" corpse="12525"/>
+  <targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Headbutt" interval="731" chance="38" range="1"/>
+		<attack name="Bonemerang" interval="772" chance="25" range="4"/>
+		<attack name="Bone Club" interval="813" chance="19" range="4"/>
+		<attack name="Bone Slash" interval="854" chance="15" range="6"/>
+		<attack name="Mud Shot" interval="775" chance="25" range="3"/>
+		<attack name="Earth Power" interval="1356" chance="10" range="6"/>
+		<attack name="Bulldoze" interval="1432" chance="9" range="6"/>
+		<attack name="Rage" interval="858" chance="15" range="6"/>
+</attacks>
+ <voices interval="5000" chance="10">
+ <voice sentence="MAROWAK!"/>
+ </voices>
+
+   <loot>
+        <item id="11451" chance="7000" count="1"/> --earth stone
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+
+    </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

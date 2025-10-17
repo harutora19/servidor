@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Salamence" nameDescription="a salamence" race="dragon" experience="1500" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1868" corpse="14754"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="741" chance="34" range="1"/>
+		<attack name="Crunch" interval="762" chance="28" range="6"/>
+		<attack name="Dragon Tail" interval="773" chance="25" range="1"/>
+		<attack name="Dragon Claw" interval="814" chance="19" range="1"/>
+		<attack name="Dragon Breath" interval="1280" chance="12" range="6"/>
+		<attack name="Dragon Pulse" interval="1326" chance="11" range="6"/>
+		<attack name="Wing Attack" interval="1267" chance="13" range="6"/>
+		<attack name="Hyper Beam" interval="1508" chance="8" range="6"/>
+		<attack name="Draco Meteor" interval="2359" chance="6" range="6"/>
+		<attack name="Outrage" interval="2460" chance="5" range="6"/>
+		<attack name="Scary Face" interval="1436" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Salamence!"/>
+    </voices>
+    <loot>
+    </loot>
+    <loot>
+        <item id="11449" chance="4000" count="1" countmax="1"/> --crystal stone
+		<item id="12417" chance="4000" count="1"/> <!--Feather Stone-->
+		<item id="15079" chance="250" count="1"/>
+		
+    </loot>
+	    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

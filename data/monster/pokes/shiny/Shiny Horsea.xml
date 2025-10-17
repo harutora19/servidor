@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Horsea" nameDescription="a Shiny horsea" race="water" experience="164" speed="267" manacost="0">
+  <health now="40" max="40"/>
+  <look type="507" corpse="12536"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="1701" chance="20" range="6"/>
+		<attack name="SmokeScreen" interval="2402" chance="8" range="6"/>
+		<attack name="Quick Attack" interval="1653" chance="30" range="2"/>
+		<attack name="Bubbles" interval="1704" chance="20" range="6"/>
+		<attack name="BubbleBeam" interval="1755" chance="15" range="6"/>
+		<attack name="Water Gun" interval="2181" chance="12" range="6"/>
+		<attack name="Dragon Pulse" interval="2482" chance="7" range="6"/>
+		<attack name="Hydro Cannon" interval="2333" chance="9" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="HORSEA!"/>
+ </voices>
+
+  <loot>
+            <item id="11442" chance="20000" count="1"/> --water stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

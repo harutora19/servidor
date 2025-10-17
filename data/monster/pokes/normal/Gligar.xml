@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gligar" nameDescription="a gligar" race="flying" experience="350" speed="285" manacost="0">
+  <health now="40" max="40"/>
+  <look type="383" corpse="3293"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="1401" chance="20" range="6"/>
+		<attack name="Poison Sting" interval="1352" chance="30" range="1"/>
+		<attack name="Slash" interval="1403" chance="20" range="1"/>
+		<attack name="U-Turn" interval="1404" chance="20" range="6"/>
+		<attack name="X-Scissor" interval="1955" chance="10" range="6"/>
+		<attack name="Fury Cutter" interval="1406" chance="20" range="6"/>
+		<attack name="Harden" interval="1957" chance="10" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="GLII!"/>
+<voice sentence="GAAR!"/>
+<voice sentence="GLIGAR!"/>
+  </voices>
+  <loot>
+    <item id="11443" chance="3000" count="1" countmax="1"/> --venom stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

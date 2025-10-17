@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+<!-- PXA to DxP -->
+	<event type="addContainerItem" name="onAddContainerItem" event="script" value="onAddContainerItem.lua" />
+	<event type="removeContainerItem" name="onRemoveContainerItem" event="script" value="onRemoveContainerItem.lua" />
+	<event type="extendedopcode" name="Opcode" event="script" value="opcodes/opcode.lua"/>
+    <event type="move" name="PokeWalk" event="script" value="player/pokeWalk.lua"/>
+	<event type="moveitem" name="MoveItem" event="script" value="player/moveItem.lua"/>
+	<event type="logout" name="PlayerLogout" event="script" value="player/logout.lua"/>
+	<event type="login" name="PlayerLogin" event="script" value="player/login.lua"/>
+	<event type="matou" name="Matou" event="script" value="player/pokeDeath.lua"/>
+	<event type="statschange" name="GeneralConfiguration" event="script" value="player/statsChange.lua"/>
+<!-- PXA to DxP -->
+	
+	
+	<event type="advance" name="AdvanceSave" event="script" value="player/advancesave.lua"/>
+	
+	<!-- <event type="receivemail" name="Mail" event="script" value="mail.lua"/> -->
+	<!--event type="death" name="Experience" event="script" value="pokeexp.lua"/-->
+	<event type="spawn" name="Spawn" event="script" value="spawn.lua"/>
+	<event type="advance" name="EffectOnAdvance" event="script" value="levelup.lua"/>
+	<event type="target" name="WildAttack" event="script" value="playerattack.lua"/>
+	<event type="look" name="LookSystem" event="script" value="look.lua"/>
+	<event type="traderequest" name="TradeRequest" event="script" value="trade system.lua"/>
+	<event type="tradeaccept" name="TradeAccpet" event="script" value="trade system.lua"/>
+
+</creaturescripts>

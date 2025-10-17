@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Darkrai" nameDescription="a darkrai" race="blood" experience="1000" speed="0" manacost="0">
+    <health now="10000000" max="10000000"/>
+    <look type="3745" corpse="17517"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Shadow Storm" interval="500" chance="20" range="6"/>
+		<attack name="Ominous Wind" interval="500" chance="20" range="6"/>
+		<attack name="Night Shade" interval="500" chance="20" range="6"/>
+	</attacks>
+	<summons maxSummons="5">
+		<summon name="Darkrai Minion" interval="1000" chance="100" max="5"/>
+	</summons>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DARKRAAAAAI!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

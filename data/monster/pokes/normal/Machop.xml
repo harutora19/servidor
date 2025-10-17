@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machop" nameDescription="a machop" race="fighting" experience="100" speed="217" manacost="0">
+    <health now="50" max="50"/>
+    <look type="118" corpse="11910"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Triple Punch" interval="1601" chance="30" range="1"/>
+		<attack name="Triple Punch" interval="1652" chance="20" range="1"/>
+		<attack name="Karate Chop" interval="1653" chance="20" range="1"/>
+		<attack name="Ground Chop" interval="1654" chance="20" range="6"/>
+		<attack name="Strafe" interval="1705" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MACHOP!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

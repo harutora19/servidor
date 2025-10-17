@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Butterfree" nameDescription="a Shiny butterfree" race="bug" experience="276" speed="286" manacost="0">
+  <health now="80" max="80"/>
+  <look type="485" corpse="12431"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="4"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1501" chance="20" range="6"/>
+		<attack name="Silver Wind" interval="1977" chance="12" range="6"/>
+		<attack name="Whirlwind" interval="1978" chance="12" range="6"/>
+		<attack name="Confusion" interval="2054" chance="10" range="6"/>
+		<attack name="Psybeam" interval="1505" chance="20" range="6"/>
+		<attack name="Air Cutter" interval="2206" chance="8" range="6"/>
+		<attack name="Sleep Powder" interval="4707" chance="5" range="6"/>
+		<attack name="Safeguard" interval="2208" chance="8" range="6"/>
+		<attack name="Poison Powder" interval="1559" chance="15" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="BUTTERFREE!"/>
+ </voices>
+
+<loot>
+	<item id="11448" chance="100" count="1"/> --coccon stone
+	<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+</loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Moon Clefable" nameDescription="a moon clefable" race="normal" experience="2500" speed="500" manacost="0">
+    <health now="130" max="130"/>
+    <look type="68" head="130" body="140" legs="95" feet="113" corpse="11854"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Doubleslap" interval="701" chance="60" range="1"/>
+		<attack name="Lovely Kiss" interval="852" chance="15" range="3"/>
+		<attack name="Sing" interval="1503" chance="8" range="6"/>
+		<attack name="Multislap" interval="1279" chance="12" range="6"/>
+		<attack name="Meteor Smash" interval="855" chance="15" range="4"/>
+		<attack name="Great Love" interval="1506" chance="8" range="6"/>
+		<attack name="Healarea" interval="3257" chance="3" range="6"/>
+		<attack name="Focus" interval="2458" chance="5" range="6"/>
+		<attack name="Metronome" interval="1359" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="CLEFABLE!"/>
+    </voices>
+   <loot>
+        <item id="11453" chance="5000" count="1"/> --heart stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

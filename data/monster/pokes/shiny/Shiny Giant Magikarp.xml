@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Giant Magikarp" nameDescription="a Shiny Giant magikarp" race="water" experience="700" speed="257" manacost="0">
+  <health now="200" max="200"/>
+  <look type="1784" corpse="12748"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Roar" interval="1551" chance="10" range="6"/>
+		<attack name="Bite" interval="1002" chance="20" range="1"/>
+		<attack name="Aqua Tail" interval="1003" chance="20" range="1"/>
+		<attack name="Waterball" interval="1054" chance="15" range="6"/>
+		<attack name="Twister" interval="1555" chance="10" range="6"/>
+		<attack name="Hydro Cannon" interval="1781" chance="7" range="6"/>
+		<attack name="Dragon Breath" interval="1557" chance="10" range="6"/>
+		<attack name="Hyper Beam" interval="1783" chance="7" range="6"/>
+		<attack name="Hydropump" interval="2859" chance="5" range="6"/>
+		<attack name="Rain Dance" interval="3960" chance="6" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="MAGIKARP!"/>
+ </voices>
+
+  <loot>
+            <item id="11442" chance="20000" count="1"/> --water stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

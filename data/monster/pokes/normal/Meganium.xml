@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Meganium" nameDescription="a meganium" race="grass" experience="1100" speed="236" manacost="0">
+    <health now="220" max="220"/>
+    <look type="320" corpse="3576"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="1201" chance="20" range="1"/>
+		<attack name="Razor Leaf" interval="1152" chance="30" range="6"/>
+		<attack name="Magical Leaf" interval="1253" chance="15" range="6"/>
+		<attack name="Petal Dance" interval="1679" chance="12" range="6"/>
+		<attack name="Synthesis" interval="2655" chance="6" range="6"/>
+		<attack name="Solar Beam" interval="2856" chance="5" range="6"/>
+		<attack name="Sleep Powder" interval="4407" chance="5" range="6"/>
+		<attack name="Poison Powder" interval="1683" chance="12" range="6"/>
+		<attack name="Petal Tornado" interval="3259" chance="4" range="6"/>
+		<attack name="Aromateraphy" interval="1985" chance="7" range="6"/>
+		<attack name="Reflect" interval="2861" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MEGANIUM!"/>
+    </voices>
+    <loot>
+        <item id="11441" chance="3000" count="1" countmax="1"/> --leaf stone
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

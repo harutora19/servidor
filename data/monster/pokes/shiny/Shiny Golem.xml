@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Golem" nameDescription="a Shiny golem" race="ground" experience="908" speed="277" manacost="0">
+  <health now="190" max="190"/>
+  <look type="637" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Rock Throw" interval="731" chance="38" range="6"/>
+		<attack name="Rock Slide" interval="772" chance="25" range="6"/>
+		<attack name="Stone Edge" interval="853" chance="15" range="6"/>
+		<attack name="Rock Blast" interval="1324" chance="11" range="6"/>
+		<attack name="Power Gem" interval="1295" chance="12" range="6"/>
+		<attack name="Rock Wrecker" interval="2256" chance="6" range="6"/>
+		<attack name="Falling Rocks" interval="2457" chance="5" range="6"/>
+		<attack name="Harden" interval="1433" chance="9" range="6"/>
+		<attack name="Rollout" interval="1509" chance="8" range="6"/>
+		<attack name="Selfdestruct" interval="3660" chance="3" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="GOLEM!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

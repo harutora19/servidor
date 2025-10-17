@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ancient Kingdra" nameDescription="a ancient kingdra" race="water" experience="4100" speed="500" manacost="0">
+    <health now="330" max="330"/>
+  <look type="406" head="60" body="60" legs="95" feet="113" corpse="3559"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="801" chance="20" range="3"/>
+		<attack name="SmokeScreen" interval="852" chance="15" range="6"/>
+		<attack name="Quick Attack" interval="753" chance="30" range="2"/>
+		<attack name="Bubbles" interval="804" chance="20" range="4"/>
+		<attack name="BubbleBeam" interval="855" chance="15" range="3"/>
+		<attack name="Water Gun" interval="1281" chance="12" range="6"/>
+		<attack name="Twister" interval="1582" chance="7" range="6"/>
+		<attack name="Dragon Pulse" interval="1583" chance="7" range="6"/>
+		<attack name="Hydropump" interval="2859" chance="4" range="6"/>
+		    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="KIING!"/>
+<voice sentence="DRAAA!"/>
+<voice sentence="KINGDRA!"/>
+  </voices>
+   <loot>
+	<item id="11442" chance="4500" count="1"/> -- water Stone
+	<item id="12244" chance="500" count="1"/> -- ancient stone
+	<item id="15644" chance="5000" countmax="5"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

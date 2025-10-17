@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cyndaquil" nameDescription="a cyndaquil" race="fire" experience="350" speed="227" manacost="0">
+    <health now="50" max="50"/>
+  <look type="324" corpse="3281"/>
+	<targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1701" chance="30" range="2"/>
+		<attack name="Swift" interval="1702" chance="30" range="6"/>
+		<attack name="Ember" interval="1753" chance="20" range="6"/>
+		<attack name="Flamethrower" interval="2229" chance="12" range="6"/>
+		<attack name="SmokeScreen" interval="2455" chance="8" range="6"/>
+		<attack name="Eruption" interval="3406" chance="5" range="6"/>
+		<attack name="Defense Curl" interval="3807" chance="4" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="CYN!"/>
+<voice sentence="QUIL!"/>
+    <voice sentence="CYNDAQUIL!"/>
+  </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Porygon2" nameDescription="a porygon2" race="normal" experience="1100" speed="300" manacost="0">
+  <health now="160" max="160"/>
+  <look type="385" corpse="4423"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="2"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1231" chance="14" range="6"/>
+		<attack name="Psy Ball" interval="792" chance="22" range="6"/>
+		<attack name="Cyber Pulse" interval="813" chance="19" range="6"/>
+		<attack name="Psychic" interval="1429" chance="9" range="6"/>
+		<attack name="Zap Cannon" interval="1580" chance="7" range="6"/>
+		<attack name="Hyper Beam" interval="2256" chance="6" range="6"/>
+		<attack name="Tri-Attack" interval="837" chance="17" range="6"/>
+		<attack name="Stored Power" interval="2458" chance="5" range="6"/>
+		<attack name="Focus" interval="2259" chance="6" range="6"/>
+		<attack name="Magic Coat" interval="1585" chance="7" range="6"/>
+		<attack name="Restore" interval="12611" chance="3" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="POORY!"/>
+<voice sentence="GOON!"/>
+<voice sentence="PORYGON!"/>
+  </voices>
+  <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

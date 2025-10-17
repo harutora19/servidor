@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golbat" nameDescription="a golbat" race="poison" experience="250" speed="235" manacost="0">
+    <health now="900" max="900"/>
+    <look type="122"  corpse="11882"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1501" chance="20" range="6"/>
+		<attack name="Bite" interval="1452" chance="30" range="1"/>
+		<attack name="Poison Fang" interval="1453" chance="30" range="1"/>
+		<attack name="Toxic" interval="1554" chance="15" range="6"/>
+		<attack name="Whirlwind" interval="1935" chance="14" range="6"/>
+		<attack name="Wing Attack" interval="2056" chance="10" range="6"/>
+		<attack name="Air Cutter" interval="2207" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="GOLBAT!"/>
+    </voices>
+    <loot>
+        <item id="11443" chance="3000" count="1" countmax="1"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

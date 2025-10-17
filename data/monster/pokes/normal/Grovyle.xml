@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grovyle" nameDescription="a grovyle" race="ghost" experience="500" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1851" corpse="14779"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="871" chance="25" range="1"/>
+		<attack name="Leaf Blade" interval="822" chance="43" range="6"/>
+		<attack name="Magical Leaf" interval="913" chance="19" range="6"/>
+		<attack name="Fury Cutter" interval="874" chance="25" range="6"/>
+		<attack name="Pursuit" interval="1425" chance="11" range="6"/>
+		<attack name="Night Slash" interval="1426" chance="11" range="6"/>
+		<attack name="X-Scissor" interval="2437" chance="6" range="6"/>
+		<attack name="Giga Drain" interval="2798" chance="5" range="6"/>
+		<attack name="Agility" interval="1549" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Grovyle!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

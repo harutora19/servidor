@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shelgon" nameDescription="a shelgon" race="ghost" experience="700" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1867" corpse="14715"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Aqua Tail" interval="801" chance="20" range="1"/>
+		<attack name="Thunder Wave" interval="852" chance="15" range="6"/>
+		<attack name="Headbutt" interval="803" chance="20" range="1"/>
+		<attack name="Wrap" interval="3004" chance="15" range="6"/>
+		<attack name="Dragon Claw" interval="855" chance="15" range="1"/>
+		<attack name="Dragon Breath" interval="856" chance="15" range="6"/>
+		<attack name="Twister" interval="1357" chance="10" range="6"/>
+		<attack name="Hyper Beam" interval="1283" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Shelgon!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

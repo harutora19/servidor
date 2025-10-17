@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidorino" nameDescription="a nidorino" race="poison" experience="250" speed="227" manacost="0">
+    <health now="1000" max="1000"/>
+    <look type="78" corpse="11929"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1601" chance="20" range="2"/>
+		<attack name="Horn Attack" interval="1602" chance="20" range="2"/>
+		<attack name="Poison Jab" interval="2078" chance="12" range="6"/>
+		<attack name="Poison Fang" interval="1604" chance="20" range="1"/>
+		<attack name="Crusher Stomp" interval="2380" chance="7" range="6"/>
+		<attack name="Cross Poison" interval="2306" chance="8" range="6"/>
+		<attack name="Rage" interval="1657" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="NIDORINO!"/>
+    </voices>
+    <loot>
+        <item id="11443" chance="3000" count="1" countmax="1"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

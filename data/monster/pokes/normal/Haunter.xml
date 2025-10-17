@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Haunter" nameDescription="a haunter" race="ghost" experience="450" speed="227" manacost="0">
+    <health now="700" max="700"/>
+    <look type="65" corpse="11889"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="2"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Lick" interval="2201" chance="8" range="1"/>
+		<attack name="Shadow Ball" interval="1452" chance="30" range="6"/>
+		<attack name="Night Shade" interval="2128" chance="9" range="6"/>
+		<attack name="Shadow Storm" interval="4354" chance="3" range="6"/>
+		<attack name="Invisible" interval="11005" chance="20" range="6"/>
+		<attack name="Nightmare" interval="3356" chance="5" range="6"/>
+		<attack name="Hypnosis" interval="5207" chance="4" range="6"/>
+		<attack name="Fear" interval="2208" chance="8" range="6"/>
+		<attack name="Dark Eye" interval="2134" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="HAUNTER!"/>
+    </voices>
+    <loot>
+        <item id="11450" chance="3000" count="1" countmax="1"/> --darkness stone
+        <item id="11443" chance="3000" countmax="1"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Alolan Exeggutor" nameDescription="a alolan exeggutor" race="grass" experience="650" speed="227" manacost="0">
+    <health now="1400" max="1400"/>
+    <look type="3602" corpse="11916"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="1451" chance="20" range="6"/>
+		<attack name="Headbutt" interval="1402" chance="30" range="1"/>
+		<attack name="Bonemerang" interval="1453" chance="20" range="6"/>
+		<attack name="Bone Club" interval="1504" chance="15" range="6"/>
+		<attack name="Bone Rush" interval="1930" chance="12" range="6"/>
+		<attack name="Earth Power" interval="2006" chance="10" range="6"/>
+		<attack name="Bulldoze" interval="2082" chance="9" range="6"/>
+		<attack name="Rage" interval="1933" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="GUTTOR!"/>
+    </voices>
+    <loot>
+        <!-- <item id="11451" chance="3000" count="1" countmax="1"/> -->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Fearow" nameDescription="a Shiny fearow" race="flying" experience="652" speed="309" manacost="0">
+  <health now="130" max="130"/>
+  <look type="649" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Peck" interval="751" chance="30" range="1"/>
+		<attack name="Sand Attack" interval="752" chance="30" range="6"/>
+		<attack name="Feather Dance" interval="733" chance="38" range="6"/>
+		<attack name="Drill Peck" interval="754" chance="30" range="1"/>
+		<attack name="Whirlwind" interval="755" chance="30" range="6"/>
+		<attack name="Air Cutter" interval="1356" chance="10" range="6"/>
+		<attack name="Wing Attack" interval="807" chance="20" range="6"/>
+		<attack name="Aerial Ace" interval="2458" chance="5" range="6"/>
+		<attack name="Air Slash" interval="1509" chance="8" range="6"/>
+		<attack name="Air Vortex" interval="1510" chance="8" range="6"/>
+		<attack name="Agility" interval="861" chance="15" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="FEAROW!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

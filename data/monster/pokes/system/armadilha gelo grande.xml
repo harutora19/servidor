@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Armadilha Gelo Grande" nameDescription="a armadilha Gelo grande" race="normal" experience="0" speed="0" manacost="0">
+  <health now="999999999" max="999999999"/>
+  <look type="2703" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+	<flag summonable="1"/>
+	<flag attackable="0"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="1"/>
+	<flag pushable="0"/>
+	<flag canpushitems="0"/>
+	<flag canpushcreatures="0"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="97"/>
+	<flag runonhealth="0"/>
+	<flag hidename="0"/>
+	<flag hidehealth="1"/>
+</flags>
+<attacks>
+	<attack name="Gelo Grande" interval="6000" chance="100" range="8"/>
+</attacks>
+
+<script>
+	<event name="Spawn"/>
+</script>
+
+</monster>

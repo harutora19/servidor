@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tropius" nameDescription="a tropius" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1886" corpse="14792"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Seed Bomb" interval="1351" chance="10" range="6"/>
+		<attack name="Body Slam" interval="772" chance="25" range="1"/>
+		<attack name="Razor Leaf" interval="753" chance="30" range="6"/>
+		<attack name="Magical Leaf" interval="854" chance="15" range="6"/>
+		<attack name="Air Slash" interval="2455" chance="5" range="6"/>
+		<attack name="Stomp" interval="1356" chance="10" range="6"/>
+		<attack name="Petal Tornado" interval="2857" chance="4" range="6"/>
+		<attack name="Leaf Storm" interval="2858" chance="4" range="6"/>
+		<attack name="Growth" interval="2459" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Tropius!"/>
+    </voices>
+    <loot>
+        <item id="11441" chance="4000" count="1" countmax="1"/> --leaf stone
+        <item id="12244" chance="4000" count="1" countmax="1"/> --ancient stone
+		<item id="12417" chance="4000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

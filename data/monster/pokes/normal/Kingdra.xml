@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingdra" nameDescription="a kingdra" race="water" experience="1100" speed="234" manacost="0">
+    <health now="150" max="150"/>
+  <look type="406" corpse="3559"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="791" chance="22" range="6"/>
+		<attack name="SmokeScreen" interval="1277" chance="12" range="6"/>
+		<attack name="Bubbles" interval="743" chance="34" range="6"/>
+		<attack name="BubbleBeam" interval="834" chance="17" range="6"/>
+		<attack name="Scald" interval="1355" chance="10" range="6"/>
+		<attack name="Water Pulse" interval="1281" chance="12" range="6"/>
+		<attack name="Twister" interval="1357" chance="10" range="6"/>
+		<attack name="Dragon Pulse" interval="1433" chance="9" range="6"/>
+		<attack name="Surf" interval="2859" chance="4" range="6"/>
+		<attack name="Outrage" interval="2260" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="KIING!"/>
+<voice sentence="DRAAA!"/>
+<voice sentence="KINGDRA!"/>
+  </voices>
+   <loot>
+        <item id="12244" chance="3000" count="1" countmax="1"/> --ancient stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

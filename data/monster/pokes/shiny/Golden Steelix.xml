@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golden Steelix" nameDescription="a golden steelix" race="steel" experience="1100" speed="299" manacost="0">
+  <health now="40" max="40"/>
+  <look type="3793" corpse="18007"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Tail" interval="751" chance="30" range="1"/>
+		<attack name="Iron Head" interval="852" chance="15" range="1"/>
+		<attack name="Sand Tomb" interval="1428" chance="9" range="6"/>
+		<attack name="Rock Tomb" interval="1354" chance="10" range="6"/>
+		<attack name="Stone Edge" interval="855" chance="15" range="6"/>
+		<attack name="Earth Power" interval="1506" chance="8" range="6"/>
+		<attack name="Fissure" interval="2257" chance="6" range="6"/>
+		<attack name="Earthquake" interval="4728" chance="5" range="6"/>
+		<attack name="Harden" interval="1434" chance="9" range="6"/>
+		<attack name="Iron Defense" interval="10910" chance="7" range="6"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+	<voice sentence="STEEE!"/>
+<voice sentence="LIIX!"/>
+<voice sentence="STEELIX!"/>
+  </voices>
+  <loot>
+        <item id="11445" chance="3000" count="1" countmax="1"/> --rock stone
+		<item id="12232" chance="500" count="1"/> <!--Metal Stone-->
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

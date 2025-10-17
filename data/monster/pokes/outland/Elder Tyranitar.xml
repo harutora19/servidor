@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Tyranitar" nameDescription="a elder tyranitar" race="dark" experience="6500" speed="255" manacost="0">
+    <health now="360" max="360"/>
+  <look type="3531" head="65" body="85" legs="95" feet="113" corpse="17979"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="751" chance="30" range="1"/>
+		<attack name="Shadowave" interval="852" chance="15" range="6"/>
+		<attack name="Crunch" interval="803" chance="20" range="6"/>
+		<attack name="Dark Pulse" interval="854" chance="15" range="4"/>
+		<attack name="Rock Slide" interval="855" chance="15" range="3"/>
+		<attack name="Stone Edge" interval="806" chance="20" range="3"/>
+		<attack name="Earthquake" interval="4607" chance="6" range="6"/>
+		<attack name="Hyper Beam" interval="2258" chance="6" range="6"/>
+		<attack name="Rock Throw" interval="809" chance="20" range="4"/>
+		<attack name="Scary Face" interval="2460" chance="5" range="6"/>
+	    </attacks>
+	<voices interval="5000" chance="10">
+		<voice sentence="TYYY!"/>
+		<voice sentence="RANITAAR!"/>
+		<voice sentence="TYRANITAR!"/>
+	</voices>
+   <loot>
+        <item id="12244" chance="1000" count="1"/> --ancient stone
+        <item id="11445" chance="6000" count="1"/> --rock stone
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

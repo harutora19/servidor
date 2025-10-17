@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Beg Champion Primeape" nameDescription="a beg champion primeape" race="fighting" experience="1" speed="200" manacost="0">
+    <health now="10000000" max="10000000"/>
+    <look type="3080" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Triple Kick" interval="800" chance="30" range="1"/>
+		<attack name="Low Kick" interval="800" chance="30" range="1"/>
+		<attack name="Leap Strike" interval="1000" chance="50" range="6"/>
+		<attack name="Reversal" interval="3000" chance="20" range="6"/>
+		<attack name="Assurance" interval="1500" chance="20" range="6"/>
+		<attack name="Fist Machine" interval="1500" chance="20" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MUAHAHA!"/>
+        <voice sentence="Primeape!"/>
+        <voice sentence="CHAMPION!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

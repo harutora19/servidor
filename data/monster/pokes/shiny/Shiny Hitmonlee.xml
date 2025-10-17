@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Hitmonlee" nameDescription="a Shiny hitmonlee" race="fighting" experience="824" speed="307" manacost="0">
+  <health now="190" max="190"/>
+  <look type="526" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="1000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Triple Kick Lee" interval="771" chance="25" range="1"/>
+		<attack name="Triple Kick" interval="812" chance="19" range="1"/>
+		<attack name="Hi Jump Kick" interval="853" chance="15" range="6"/>
+		<attack name="Flying Kick" interval="2679" chance="43" range="6"/>
+		<attack name="Furious Legs" interval="1265" chance="13" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="HITMONLEE!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

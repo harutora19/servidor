@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Shadow Hunter" script=".shadow.lua" walkinterval="0" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="1430" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+
+<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. I am a shadow hunter, my duty is to purify our world from the darkness. I wonder, do you have any {shadow orbs}?"/>
+</parameters>
+</npc>

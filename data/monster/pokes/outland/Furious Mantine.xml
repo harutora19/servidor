@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Furious Mantine" nameDescription="a Furious mantine" race="water" experience="4000" speed="500" manacost="0">
+    <health now="220" max="220"/>
+  <look type="392" corpse="3567"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="2000" chance="5" range="3"/>
+		<attack name="Tackle" interval="752" chance="30" range="1"/>
+		<attack name="Headbutt" interval="803" chance="20" range="1"/>
+		<attack name="Bubbles" interval="754" chance="30" range="4"/>
+		<attack name="BubbleBeam" interval="1280" chance="12" range="3"/>
+		<attack name="Water Pulse" interval="1356" chance="10" range="6"/>
+		<attack name="Wing Attack" interval="1357" chance="10" range="6"/>
+		<attack name="Surf" interval="2258" chance="6" range="6"/>
+		<attack name="Hydropump" interval="2659" chance="5" range="6"/>
+		<attack name="Agility" interval="1360" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="MAAAN!"/>
+<voice sentence="TIINE!"/>
+<voice sentence="MANTINE!"/>
+  </voices>
+   <loot>
+        <item id="11442" chance="2500" count="1" countmax="1"/> --water stone
+		<item id="12417" chance="2500" count="1"/> <!--Feather Stone-->
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Roselia" nameDescription="a roselia" race="grass" experience="650" speed="231" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="3279" corpse="11978"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Razor Leaf" interval="1251" chance="30" range="6"/>
+		<attack name="Vine Whip" interval="1302" chance="20" range="6"/>
+		<attack name="Acid" interval="1273" chance="25" range="6"/>
+		<attack name="Poison Bomb" interval="1354" chance="15" range="6"/>
+		<attack name="Slash" interval="1355" chance="15" range="1"/>
+		<attack name="Stun Spore" interval="1781" chance="12" range="6"/>
+		<attack name="Poison powder" interval="1357" chance="15" range="6"/>
+		<attack name="Sleep Powder" interval="4758" chance="5" range="6"/>
+		<attack name="Leaf Storm" interval="2959" chance="5" range="6"/>
+		<attack name="Giga Drain" interval="1785" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="ROSEEEEELIA!"/>
+    </voices>
+    <loot>
+        <item id="12163" chance="100" countmax="50"/> --seed
+        <item id="12155" chance="50" count="1" countmax="1"/> --pair of leaves
+        <item id="12153" chance="40" count="1" countmax="1"/> --bag of pollem
+        <item id="11441" chance="4" count="1" countmax="1"/> --leaf stone
+        <item id="11443" chance="4" count="1" countmax="1"/> --venom stone
+        <item id="13897" chance="20" count="1" countmax="1"/> --plant tails
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

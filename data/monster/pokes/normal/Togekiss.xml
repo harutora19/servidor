@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Togekiss" nameDescription="a togekiss" race="normal" experience="450" speed="258" manacost="0">
+    <health now="110" max="110"/>
+	<look type="2109" corpse="17166"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Charm" interval="1276" chance="12" range="6"/>
+		<attack name="Dazzling Gleam" interval="772" chance="25" range="6"/>
+		<attack name="Aura Sphere" interval="813" chance="19" range="6"/>
+		<attack name="Fairy Wind" interval="1279" chance="12" range="6"/>
+		<attack name="ExtremeSpeed" interval="1250" chance="14" range="6"/>
+		<attack name="Great Love" interval="2256" chance="6" range="6"/>
+		<attack name="Sky Attack" interval="2857" chance="4" range="6"/>
+		<attack name="Metronome" interval="2358" chance="6" range="6"/>
+		<attack name="Safeguard" interval="1509" chance="8" range="6"/>
+		<attack name="Roost" interval="12410" chance="3" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="TOGEE!"/>
+<voice sentence="KIIIII!"/>
+<voice sentence="TOGEKISS!"/>
+  </voices>
+ <loot>
+        <item id="11453" chance="4000" count="1" countmax="1"/> --heart stone
+		<item id="12417" chance="4000" count="1"/> <!--Feather Stone-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

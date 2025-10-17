@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Tentacruel" nameDescription="a elder tentacruel" race="water" experience="6500" speed="255" manacost="0">
+  <health now="170" max="170"/>
+  <look type="489" head="65" body="230" legs="95" feet="113" corpse="12492"/>
+  <targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Super Sonic" interval="4920" chance="15" range="5"/>
+        <attack name="Bubbles" interval="400" chance="19" range="6"/>
+        <attack name="Acid" interval="450" chance="20" range="6"/>
+        <attack name="Waterball" interval="560" chance="15" range="6"/>
+        <attack name="Psy Pulse" interval="450" chance="13" range="6"/>
+        <attack name="Poison Bomb" interval="630" chance="15" range="6"/>
+        <attack name="Bubblebeam" interval="750" chance="14" range="6"/>
+        <attack name="Hydropump" interval="800" chance="13" range="6"/>
+        <attack name="Mortal Gas" interval="801" chance="14" range="6"/>
+</attacks>
+ <voices interval="5000" chance="10">
+ <voice sentence="TENTACRUEL!"/>
+ </voices>
+
+   <loot>
+        <item id="11442" chance="3500" count="1"/> --water stone
+        <item id="11443" chance="3500" count="1"/> --venom stone
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

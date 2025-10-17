@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Umbreon" nameDescription="an shiny umbreon" race="dark" experience="0" speed="325" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1667" corpse="12602"/>
+	<targetchange interval="1000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="751" chance="30" range="2"/>
+		<attack name="Swift" interval="802" chance="20" range="6"/>
+		<attack name="Faint Attack" interval="1323" chance="11" range="1"/>
+		<attack name="Shadowave" interval="804" chance="20" range="6"/>
+		<attack name="Dark Pulse" interval="805" chance="20" range="6"/>
+		<attack name="Pursuit" interval="856" chance="15" range="6"/>
+		<attack name="Confuse Ray" interval="1507" chance="8" range="6"/>
+		<attack name="Last Resort" interval="1358" chance="10" range="6"/>
+		<attack name="Assurance" interval="1509" chance="8" range="6"/>
+		<attack name="Night Daze" interval="2860" chance="4" range="6"/>
+		<attack name="Moonlight" interval="4861" chance="2" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="UUMBRE!"/>
+<voice sentence="BREOON!"/>
+<voice sentence="UMBREON!"/>
+  </voices>
+  <loot>
+        <item id="12338" chance="550" count="1"/> --bag box --bag box
+        <item id="12204" chance="5500" count="1" countmax="1"/> --traces of ghost
+        <item id="12745" chance="10500" countmax="80"/> --darkness gem
+        <item id="12206" chance="10500" countmax="80"/> --essence of dark
+        <item id="12194" chance="5500" count="1" countmax="1"/> --future orb
+        <item id="11450" chance="600" count="1" countmax="1"/>
+        <item id="12240" chance="4500" count="1" countmax="1"/> --bag of poisonus dust
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

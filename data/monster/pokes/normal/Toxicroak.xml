@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Toxicroak" nameDescription="a toxicroak" race="poison" experience="6500" speed="255" manacost="0">
+	<health now="350" max="350"/>
+	<look type="2174" corpse="17167"/>
+	<targetchange interval="10000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Low Kick" interval="771" chance="25" range="1"/>
+		<attack name="Gunk Shot" interval="752" chance="30" range="6"/>
+		<attack name="Poison Jab" interval="793" chance="22" range="1"/>
+		<attack name="Drain Punch" interval="854" chance="15" range="1"/>
+		<attack name="Focus Blast" interval="1430" chance="9" range="6"/>
+		<attack name="Vacuum Wave" interval="1356" chance="10" range="6"/>
+		<attack name="Swamp Mist" interval="1507" chance="8" range="6"/>
+		<attack name="Croak Hook" interval="738" chance="38" range="6"/>
+		<attack name="Revenge" interval="1359" chance="10" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="MUK!"/>
+ </voices>
+
+   <loot>
+        <item id="11443" chance="10" count="1" countmax="1"/> --venom stone
+        <item id="12165" chance="100" countmax="80"/> --bottles of poison
+        <item id="12282" chance="50" countmax="1"/> --venom pendant
+        <item id="12202" chance="50" countmax="1"/> --gosme
+        <item id="13882" chance="30" count="1" countmax="1"/> --stick hands
+    </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

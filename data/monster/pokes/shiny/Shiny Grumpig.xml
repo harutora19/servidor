@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Grumpig" nameDescription="a shiny grumpig" race="normal" experience="450" speed="252" manacost="0">
+    <health now="100" max="100"/>
+   <look type="3827" corpse="18013"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Headbutt" interval="1301" chance="20" range="1"/>
+		<attack name="Psybeam" interval="1252" chance="30" range="1"/>
+		<attack name="Psy Ball" interval="1303" chance="20" range="1"/>
+		<attack name="Psy Pulse" interval="1354" chance="15" range="1"/>
+		<attack name="Extrasensory" interval="1305" chance="20" range="1"/>
+		<attack name="Psychic" interval="1306" chance="20" range="1"/>
+		<attack name="Psy Impact" interval="1307" chance="20" range="6"/>
+		<attack name="Calm Mind" interval="1858" chance="10" range="6"/>
+    </attacks>
+	<defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+	<voice sentence="GRUMMMM!"/>
+	<voice sentence="PIIIIIIIIIIG!"/>
+	<voice sentence="GRUMPIG!"/>
+   </voices>
+    <loot>
+        <item id="11452" chance="4000" count="1" countmax="1"/> -- enigma stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

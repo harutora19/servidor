@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grumpig" nameDescription="a grumpig" race="normal" experience="450" speed="252" manacost="0">
+    <health now="100" max="100"/>
+  <look type="3762" corpse="18001"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Shadowave" interval="1500" chance="35" range="3"/>
+		<attack name="Psy Pulse" interval="4000" chance="8" range="3"/>
+		<attack name="Headbutt" interval="2200" chance="25" range="1"/>
+		<attack name="Psychic" interval="1500" chance="15" range="3"/>
+		<attack name="Power Gem" interval="3000" chance="15" range="2"/>
+		<attack name="Miracle Eye" interval="7000" chance="20" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="GRAAN!"/>
+<voice sentence="PIGGG!"/>
+   </voices>
+    <loot>
+        <item id="11452" chance="4000" count="1" countmax="1"/> -- enigma stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

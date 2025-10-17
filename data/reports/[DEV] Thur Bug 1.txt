@@ -1,0 +1,5 @@
+Nome: [DEV] Thur
+PosX: 3312, PosY: 2887, PosZ: 8
+Data: Sat Nov 19 18:59:10 2022
+
+Bug: skill bugada

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Aviator Pidgeot" nameDescription="a aviator pidgeot" race="flying" experience="4050" speed="500" manacost="0">
+    <health now="310" max="310"/>
+    <look type="80" head="60" body="75" legs="95" feet="113" corpse="11938"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="731" chance="38" range="2"/>
+		<attack name="Drill Peck" interval="814" chance="19" range="1"/>
+		<attack name="Wing Attack" interval="1280" chance="12" range="6"/>
+		<attack name="Hurricane" interval="1281" chance="12" range="6"/>
+		<attack name="Air Slash" interval="2500" chance="25" range="2"/>
+		<attack name="Tornado" interval="1357" chance="10" range="6"/>
+		<attack name="Agility" interval="858" chance="15" range="6"/>
+		<attack name="Roost" interval="10409" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="PIDGEOT!"/>
+    </voices>
+   <loot>
+        <item id="11453" chance="2500" count="1"/> --heart stone
+		<item id="12417" chance="2500" count="1"/> <!--Feather Stone-->
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

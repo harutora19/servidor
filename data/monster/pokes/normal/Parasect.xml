@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Parasect" nameDescription="a parasect" race="bug" experience="250" speed="221" manacost="0">
+    <health now="1100" max="1100"/>
+    <look type="95" corpse="11936"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Absorb" interval="1451" chance="15" range="1"/>
+		<attack name="Scratch" interval="1352" chance="30" range="1"/>
+		<attack name="Poison Sting" interval="1353" chance="30" range="6"/>
+		<attack name="Slash" interval="1404" chance="20" range="6"/>
+		<attack name="Poison Bomb" interval="1455" chance="15" range="6"/>
+		<attack name="Stun Spore" interval="1881" chance="12" range="6"/>
+		<attack name="Poison Powder" interval="1457" chance="15" range="6"/>
+		<attack name="Sleep Powder" interval="5108" chance="4" range="6"/>
+		<attack name="Fury Cutter" interval="1884" chance="12" range="6"/>
+		<attack name="X-Scissor" interval="1885" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="PARASECT!"/>
+    </voices>
+    <loot>
+        <item id="11448" chance="3000" count="1" countmax="1"/> --coccon stone
+        <item id="11441" chance="3000" count="1" countmax="1"/> --leaf stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Jynx" nameDescription="a Shiny jynx" race="psychic" experience="972" speed="267" manacost="0">
+  <health now="110" max="110"/>
+  <look type="499" corpse="12544"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lovely Kiss" interval="1321" chance="11" range="6"/>
+		<attack name="Draining Kiss" interval="1352" chance="10" range="6"/>
+		<attack name="Psywave" interval="753" chance="30" range="6"/>
+		<attack name="Psy Pulse" interval="774" chance="25" range="6"/>
+		<attack name="Ice Ball" interval="1355" chance="10" range="6"/>
+		<attack name="Aurora Beam" interval="806" chance="20" range="6"/>
+		<attack name="Icy Wind" interval="857" chance="15" range="6"/>
+		<attack name="Ice Beam" interval="1508" chance="8" range="6"/>
+		<attack name="Blizzard" interval="2559" chance="5" range="6"/>
+		<attack name="Heart Stamp" interval="2360" chance="6" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="JYNX!"/>
+ </voices>
+
+  <loot>
+           <item id="11452" chance="20000" count="1"/> --enigma stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

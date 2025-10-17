@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Croconaw" nameDescription="a croconaw" race="water" experience="450" speed="224" manacost="0">
+    <health now="130" max="130"/>
+  <look type="328" corpse="3280"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="1501" chance="20" range="1"/>
+		<attack name="Crunch" interval="1452" chance="30" range="6"/>
+		<attack name="Bubbles" interval="1503" chance="20" range="6"/>
+		<attack name="Water Gun" interval="1554" chance="15" range="6"/>
+		<attack name="Ice Fang" interval="1980" chance="12" range="1"/>
+		<attack name="Aqua Tail" interval="1556" chance="15" range="1"/>
+		<attack name="Hydro Cannon" interval="3157" chance="5" range="6"/>
+		<attack name="Waterfall" interval="4888" chance="20" range="6"/>
+		<attack name="Agility" interval="2959" chance="6" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="TOTO!"/>
+<voice sentence="CROCO!"/>
+<voice sentence="CROCONOW!"/>
+  </voices>
+ <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+    </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Ursaring" nameDescription="a Shiny ursaring" race="normal" experience="1100" speed="305" manacost="0">
+  <health now="40" max="40"/>
+  <look type="3314" corpse="10538"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Bite" interval="2758" chance="68" range="1"/>
+        <attack name="Crunch" interval="2758" chance="60" range="1"/>
+        <attack name="Sucker Punch" interval="2758" chance="53" range="1"/>
+        <attack name="Dark Pulse" interval="2758" chance="76" range="1"/>
+        <attack name="Faint Attack" interval="2758" chance="45" range="1"/>
+        <attack name="Night Slash" interval="2758" chance="34" range="1"/>
+        <attack name="Assurance" interval="2758" chance="32" range="1"/>
+        <attack name="Hyper Beam" interval="2758" chance="16" range="1"/>
+        <attack name="Night Daze" interval="2758" chance="19" range="1"/>
+        <attack name="Scary Face" interval="2758" chance="10" range="1"/>
+        <attack name="Rest" interval="6330" chance="5" range="6"/>
+       </attacks>
+<defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="URSAAA!"/>
+<voice sentence="RIING!"/>
+<voice sentence="URSARING!"/>
+  </voices>
+  <loot>
+        <item id="11453" chance="20000" count="1"/> --heart stone
+		<item id="11450" chance="20000" count="1"/> --darkness stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

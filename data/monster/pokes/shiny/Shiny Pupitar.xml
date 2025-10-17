@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Pupitar" nameDescription="a Shiny pupitar" race="ground" experience="500" speed="216" manacost="0">
+    <health now="130" max="130"/>
+  <look type="1811" corpse="12845"/>
+	<targetchange interval="1000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Rock Tomb" interval="1261" chance="13" range="6"/>
+		<attack name="Rock Throw" interval="732" chance="38" range="6"/>
+		<attack name="Rock Slide" interval="753" chance="30" range="6"/>
+		<attack name="Stone Edge" interval="784" chance="24" range="6"/>
+		<attack name="Bulldoze" interval="1355" chance="10" range="6"/>
+		<attack name="Ancient Power" interval="1431" chance="9" range="6"/>
+		<attack name="Magnitude" interval="1582" chance="7" range="6"/>
+		<attack name="Rock Wrecker" interval="2358" chance="6" range="6"/>
+		<attack name="Sandstorm" interval="2259" chance="6" range="6"/>
+		<attack name="Scary Face" interval="1510" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="PUUUU!"/>
+<voice sentence="PITAAAR!"/>
+<voice sentence="PUPITAR!"/>
+  </voices>
+  <loot>
+        <item id="11445" chance="20000" count="1"/> --rock stone?
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

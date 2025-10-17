@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cloyster" nameDescription="a cloyster" race="water" experience="1100" speed="217" manacost="0">
+    <health now="1600" max="1600"/>
+    <look type="72" corpse="11856"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="1401" chance="20" range="1"/>
+		<attack name="Super Sonic" interval="1402" chance="20" range="6"/>
+		<attack name="Clamp" interval="1403" chance="20" range="6"/>
+		<attack name="Bubbles" interval="1354" chance="30" range="6"/>
+		<attack name="Ice Beam" interval="1455" chance="15" range="6"/>
+		<attack name="Aurora Beam" interval="1881" chance="12" range="6"/>
+		<attack name="Blizzard" interval="2857" chance="6" range="6"/>
+		<attack name="Harden" interval="1958" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="CLOYSTER!"/>
+    </voices>
+    <loot>
+        <item id="11442" chance="3000" countmax="1"/> -- water stone
+        <item id="11454" chance="3000" count="1" countmax="1"/> --ice stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

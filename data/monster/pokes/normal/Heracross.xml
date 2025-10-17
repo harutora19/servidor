@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Heracross" nameDescription="a heracross" race="bug" experience="1100" speed="262" manacost="0">
+  <health now="40" max="40"/>
+  <look type="373" corpse="3295"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Tackle" interval="1251" chance="30" range="1"/>
+		<attack name="Horn Attack" interval="1302" chance="20" range="1"/>
+		<attack name="Take Down" interval="3353" chance="4" range="6"/>
+		<attack name="Triple Punch" interval="1304" chance="20" range="1"/>
+		<attack name="Close Combat" interval="1355" chance="15" range="1"/>
+		<attack name="Hammer Arm" interval="4006" chance="8" range="6"/>
+		<attack name="Revenge" interval="1307" chance="20" range="6"/>
+		<attack name="X-Scissor" interval="1933" chance="9" range="6"/>
+		<attack name="Bug Fighter" interval="2759" chance="6" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="HERAA!"/>
+<voice sentence="CROOSS!"/>
+<voice sentence="HERACROSS!"/>
+  </voices>
+  <loot>
+	<item id="11446" countmax="1" chance="3000"/> -- punch stone
+        <item id="11448" countmax="1" chance="3000"/> -- coccon stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

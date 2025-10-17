@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Hypno" nameDescription="a Shiny hypno" race="psychic" experience="408" speed="277" manacost="0">
+  <health now="140" max="140"/>
+  <look type="597" corpse="0"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Psy Pulse" interval="741" chance="34" range="6"/>
+		<attack name="Psywave" interval="782" chance="24" range="6"/>
+		<attack name="Psy Ball" interval="763" chance="28" range="6"/>
+		<attack name="Confusion" interval="1264" chance="13" range="6"/>
+		<attack name="Psychic" interval="1325" chance="11" range="6"/>
+		<attack name="Stored Power" interval="1431" chance="9" range="6"/>
+		<attack name="Dream Eater" interval="1387" chance="10" range="6"/>
+		<attack name="Hypnosis" interval="3308" chance="10" range="6"/>
+		<attack name="Nasty Plot" interval="1269" chance="13" range="6"/>
+		<attack name="Miracle Eye" interval="1510" chance="8" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="HYPNO!"/>
+ </voices>
+
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

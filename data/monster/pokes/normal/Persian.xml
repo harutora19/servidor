@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Persian" nameDescription="a persian" race="normal" experience="250" speed="237" manacost="0">
+    <health now="900" max="900"/>
+    <look type="3" corpse="11937"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Slash" interval="1451" chance="30" range="1"/>
+		<attack name="Scratch" interval="1452" chance="30" range="1"/>
+		<attack name="Bite" interval="1503" chance="20" range="1"/>
+		<attack name="Fury Swipes" interval="1504" chance="20" range="6"/>
+		<attack name="Night Slash" interval="1555" chance="15" range="6"/>
+		<attack name="Pay Day" interval="1506" chance="20" range="6"/>
+		<attack name="Fear" interval="1982" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="PERSIAN!"/>
+    </voices>
+    <loot>
+        <item id="11453" chance="3000" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

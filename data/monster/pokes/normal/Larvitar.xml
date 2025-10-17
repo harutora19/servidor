@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Larvitar" nameDescription="a larvitar" race="ground" experience="250" speed="290" manacost="0">
+  <health now="40" max="40"/>
+  <look type="400" corpse="3561"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="1551" chance="30" range="1"/>
+		<attack name="Crunch" interval="1602" chance="20" range="6"/>
+		<attack name="Dark Pulse" interval="1603" chance="20" range="6"/>
+		<attack name="Stone Edge" interval="1604" chance="20" range="6"/>
+		<attack name="Hyper Beam" interval="3055" chance="6" range="6"/>
+		<attack name="Sandstorm" interval="3056" chance="6" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="LAAAR!"/>
+<voice sentence="VITAAR!"/>
+<voice sentence="LARVITAR!"/>
+  </voices>
+  <loot>
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

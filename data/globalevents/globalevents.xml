@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<globalevents>
+    <!-- <globalevent name="shop" interval="60" script="shop.lua"/> -->
+	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
+
+	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+
+	<!-- <globalevent name="save" interval="1800" script="save.lua"/> -->
+	<globalevent name="message" interval="500" script="bc bug.lua"/>
+	<!-- <globalevent name="auras" interval="30" script="auras.lua"/> -->
+	<!-- globalevent name="unban" interval="10" script="unban.lua"/ -->
+	<!-- globalevent name="xpback" interval="10" script="xpback.lua"/ -->
+	<globalevent name="text" interval="10" script="textochao.lua"/>
+	<!-- <globalevent name="timer_example" time="21:35" event="script" value="my_script.lua"/> -->
+
+	<!--RECOMPENSAS CHEFÃO GLOBAL-->
+	<!-- <globalevent name="msgInvasion1" time="12:25" event="script" value="msgInvasion.lua"/> -->
+	<!-- <globalevent name="invasion1" time="12:30" event="script" value="invasion.lua"/> -->
+	<!-- <globalevent name="msgInvasion2" time="21:25" event="script" value="msgInvasion.lua"/> -->
+	<!-- <globalevent name="invasion2" time="21:30" event="script" value="invasion.lua"/> -->
+	<!-- <globalevent name="msgInvasion3" time="23:25" event="script" value="msgInvasion.lua"/> -->
+	<!-- <globalevent name="invasion3" time="23:30" event="script" value="invasion.lua"/> -->
+	<!--FIM DO CHEFÃO GLOBAL-->
+	<!-- <globalevent name="Happy1" time="13:00" event="script" value="happy.lua"/>	 -->
+	<!-- <globalevent name="Happy2" time="18:00" event="script" value="happy.lua"/>	 -->
+	
+	
+	<!-- <globalevent name="Deathmatch1" time="10:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch2" time="12:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch3" time="14:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch4" time="16:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch5" time="18:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch6" time="20:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch7" time="22:00" event="script" value="deathmatch.lua"/> -->
+	<!-- <globalevent name="Deathmatch8" time="00:00" event="script" value="deathmatch.lua"/> -->
+	
+	<!-- <globalevent name="Survival1" time="11:00" event="script" value="survival.lua"/> -->
+	<!-- <globalevent name="Survival2" time="13:00" event="script" value="survival.lua"/> -->
+	<!-- <globalevent name="Survival3" time="15:00" event="script" value="survival.lua"/> -->
+	<!-- <globalevent name="Survival4" time="17:00" event="script" value="survival.lua"/> -->
+	<!-- <globalevent name="Survival5" time="19:00" event="script" value="survival.lua"/> -->
+	<!-- <globalevent name="Survival6" time="21:00" event="script" value="survival.lua"/> -->
+	<!-- <globalevent name="Survival7" time="23:00" event="script" value="survival.lua"/> -->
+
+</globalevents>

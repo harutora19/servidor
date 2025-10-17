@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Entei" nameDescription="an entei" race="fire2" experience="10000" speed="340" manacost="0">
+  <health now="40" max="40"/>
+  <look type="418" corpse="3286"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+<script>
+<event name="Spawn"/>
+</script>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Inferno" interval="771" chance="25" range="1"/>
+		<attack name="Ember" interval="752" chance="30" range="6"/>
+		<attack name="Flamethrower" interval="813" chance="19" range="6"/>
+		<attack name="Fireball" interval="854" chance="15" range="4"/>
+		<attack name="Fire Fang" interval="815" chance="19" range="1"/>
+		<attack name="Flame Burst" interval="1326" chance="11" range="6"/>
+		<attack name="Fire Blast" interval="2337" chance="6" range="6"/>
+		<attack name="Wing Attack" interval="1328" chance="11" range="6"/>
+		<attack name="Magma Storm" interval="2879" chance="4" range="6"/>
+		<attack name="Safeguard" interval="1510" chance="8" range="6"/>
+		<attack name="Ancient Fury" interval="1391" chance="10" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="EEEN!"/>
+<voice sentence="TEEEI!"/>
+<voice sentence="ENTEI!"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Suicune" nameDescription="a suicune" race="ice" experience="10000" speed="410" manacost="0">
+  <health now="40" max="40"/>
+  <look type="2718" corpse="4445"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Roar" interval="771" chance="25" range="1"/>
+		<attack name="Crunch" interval="732" chance="38" range="1"/>
+		<attack name="BubbleBeam" interval="813" chance="19" range="6"/>
+		<attack name="Water Gun" interval="854" chance="15" range="6"/>
+		<attack name="Ice Beam" interval="815" chance="19" range="6"/>
+		<attack name="Aurora Beam" interval="1386" chance="10" range="6"/>
+		<attack name="Hydro Cannon" interval="2337" chance="6" range="6"/>
+		<attack name="Surf" interval="1448" chance="9" range="6"/>
+		<attack name="Hydropump" interval="2879" chance="4" range="6"/>
+		<attack name="Blizzard" interval="1510" chance="8" range="6"/>
+		<attack name="Safeguard" interval="1511" chance="8" range="6"/>
+		<attack name="War Dog" interval="1512" chance="8" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="SUUUI!"/>
+<voice sentence="CUUNE!"/>
+<voice sentence="SUICUNE!"/>
+  </voices>
+  <loot>
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

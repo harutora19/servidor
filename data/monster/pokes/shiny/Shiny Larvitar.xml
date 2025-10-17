@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Larvitar" nameDescription="a Shiny larvitar" race="ground" experience="80" speed="290" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1810" corpse="12839"/>
+	<targetchange interval="1000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="1501" chance="30" range="1"/>
+		<attack name="Crunch" interval="1552" chance="20" range="6"/>
+		<attack name="Dark Pulse" interval="1553" chance="20" range="6"/>
+		<attack name="Rock Slide" interval="1554" chance="20" range="6"/>
+		<attack name="Stone Edge" interval="1555" chance="20" range="6"/>
+		<attack name="Earthquake" interval="5356" chance="6" range="6"/>
+		<attack name="Hyper Beam" interval="3007" chance="6" range="6"/>
+		<attack name="Sandstorm" interval="3008" chance="6" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="LAAAR!"/>
+<voice sentence="VITAAR!"/>
+<voice sentence="LARVITAR!"/>
+  </voices>
+  <loot>
+        <item id="11445" chance="20000" count="1"/> --rock stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magcargo" nameDescription="a magcargo" race="fire" experience="450" speed="268" manacost="0">
+    <health now="150" max="150"/>
+  <look type="397" corpse="9867"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+ <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Ember" interval="1351" chance="30" range="6"/>
+		<attack name="Rock Throw" interval="1352" chance="30" range="6"/>
+		<attack name="Rock Slide" interval="1403" chance="20" range="6"/>
+		<attack name="Flamethrower" interval="1454" chance="15" range="6"/>
+		<attack name="Flame Burst" interval="1955" chance="10" range="6"/>
+		<attack name="Lava Plume" interval="1456" chance="15" range="6"/>
+		<attack name="Ancient Power" interval="3057" chance="5" range="6"/>
+		<attack name="Blast Burn" interval="3258" chance="5" range="6"/>
+		<attack name="Harden" interval="3059" chance="5" range="6"/>
+		<attack name="Yawn" interval="3180" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="MAAAG!"/>
+<voice sentence="CARGOO!"/>
+<voice sentence="MARCARGO!"/>
+  </voices>
+  <loot>
+        <item id="11447" chance="3000" countmax="1"/> --fire stone
+        <item id="11445" chance="3000" countmax="1"/> --rock stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bulbasaur" nameDescription="a bulbasaur" race="grass" experience="250" speed="207" manacost="0">
+    <health now="600" max="600"/>
+    <look type="25" corpse="11847"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+	<pokemon>
+		<poke offense="4.9"/>
+		<poke defense="4.9"/>
+		<poke spAttack="6.5"/>
+		<poke vitality="4.5"/>
+		<poke level="20"/>
+		<poke wildLevel="20"/>
+		<poke iconIn="12079"/>
+		<poke iconOut="12221"/>
+		<poke portrait="11989"/>
+		<poke type1="grass"/>
+		<poke type2="poison"/>
+	</pokemon>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Tackle" interval="1701" chance="30" range="1"/>
+		<attack name="Razor Leaf" interval="1702" chance="30" range="6"/>
+		<attack name="Vine Whip" interval="1803" chance="15" range="6"/>
+		<attack name="Headbutt" interval="1754" chance="20" range="1"/>
+		<attack name="Leech Seed" interval="3405" chance="5" range="6"/>
+		<attack name="Solar Beam" interval="3406" chance="5" range="6"/>
+		<attack name="Sleep Powder" interval="5457" chance="4" range="6"/>
+		<attack name="Stun Spore" interval="2533" chance="7" range="6"/>
+		<attack name="Poison Powder" interval="2534" chance="7" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="BULBASAUR!"/>
+    </voices>
+    <loot>
+
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

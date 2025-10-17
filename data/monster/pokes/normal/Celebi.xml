@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Celebi" nameDescription="a celebi" race="grass" experience="10000" speed="400" manacost="0">
+  <health now="40" max="40"/>
+  <look type="3820" corpse="3274"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="771" chance="25" range="1"/>
+		<attack name="Razor Leaf" interval="722" chance="43" range="6"/>
+		<attack name="Vine Whip" interval="813" chance="19" range="6"/>
+		<attack name="Headbutt" interval="774" chance="25" range="1"/>
+		<attack name="Leech Seed" interval="1325" chance="11" range="6"/>
+		<attack name="Bullet Seed" interval="1326" chance="11" range="6"/>
+		<attack name="Solar Beam" interval="2337" chance="6" range="6"/>
+		<attack name="Sleep Powder" interval="4308" chance="5" range="6"/>
+		<attack name="Stun Spore" interval="1449" chance="9" range="6"/>
+		<attack name="Poison Powder" interval="1450" chance="9" range="6"/>
+		<attack name="Leaf Storm" interval="2881" chance="4" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="CEEEE!"/>
+<voice sentence="LEBIII!"/>
+<voice sentence="CELEBI!"/>
+  </voices>
+  <loot>
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

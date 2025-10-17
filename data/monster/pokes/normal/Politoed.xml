@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Politoed" nameDescription="a politoed" race="water" experience="650" speed="230" manacost="0">
+    <health now="190" max="190"/>
+  <look type="359" corpse="4422"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+ <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="1301" chance="20" range="6"/>
+		<attack name="Doubleslap" interval="1252" chance="30" range="1"/>
+		<attack name="BubbleBeam" interval="1303" chance="20" range="6"/>
+		<attack name="Water Gun" interval="1354" chance="15" range="6"/>
+		<attack name="Hyper Voice" interval="1780" chance="12" range="6"/>
+		<attack name="Whirlpool" interval="1356" chance="15" range="6"/>
+		<attack name="Tongue Hook" interval="1857" chance="10" range="6"/>
+		<attack name="Tongue Grap" interval="1858" chance="10" range="6"/>
+		<attack name="Hypnosis" interval="4009" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="POLII!"/>
+<voice sentence="TOEED!"/>
+<voice sentence="POLITOED!"/>
+  </voices>
+  <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+        <item id="11451" chance="3000" count="1" countmax="1"/> --earth stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Xatu" nameDescription="a Shiny xatu" race="psychic" experience="1000" speed="267" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1812" corpse="12851"/>
+	<targetchange interval="1000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Peck" interval="731" chance="38" range="1"/>
+		<attack name="Feather Dance" interval="772" chance="25" range="6"/>
+		<attack name="Confuse Ray" interval="1278" chance="12" range="6"/>
+		<attack name="Shadow Ball" interval="734" chance="38" range="6"/>
+		<attack name="Night Shade" interval="1355" chance="10" range="6"/>
+		<attack name="Psychic" interval="1356" chance="10" range="6"/>
+		<attack name="Tailwind" interval="1432" chance="9" range="6"/>
+		<attack name="Aerial Ace" interval="2458" chance="5" range="6"/>
+		<attack name="Future Sight" interval="10609" chance="10" range="6"/>
+		<attack name="Double Team" interval="810" chance="20" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="XAAA!"/>
+<voice sentence="TUUU!"/>
+<voice sentence="XATU!"/>
+  </voices>
+  <loot>
+	<item id="11452" chance="3000" count="1"/> --enigma stone
+	<item id="11453" chance="3000" count="1"/> --heart stone
+	<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

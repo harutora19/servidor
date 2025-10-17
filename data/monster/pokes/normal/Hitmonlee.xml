@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmonlee" nameDescription="a hitmonlee" race="fighting" experience="650" speed="257" manacost="0">
+    <health now="1900" max="1900"/>
+    <look type="20" corpse="11891"/>
+    <targetchange interval="-1" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Triple Kick Lee" interval="1301" chance="20" range="1"/>
+		<attack name="Triple Kick" interval="1352" chance="15" range="1"/>
+		<attack name="Hi Jump Kick" interval="1778" chance="12" range="6"/>
+		<attack name="Furious Legs" interval="1854" chance="10" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0">
+    </defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="HITMONLEE!"/>
+    </voices>
+    <loot>
+        <item id="11446" chance="3000" count="1" countmax="1"/> --punch stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Crobat" nameDescription="a Dark crobat" race="poison" experience="4000" speed="500" manacost="0">
+  <health now="330" max="330"/>
+  <look type="338" head="55" body="68" legs="95" feet="113" corpse="3279"/>
+	<strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="5000" chance="20" range="5"/>
+		<attack name="Bite" interval="752" chance="30" range="1"/>
+		<attack name="Poison Fang" interval="753" chance="30" range="1"/>
+		<attack name="Toxic" interval="854" chance="15" range="6"/>
+		<attack name="Whirlwind" interval="1355" chance="10" range="6"/>
+		<attack name="Wing Attack" interval="1431" chance="9" range="6"/>
+		<attack name="Air Cutter" interval="1507" chance="8" range="6"/>
+		<attack name="Bug Bite" interval="2858" chance="4" range="1"/>
+		<attack name="Venom Gale" interval="2859" chance="4" range="6"/>
+        </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="CROO!"/>
+<voice sentence="BAAT!"/>
+<voice sentence="CROBAT!"/>
+</voices>
+   <loot>
+        <item id="11443" chance="2500" count="1" countmax="1"/> --venom stone
+		<item id="12417" chance="2500" count="1"/> <!--Feather Stone-->
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tomy" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="159" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Hi, I Sell foor for restore your HP!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="Pizza,12222,5;Coconut,2678,2;vanilla churry,12221,2;cheeseburguer,12218,3;brownie,12217,4;cup of lemonade,12216,3;french fries,12214,5;hot dog,12215,4;"/>
+</parameters>
+</npc>

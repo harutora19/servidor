@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Porygon" nameDescription="a porygon" race="normal" experience="1100" speed="221" manacost="0">
+    <health now="800" max="800"/>
+    <look type="97" corpse="11947"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="2"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1876" chance="12" range="6"/>
+		<attack name="Psybeam" interval="1402" chance="20" range="6"/>
+		<attack name="Cyber Pulse" interval="1403" chance="20" range="6"/>
+		<attack name="Psychic" interval="1954" chance="10" range="6"/>
+		<attack name="Zap Cannon" interval="1955" chance="10" range="6"/>
+		<attack name="Focus" interval="2106" chance="8" range="6"/>
+		<attack name="Magic Coat" interval="2107" chance="8" range="6"/>
+		<attack name="Restore" interval="11808" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="PORYGON!"/>
+    </voices>
+    <loot>
+        <item id="11453" chance="3000" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

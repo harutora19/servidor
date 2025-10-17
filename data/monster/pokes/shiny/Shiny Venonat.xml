@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Venonat" nameDescription="a Shiny venonat" race="bug" experience="232" speed="257" manacost="0">
+  <health now="30" max="30"/>
+  <look type="517" corpse="12467"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Leech Life" interval="1421" chance="43" range="6"/>
+		<attack name="Poison Bomb" interval="1552" chance="15" range="6"/>
+		<attack name="Silver Wind" interval="1978" chance="12" range="6"/>
+		<attack name="Confusion" interval="1979" chance="12" range="6"/>
+		<attack name="Psychic" interval="1555" chance="15" range="6"/>
+		<attack name="U-Turn" interval="1506" chance="20" range="6"/>
+		<attack name="Bug Buzz" interval="1557" chance="15" range="6"/>
+		<attack name="Sleep Powder" interval="4708" chance="5" range="6"/>
+		<attack name="Super Sonic" interval="1509" chance="20" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="VENONAT!"/>
+ </voices>
+
+  <loot>
+            <item id="11448" chance="20000" count="1"/> --coccon stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

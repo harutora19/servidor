@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Undefeated Machamp" nameDescription="a undefted machamp" race="fighting" experience="4000" speed="500" manacost="0">
+    <health now="310" max="310"/>
+    <look type="121" head="65" body="85" legs="95" feet="113" corpse="11908"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Triple Punch" interval="801" chance="20" range="1"/>
+		<attack name="Triple Punch" interval="802" chance="20" range="1"/>
+		<attack name="Triple Kick" interval="853" chance="15" range="1"/>
+		<attack name="Karate Chop" interval="854" chance="15" range="1"/>
+		<attack name="Ground Chop" interval="1280" chance="12" range="6"/>
+		<attack name="Fist Machine" interval="1281" chance="12" range="6"/>
+		<attack name="Destroyer Hand" interval="1582" chance="7" range="6"/>
+		<attack name="Strafe" interval="1283" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MACHAMP!"/>
+    </voices>
+   <loot>
+        <item id="11446" chance="5000" count="1"/> --punch stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

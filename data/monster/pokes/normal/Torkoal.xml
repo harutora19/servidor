@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Torkoal" nameDescription="a torkoal" race="ghost" experience="900" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1939" corpse="14784"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+ <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Ember" interval="731" chance="38" range="4"/>
+		<attack name="Flamethrower" interval="782" chance="24" range="6"/>
+		<attack name="Withdraw" interval="11003" chance="6" range="6"/>
+		<attack name="SmokeScreen" interval="1264" chance="13" range="6"/>
+		<attack name="Fireball" interval="815" chance="19" range="1"/>
+		<attack name="Inferno" interval="1581" chance="7" range="6"/>
+		<attack name="Blast Burn" interval="2457" chance="5" range="6"/>
+		<attack name="Heat Wave" interval="1433" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Torkal!"/>
+    </voices>
+  <loot>
+        <item id="11447" chance="4" countmax="1"/> --fire stone
+        <item id="11445" chance="4" countmax="1"/> --rock stone
+        <item id="12271" chance="30" countmax="1"/> --magma box
+        <item id="12342" chance="500" countmax="1"/> --pot with fire
+        <item id="12152" chance="50" countmax="1"/> --pot of lava
+        <item id="12162" chance="100" countmax="80"/> --essence of fire
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

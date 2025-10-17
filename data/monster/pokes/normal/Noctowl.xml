@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Noctowl" nameDescription="an noctowl" race="normal" experience="650" speed="258" manacost="0">
+  <health now="110" max="110"/>
+  <look type="333" corpse="3581"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1351" chance="30" range="2"/>
+		<attack name="Peck" interval="1352" chance="30" range="1"/>
+		<attack name="Drill Peck" interval="1403" chance="20" range="1"/>
+		<attack name="Confusion" interval="1879" chance="12" range="6"/>
+		<attack name="Echoed Voice" interval="1955" chance="10" range="6"/>
+		<attack name="Air Slash" interval="3056" chance="5" range="6"/>
+		<attack name="Dream Eater" interval="2857" chance="6" range="6"/>
+		<attack name="Hypnosis" interval="4358" chance="6" range="6"/>
+		<attack name="Roost" interval="11809" chance="5" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="NOOOC!"/>
+  </voices>
+ <loot>
+        <item id="11453" chance="3000" count="1" countmax="1"/> --heart stone
+		<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+
+    </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

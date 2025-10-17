@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Corsola" nameDescription="a corsola" race="water" experience="650" speed="289" manacost="0">
+  <health now="40" max="40"/>
+  <look type="388" corpse="3278"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Tackle" interval="1551" chance="30" range="1"/>
+		<attack name="Bubbles" interval="1552" chance="30" range="6"/>
+		<attack name="BubbleBeam" interval="1653" chance="15" range="6"/>
+		<attack name="Rock Blast" interval="2229" chance="9" range="6"/>
+		<attack name="Power Gem" interval="2305" chance="8" range="6"/>
+		<attack name="Ancient Power" interval="3056" chance="6" range="6"/>
+		<attack name="Restore" interval="13207" chance="3" range="6"/>
+		<attack name="Harden" interval="2158" chance="10" range="6"/>
+ </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="COOOR!"/>
+<voice sentence="SOLAA!"/>
+<voice sentence="CORSOLA!"/>
+  </voices>
+  <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+        <item id="11445" chance="3000" count="1" countmax="1"/> --rock stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ancient Meganium" nameDescription="a Ancient meganium" race="grass" experience="4004" speed="500" manacost="0">
+    <health now="220" max="220"/>
+    <look type="320" head="80" body="90" legs="95" feet="113" corpse="3576"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="751" chance="30" range="1"/>
+		<attack name="Razor Leaf" interval="752" chance="30" range="4"/>
+		<attack name="Magical Leaf" interval="753" chance="30" range="4"/>
+		<attack name="Petal Dance" interval="854" chance="15" range="6"/>
+		<attack name="Synthesis" interval="1580" chance="7" range="6"/>
+		<attack name="Solar Beam" interval="2356" chance="6" range="6"/>
+		<attack name="Poison Powder" interval="858" chance="15" range="6"/>
+		<attack name="Petal Tornado" interval="2759" chance="4" range="6"/>
+		<attack name="Aromateraphy" interval="1510" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MEGANIUM!"/>
+    </voices>
+   <loot>
+        <item id="11441" chance="5000" count="1"/> --leaf stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

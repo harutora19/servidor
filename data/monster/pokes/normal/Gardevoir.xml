@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gardevoir" nameDescription="a gardevoir" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1849" corpse="14749"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="3"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Charm" interval="1426" chance="9" range="6"/>
+		<attack name="Dazzling Gleam" interval="792" chance="22" range="6"/>
+		<attack name="Instant Teleportation" interval="803" chance="20" range="6"/>
+		<attack name="Disarming Voice" interval="1234" chance="14" range="6"/>
+		<attack name="Psychic" interval="1280" chance="12" range="6"/>
+		<attack name="Stored Power" interval="1581" chance="7" range="6"/>
+		<attack name="Healing Wish" interval="3657" chance="3" range="6"/>
+		<attack name="Moonblast" interval="2258" chance="6" range="6"/>
+		<attack name="Draining Kiss" interval="1434" chance="9" range="6"/>
+		<attack name="Miracle Eye" interval="810" chance="20" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Gardevoir!"/>
+    </voices>
+    <loot>
+        <item id="11452" chance="4000" count="1"/> --enigma stone
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

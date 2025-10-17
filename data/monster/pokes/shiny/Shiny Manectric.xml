@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Manectric" nameDescription="a siny manectric" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3235" corpse="17867"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Roar" interval="1501" chance="8" range="6"/>
+		<attack name="Swift" interval="772" chance="25" range="6"/>
+		<attack name="Bite" interval="813" chance="19" range="1"/>
+		<attack name="Spark" interval="794" chance="22" range="6"/>
+		<attack name="Thunder Fang" interval="1220" chance="15" range="1"/>
+		<attack name="Thunder" interval="2456" chance="5" range="6"/>
+		<attack name="Discharge" interval="2757" chance="4" range="6"/>
+		<attack name="Wild Charge" interval="1583" chance="7" range="6"/>
+		<attack name="Light Screen" interval="2259" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Manectric!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

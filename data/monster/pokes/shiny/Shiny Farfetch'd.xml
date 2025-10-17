@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Farfetch'd" nameDescription="a Shiny farfetch'd" race="flying" experience="288" speed="417" manacost="0">
+  <health now="100" max="100"/>
+  <look type="520" corpse="12502"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="801" chance="20" range="6"/>
+		<attack name="Drill Peck" interval="792" chance="22" range="1"/>
+		<attack name="Stick Throw" interval="823" chance="18" range="6"/>
+		<attack name="Stickslash" interval="854" chance="15" range="6"/>
+		<attack name="Stickmerang" interval="775" chance="25" range="6"/>
+		<attack name="Night Slash" interval="856" chance="15" range="6"/>
+		<attack name="Air Slash" interval="1432" chance="9" range="6"/>
+		<attack name="Agility" interval="1358" chance="10" range="6"/>
+		<attack name="Swords Dance" interval="2459" chance="5" range="6"/>
+		<attack name="Roost" interval="11210" chance="5" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="FARFETCHD!"/>
+ </voices>
+
+  <loot>
+  		  <item id="11453" chance="3000" count="1"/> --heart stone
+		  <item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

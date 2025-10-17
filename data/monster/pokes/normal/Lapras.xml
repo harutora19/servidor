@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lapras" nameDescription="a lapras" race="water" experience="1100" speed="232" manacost="0">
+    <health now="1700" max="1700"/>
+    <look type="193" corpse="11906"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Ice Beam" interval="1151" chance="15" range="6"/>
+		<attack name="Ice Shards" interval="1102" chance="20" range="6"/>
+		<attack name="Water Gun" interval="1133" chance="17" range="6"/>
+		<attack name="Waterball" interval="1134" chance="17" range="6"/>
+		<attack name="Bubble Blast" interval="1805" chance="8" range="6"/>
+		<attack name="Aurora Beam" interval="1156" chance="15" range="6"/>
+		<attack name="Blizzard" interval="2757" chance="5" range="6"/>
+		<attack name="Hydropump" interval="3058" chance="4" range="6"/>
+		<attack name="Sing" interval="1659" chance="10" range="6"/>
+		<attack name="Safeguard" interval="1810" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="LAPRAS!"/>
+    </voices>
+    <loot>
+        <item id="11442" chance="3000" count="1" countmax="1"/> --water stone
+        <item id="11454" chance="3000" count="1" countmax="1"/> --ice stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

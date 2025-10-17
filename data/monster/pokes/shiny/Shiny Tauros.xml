@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Tauros" nameDescription="a Shiny tauros" race="normal" experience="476" speed="253" manacost="0">
+    <health now="180" max="180"/>
+    <look type="1821" corpse="12847"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Horn Attack" interval="801" chance="20" range="2"/>
+		<attack name="Take Down" interval="852" chance="15" range="6"/>
+		<attack name="Pursuit" interval="803" chance="20" range="1"/>
+		<attack name="Thrash" interval="1279" chance="12" range="6"/>
+		<attack name="Crusher Stomp" interval="1580" chance="7" range="6"/>
+		<attack name="Hyper Beam" interval="1281" chance="12" range="6"/>
+		<attack name="Stampage" interval="1357" chance="10" range="6"/>
+		<attack name="Scary Face" interval="1583" chance="7" range="6"/>
+		<attack name="Rage" interval="859" chance="15" range="6"/>
+		<attack name="Rest" interval="12410" chance="3" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="TAUROS!"/>
+    </voices>
+    <loot>
+		  <item id="11453" chance="20000" count="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

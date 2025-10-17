@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slowking" nameDescription="a slowking" race="psychic" experience="1100" speed="217" manacost="0">
+    <health now="150" max="150"/>
+  <look type="374" corpse="4435"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Waterball" interval="801" chance="20" range="6"/>
+		<attack name="Water Pulse" interval="802" chance="20" range="6"/>
+		<attack name="Psy Ball" interval="803" chance="20" range="6"/>
+		<attack name="Confusion" interval="1429" chance="9" range="6"/>
+		<attack name="Surf" interval="1430" chance="9" range="6"/>
+		<attack name="Psy Impact" interval="3056" chance="4" range="6"/>
+		<attack name="Calm Mind" interval="2457" chance="5" range="6"/>
+		<attack name="Future Sight" interval="11208" chance="5" range="6"/>
+		<attack name="Nasty Plot" interval="2659" chance="5" range="6"/>
+		<attack name="Miracle Eye" interval="2260" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="SLOOOW!"/>
+<voice sentence="KIING!"/>
+<voice sentence="SLOOWKING!"/>
+  </voices>
+   <loot>
+        <item id="12244" chance="3000" count="1" countmax="1"/> --ancient stone
+        <item id="11452" chance="3000" count="1" countmax="1"/> --enigma stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

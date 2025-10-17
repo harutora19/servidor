@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<!-- README:
+		0 - dynamic, reserved for guilds
+		1 - always acts as Party channel, only "name" tag available
+		3 - always acts as Rule Violations channel
+		9 - acts as Help channel- clientsided message
+		65535 - DO NOT CHANGE THE ID- only "name", "enabled", "active" and "logged" tags available
+	 -->
+	 <channel id="3" name="Rule Violations" access="5" logged="yes">
+		<vocation id="10"/>
+	</channel>
+	<channel id="1" name="Player Party">
+		<vocation id="10"/>
+	</channel>
+	<channel id="41" name="Trade" logged="yes" level="10" muted="120" conditionId="2" conditionMessage="You may only place one offer in two minutes.">
+		<vocation id="10"/>
+	</channel>
+		<channel id="42" name="Game-Chat" logged="yes" level="10" muted="20" conditionId="4" conditionMessage="Can not reenter, please wait 20 seconds.">
+		<vocation id="10"/>
+	</channel>
+	<channel id="9" name="Help" logged="yes" level="10" muted="120" conditionId="3" conditionMessage="Can not reenter, please wait 2 minutes.">
+		<vocation id="10"/>
+	</channel>
+	<channel id="65533" name="TV Channel"/>
+	<channel id="65535" name="Private Chat Channel"/>
+</channels>

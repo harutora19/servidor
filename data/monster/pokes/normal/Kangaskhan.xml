@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kangaskhan" nameDescription="a kangaskhan" race="normal" experience="1100" speed="227" manacost="0">
+    <health now="1800" max="1800"/>
+    <look type="198" corpse="11902"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="1101" chance="20" range="1"/>
+		<attack name="Dizzy Punch" interval="1577" chance="12" range="1"/>
+		<attack name="Headbutt" interval="1103" chance="20" range="1"/>
+		<attack name="Triple Punch" interval="1579" chance="12" range="1"/>
+		<attack name="Crunch" interval="1055" chance="30" range="6"/>
+		<attack name="Sucker Punch" interval="1156" chance="15" range="1"/>
+		<attack name="Hammer Arm" interval="3807" chance="8" range="6"/>
+		<attack name="Epicenter" interval="2558" chance="6" range="6"/>
+		<attack name="Rage" interval="1809" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+    </defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="KANGASKHAN!"/>
+    </voices>
+    <loot>
+        <item id="11451" chance="3000" count="1" countmax="1"/> --earth stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

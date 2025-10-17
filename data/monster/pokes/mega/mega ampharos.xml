@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mega Ampharos" nameDescription="an mega ampharos" race="electric" experience="1100" speed="252" manacost="0">
+  <health now="90" max="90"/>
+  <look type="2068" corpse="3268"/>
+	 <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Charge" interval="1901" chance="8" range="6"/>
+		<attack name="Fire Punch" interval="1677" chance="12" range="1"/>
+		<attack name="Cotton Spore" interval="1828" chance="9" range="6"/>
+		<attack name="Thunderbolt" interval="1254" chance="15" range="6"/>
+		<attack name="Thunder Shock" interval="1155" chance="30" range="6"/>
+		<attack name="Thunder Wave" interval="1256" chance="15" range="6"/>
+		<attack name="Thunder Punch" interval="1682" chance="12" range="1"/>
+		<attack name="Thunder" interval="1983" chance="7" range="6"/>
+		<attack name="Electro Field" interval="3259" chance="4" range="6"/>
+		<attack name="Zap Cannon" interval="1760" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="AMPHAA!"/>
+      <voice sentence="PHAROOS!"/>
+      <voice sentence="AMPHAROS!"/>
+  </voices>
+    <loot>
+        <item id="11444" chance="3000" count="1" countmax="1"/> --thunder stone
+        <item id="15794" chance="100" count="1" countmax="1"/> mega stone
+        <item id="18421" chance="1000" count="1"/>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

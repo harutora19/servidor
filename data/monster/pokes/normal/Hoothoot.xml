@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hoothoot" nameDescription="a hoothoot" race="flying" experience="250" speed="232" manacost="0">
+    <health now="40" max="40"/>
+  <look type="332" corpse="3553"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1651" chance="30" range="2"/>
+		<attack name="Peck" interval="1652" chance="30" range="1"/>
+		<attack name="Confusion" interval="2178" chance="12" range="6"/>
+		<attack name="Drill Peck" interval="1754" chance="15" range="1"/>
+		<attack name="Dream Eater" interval="3155" chance="6" range="6"/>
+		<attack name="Hypnosis" interval="4656" chance="6" range="6"/>
+		<attack name="Roost" interval="12107" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="HOOOT!"/>
+<voice sentence="HOOTHOOT!"/>
+<voice sentence="HOOOHOOT!"/>
+  </voices>
+  <loot>
+
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

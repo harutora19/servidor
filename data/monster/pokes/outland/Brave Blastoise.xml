@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Brave Blastoise" nameDescription="a brave blastoise" race="water" experience="4000" speed="500" manacost="0">
+    <health now="250" max="250"/>
+    <look type="55" head="80" body="90" legs="95" feet="113" corpse="11846"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Headbutt" interval="801" chance="20" range="1"/>
+		<attack name="Bubbles" interval="752" chance="30" range="4"/>
+		<attack name="Water Gun" interval="853" chance="15" range="6"/>
+		<attack name="Waterball" interval="1279" chance="12" range="4"/>
+		<attack name="Aqua Tail" interval="855" chance="15" range="1"/>
+		<attack name="Bubble Blast" interval="1506" chance="8" range="6"/>
+		<attack name="Hydro Cannon" interval="2457" chance="5" range="6"/>
+		<attack name="Skull Bash" interval="1583" chance="7" range="6"/>
+		<attack name="Hydropump" interval="3059" chance="4" range="6"/>
+		<attack name="Harden" interval="2260" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="BLASTOISE!"/>
+    </voices>
+   <loot>
+        <item id="11442" chance="5000" count="1"/> --water stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

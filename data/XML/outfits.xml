@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<outfits>
+<!-- EXPLICAÇÃO 
+0 == FEMALE
+1 == MALE
+quest == Storage necessária para usar outfit.
+access == cargo necessário para usar outfit.
+premium == caso a outfit seja vip.
+-->
+
+<!-- NORMAL -->
+
+<outfit id="1">
+	<list gender="0" lookType="160" name="Trainer"/>
+	<list gender="1" lookType="159" name="Trainer"/>
+</outfit>
+<outfit id="2">
+	<list gender="0" lookType="170" name="Fisher"/>
+	<list gender="1" lookType="169" name="Fisher"/>
+</outfit>
+<outfit id="3" premium="yes">
+	<list gender="0" lookType="264" name="Elite Trainer"/>
+	<list gender="1" lookType="263" name="Elite Trainer"/>
+</outfit>
+<outfit id="4" quest="100000">
+	<list gender="0" lookType="144" name="Adventurer"/>
+	<list gender="1" lookType="143" name="Adventurer"/>
+</outfit>
+<outfit id="5" quest="100001">
+	<list gender="0" lookType="166" name="Atletic"/>
+	<list gender="1" lookType="165" name="Atletic"/>
+</outfit>
+<outfit id="6" quest="100002">
+	<list gender="0" lookType="168" name="Punk"/>
+	<list gender="1" lookType="167" name="Punk"/>
+</outfit>
+<outfit id="7" quest="100003">
+	<list gender="0" lookType="173" name="Mercenary"/>
+	<list gender="1" lookType="171" name="Mercenary"/>
+</outfit>
+<outfit id="8" quest="100004">
+	<list gender="0" lookType="174" name="Hiker"/>
+	<list gender="1" lookType="172" name="Hiker"/>
+</outfit>
+<outfit id="9" quest="100005">
+	<list gender="0" lookType="161" name="Rapper"/>
+	<list gender="1" lookType="194" name="Rapper"/>
+</outfit>
+<outfit id="10" quest="100006">
+	<list gender="0" lookType="140" name="Social"/>
+	<list gender="1" lookType="138" name="Social"/>
+</outfit>
+<outfit id="11" quest="100007">
+	<list gender="0" lookType="235" name="Oriental"/>
+	<list gender="1" lookType="234" name="Oriental"/>
+</outfit>
+<outfit id="12" quest="100008">
+	<list gender="0" lookType="237" name="Jamaican"/>
+	<list gender="1" lookType="236" name="Jamaican"/>
+</outfit>
+<outfit id="13" quest="100009">
+	<list gender="0" lookType="253" name="Nerd"/>
+	<list gender="1" lookType="254" name="Nerd"/>
+</outfit>
+<outfit id="14" quest="100010">
+	<list gender="0" lookType="532" name="Police"/>
+	<list gender="1" lookType="533" name="Police"/>
+</outfit>
+<outfit id="15" quest="100011">
+	<list gender="0" lookType="544" name="Meowth Fanatic"/>
+	<list gender="1" lookType="543" name="Meowth Fanatic"/>
+</outfit>
+<outfit id="16" quest="100012">
+	<list gender="0" lookType="586" name="Christmas"/>
+	<list gender="1" lookType="585" name="Christmas"/>
+</outfit>
+<outfit id="17" quest="100013">
+	<list gender="0" lookType="962" name="Halloween 2011"/>
+	<list gender="1" lookType="963" name="Halloween 2011"/>
+</outfit>
+<outfit id="18" quest="100014">
+	<list gender="0" lookType="964" name="Halloween 2012"/>
+	<list gender="1" lookType="965" name="Halloween 2012"/>
+</outfit>
+<outfit id="19" quest="100015">
+	<list gender="0" lookType="967" name="Catcher"/>
+	<list gender="1" lookType="966" name="Catcher"/>
+</outfit>
+<outfit id="20" quest="100016">
+	<list gender="0" lookType="969" name="Rocket"/>
+	<list gender="1" lookType="968" name="Rocket"/>
+</outfit>
+<outfit id="21" quest="100017">
+	<list gender="0" lookType="1240" name="Pokemaster"/>
+	<list gender="1" lookType="1241" name="Pokemaster"/>
+</outfit>
+<outfit id="22" quest="100018">
+	<list gender="1" lookType="1246" name="Guitarrist"/>
+</outfit>
+<outfit id="23" quest="100019">
+	<list gender="0" lookType="1268" name="Playmate"/>
+</outfit>
+<outfit id="24" quest="100020">
+	<list gender="1" lookType="1280" name="Vengeance"/>
+</outfit>
+<outfit id="25" quest="100021">
+	<list gender="0" lookType="1288" name="Teenager"/>
+</outfit>
+<outfit id="26" quest="100022">
+	<list gender="1" lookType="1289" name="Tenant"/>
+</outfit>
+<outfit id="27" quest="100023">
+	<list gender="1" lookType="1290" name="Doctor"/>
+</outfit>
+<outfit id="28" quest="100024">
+	<list gender="0" lookType="1304" name="Explorer"/>
+</outfit>
+<outfit id="29" quest="100025" acess="2">
+	<list gender="0" lookType="1508" name="Tournament 1"/>
+	<list gender="1" lookType="1507" name="Tournament 1"/>
+</outfit>
+<outfit id="30" quest="100026">
+	<list gender="0" lookType="1661" name="Zombie"/>
+	<list gender="1" lookType="1660" name="Zombie"/>
+</outfit>
+<outfit id="31" quest="100027">
+	<list gender="0" lookType="1663" name="Tournament 2"/>
+	<list gender="1" lookType="1713" name="Tournament 2"/>
+</outfit>
+<outfit id="32" quest="100028">
+	<list gender="0" lookType="1676" name="Santa Claus"/>
+	<list gender="1" lookType="1675" name="Santa Claus"/>
+</outfit>
+<outfit id="33" quest="100029">
+	<list gender="0" lookType="1739" name="Legendary"/>
+	<list gender="1" lookType="1738" name="Legendary"/>
+</outfit>
+<outfit id="34" quest="100030">
+	<list gender="1" lookType="1764" name="Deadpool"/>
+</outfit>
+<outfit id="35" quest="100031">
+	<list gender="0" lookType="1766" name="Easter"/>
+	<list gender="1" lookType="1765" name="Easter"/>
+</outfit>
+<outfit id="36" quest="100032">
+	<list gender="0" lookType="1917" name="Halloween 2013"/>
+	<list gender="1" lookType="1918" name="Halloween 2013"/>
+</outfit>
+<outfit id="37" quest="100033">
+	<list gender="0" lookType="1961" name="Christmas 2013"/>
+	<list gender="1" lookType="1960" name="Christmas 2013"/>
+</outfit>
+<outfit id="38" quest="100034">
+	<list gender="1" lookType="2007" name="Cook"/>
+</outfit>
+<outfit id="39" quest="100035">
+	<list gender="1" lookType="2016" name="Engineer"/>
+</outfit>
+<outfit id="40" quest="100036">
+	<list gender="0" lookType="2048" name="Tournament 4"/>
+	<list gender="1" lookType="2049" name="Tournament 4"/>
+</outfit>
+<outfit id="41" quest="100037">
+	<list gender="0" lookType="2203" name="Tournament 5"/>
+	<list gender="1" lookType="2204" name="Tournament 5"/>
+</outfit>
+<outfit id="42" quest="100038">
+	<list gender="1" lookType="2270" name="Surgeon of Death"/>
+</outfit>
+<outfit id="43" quest="100039">
+	<list gender="0" lookType="2271" name="Pirate Lady"/>
+</outfit>
+<outfit id="44" quest="100040">
+	<!-- <list gender="0" lookType="2203" name="Karate"/> -->
+	<list gender="1" lookType="2271" name="Karate"/>
+</outfit>
+<outfit id="45" quest="100041">
+	<list gender="0" lookType="2273" name="Oriental Fighter"/>
+</outfit>
+<outfit id="46" quest="100042">
+	<list gender="0" lookType="2274" name="Hippie"/>
+	<list gender="1" lookType="2275" name="Hippie"/>
+</outfit>
+<outfit id="47" quest="100043">
+	<list gender="1" lookType="2280" name="Karate Master"/>
+</outfit>
+<outfit id="48" quest="100044">
+	<list gender="1" lookType="2281" name="Charizard Cosplay"/>
+</outfit>
+<outfit id="49" quest="100045">
+	<list gender="1" lookType="2282" name="Boss"/>
+</outfit>
+<outfit id="50" quest="100046">
+	<list gender="1" lookType="2284" name="Hacker"/>
+</outfit>
+<outfit id="51" quest="100047">
+	<list gender="0" lookType="2285" name="Longcape"/>
+</outfit>
+<outfit id="52" quest="100048">
+	<list gender="0" lookType="2286" name="Pikachu Cosplay"/>
+</outfit>
+<outfit id="53" quest="100049">
+	<list gender="1" lookType="2287" name="Blastoise Cosplay"/>
+</outfit>
+<outfit id="54" quest="100050">
+	<list gender="1" lookType="2288" name="Venusaur Cosplay"/>
+</outfit>
+<outfit id="55" quest="100051">
+	<list gender="1" lookType="2289" name="Gengar Cosplay"/>
+</outfit>
+<outfit id="56" quest="100052">
+	<list gender="0" lookType="2290" name="Cowgirl"/>
+</outfit>
+<outfit id="57" quest="100053">
+	<list gender="1" lookType="2291" name="Dragon Tamer"/>
+</outfit>
+<outfit id="58" quest="100054">
+	<list gender="0" lookType="2292" name="Grandma"/>
+</outfit>
+<outfit id="59" quest="100055">
+	<list gender="0" lookType="2293" name="Azumarill Cosplay"/>
+</outfit>
+<outfit id="60" quest="100056">
+	<list gender="0" lookType="2296" name="Meowth Cosplay"/>
+</outfit>
+<outfit id="61" quest="100057">
+	<list gender="1" lookType="2300" name="Mewtwo Cosplay"/>
+</outfit>
+<outfit id="62" quest="100058">
+	<list gender="0" lookType="2420" name="Christmas 2014"/>
+	<list gender="1" lookType="2421" name="Christmas 2014"/>
+</outfit>
+<outfit id="63" quest="100059">
+	<list gender="0" lookType="2430" name="Tournament 6"/>
+	<list gender="1" lookType="2431" name="Tournament 6"/>
+</outfit>
+<outfit id="64" quest="100060">
+	<list gender="1" lookType="2454" name="Street Fighter"/>
+</outfit>
+<outfit id="65" quest="100061">
+	<list gender="0" lookType="2156" name="Street"/>
+</outfit>
+<outfit id="66" quest="100062">
+	<list gender="0" lookType="2457" name="School Girl"/>
+</outfit>
+<outfit id="67" quest="100063">
+	<list gender="1" lookType="2458" name="Celestial"/>
+</outfit>
+<outfit id="68" quest="100064">
+	<list gender="0" lookType="2459" name="Bikini Top"/>
+</outfit>
+<outfit id="69" quest="100065">
+	<list gender="0" lookType="2460" name="Sunny"/>
+</outfit>
+<outfit id="70" quest="100066">
+	<list gender="1" lookType="2303" name="Masked"/>
+</outfit>
+<outfit id="71" quest="100067">
+	<list gender="0" lookType="2304" name="Halloween 2014"/>
+</outfit>
+<outfit id="72" quest="100068">
+	<list gender="0" lookType="2521" name="Hotdog"/>
+	<list gender="1" lookType="2521" name="Hotdog"/>
+</outfit>
+<outfit id="73" quest="100069">
+	<list gender="0" lookType="2538" name="Chef"/>
+	<list gender="1" lookType="2537" name="Chef"/>
+</outfit>
+<outfit id="74" quest="100070">
+	<list gender="0" lookType="2724" name="Tournament 7"/>
+	<list gender="1" lookType="2723" name="Tournament 7"/>
+</outfit>
+<outfit id="75" quest="100071">
+	<list gender="0" lookType="2766" name="Evil Costume"/>
+	<list gender="1" lookType="2765" name="Evil Costume"/>
+</outfit>
+<outfit id="76" quest="100072">
+	<list gender="0" lookType="2767" name="Halloween 2015"/>
+	<list gender="1" lookType="2768" name="Halloween 2015"/>
+</outfit>
+<outfit id="77" quest="100073">
+	<list gender="0" lookType="2799" name="Gift Costume"/>
+	<list gender="1" lookType="2798" name="Gift Costume"/>
+</outfit>
+<outfit id="78" quest="100074">
+	<list gender="0" lookType="2800" name="Christmas 2015"/>
+	<list gender="1" lookType="2801" name="Christmas 2015"/>
+</outfit>
+<outfit id="79" quest="100075">
+	<list gender="1" lookType="2821" name="Kylo Ren"/>
+</outfit>
+<outfit id="80" quest="100076">
+	<list gender="0" lookType="2855" name="Tournament 8"/>
+	<list gender="1" lookType="2856" name="Tournament 8"/>
+</outfit>
+<outfit id="81" quest="100077">
+	<list gender="0" lookType="2897" name="Tournament 9"/>
+	<list gender="1" lookType="2898" name="Tournament 9"/>
+</outfit>
+<outfit id="82" quest="100078">
+	<list gender="0" lookType="2904" name="Olympic Swimmer"/>
+	<list gender="1" lookType="2903" name="Olympic Swimmer"/>
+</outfit>
+<outfit id="83" quest="100079">
+	<list gender="0" lookType="2905" name="Gymnastics"/>
+	<list gender="1" lookType="2906" name="Gymnastics"/>
+</outfit>
+<outfit id="84" quest="100080">
+	<list gender="0" lookType="2946" name="Halloween 2016"/>
+	<list gender="1" lookType="2947" name="Halloween 2016"/>
+</outfit>
+<outfit id="85" quest="100081">
+	<list gender="1" lookType="2948" name="Masked Ninja Warrior"/>
+</outfit>
+<outfit id="86" quest="100082">
+	<list gender="0" lookType="2975" name="Christmas 2016"/>
+	<list gender="1" lookType="2973" name="Christmas 2016"/>
+</outfit>
+<outfit id="87" quest="100083">
+	<list gender="0" lookType="2990" name="Biker"/>
+	<list gender="1" lookType="2991" name="Biker"/>
+</outfit>
+<outfit id="88" quest="100084">
+	<list gender="0" lookType="3002" name="Tournament 10"/>
+	<list gender="1" lookType="3001" name="Tournament 10"/>
+</outfit>
+<outfit id="89" quest="100085">
+	<list gender="0" lookType="3019" name="Easter 2017"/>
+	<list gender="1" lookType="3020" name="Easter 2017"/>
+</outfit>
+<outfit id="90" quest="100086">
+	<list gender="0" lookType="3032" name="Golden Easter 2017"/>
+	<list gender="1" lookType="3033" name="Golden Easter 2017"/>
+</outfit>
+<outfit id="91" quest="100087">
+	<list gender="0" lookType="3120" name="Noctowl Cosplay"/>
+	<list gender="1" lookType="3121" name="Noctowl Cosplay"/>
+</outfit>
+<outfit id="92" quest="100088">
+	<list gender="1" lookType="3122" name="Umbreon Cosplay"/>
+</outfit>
+<outfit id="93" quest="100089">
+	<list gender="0" lookType="3123" name="Sylveon Cosplay"/>
+</outfit>
+<outfit id="94" quest="100090">
+	<list gender="0" lookType="3183" name="Tournament 11"/>
+	<list gender="1" lookType="3177" name="Tournament 11"/>
+</outfit>
+<outfit id="95" quest="100091">
+	<list gender="1" lookType="3189" name="King in the North"/>
+</outfit>
+<outfit id="96" quest="100092">
+	<list gender="0" lookType="3190" name="Mother of Dragons"/>
+</outfit>
+<outfit id="97" quest="100093">
+	<list gender="0" lookType="3192" name="Electric Art Costume"/>
+	<list gender="1" lookType="3192" name="Electric Art Costume"/>
+</outfit>
+<outfit id="98" quest="100094">
+	<list gender="0" lookType="3193" name="Absolut Zero Costume"/>
+	<list gender="1" lookType="3193" name="Absolut Zero Costume"/>
+</outfit>
+<outfit id="99" quest="100095">
+	<list gender="0" lookType="3194" name="Over Heat Costume"/>
+	<list gender="1" lookType="3194" name="Over Heat Costume"/>
+</outfit>
+<outfit id="100" quest="100096">
+	<list gender="0" lookType="3286" name="T.G Champion"/>
+	<list gender="1" lookType="3288" name="T.G Champion"/>
+</outfit>
+<outfit id="101" quest="100097">
+	<list gender="1" lookType="3343" name="Jigsaw"/>
+</outfit>
+<outfit id="102" quest="100098">
+	<list gender="0" lookType="3344" name="Halloween 2017"/>
+	<list gender="1" lookType="3345" name="Halloween 2017"/>
+</outfit>
+<outfit id="103" quest="100099">
+	<list gender="0" lookType="3346" name="Nine Tailed Fox"/>
+</outfit>
+<outfit id="104" quest="100100">
+	<list gender="0" lookType="3423" name="Christmas 2017"/>
+	<list gender="1" lookType="3422" name="Christmas 2017"/>
+</outfit>
+<outfit id="105" quest="100101">
+	<list gender="0" lookType="3476" name="Tournament 12"/>
+	<list gender="1" lookType="3477" name="Tournament 12"/>
+</outfit>
+<outfit id="106" quest="100102">
+	<list gender="0" lookType="3494" name="Catcher2"/>
+	<list gender="1" lookType="3495" name="Catcher2"/>
+</outfit>
+<outfit id="107" quest="100103">
+	<list gender="0" lookType="3536" name="Easter 2018"/>
+	<list gender="1" lookType="3535" name="Easter 2018"/>
+</outfit>
+<outfit id="108" quest="100104">
+	<list gender="0" lookType="3538" name="Golden Easter 2018"/>
+	<list gender="1" lookType="3537" name="Golden Easter 2018"/>
+</outfit>
+<outfit id="109" quest="100105">
+	<list gender="0" lookType="3583" name="Soccer 2018 I"/>
+	<list gender="1" lookType="3582" name="Soccer 2018 I"/>
+</outfit>
+<outfit id="110" quest="100106">
+	<list gender="0" lookType="3585" name="Soccer 2018 II"/>
+	<list gender="1" lookType="3584" name="Soccer 2018 II"/>
+</outfit>
+<outfit id="111" quest="100107">
+	<list gender="0" lookType="3595" name="Rookie Streamer"/>
+	<list gender="1" lookType="3599" name="Rookie Streamer"/>
+</outfit>
+<outfit id="112" quest="100108">
+	<list gender="0" lookType="3596" name="Begginer Streamer"/>
+	<list gender="1" lookType="3600" name="Begginer Streamer"/>
+</outfit>
+<outfit id="113" quest="100109">
+	<list gender="0" lookType="3597" name="Advanced Streamer"/>
+	<list gender="1" lookType="3601" name="Advanced Streamer"/>
+</outfit>
+<outfit id="114" quest="100110">
+	<list gender="0" lookType="3598" name="Expert Streamer"/>
+	<list gender="1" lookType="3602" name="Expert Streamer"/>
+</outfit>
+<outfit id="115" quest="100111">
+	<list gender="1" lookType="3608" name="Lycanroc Cosplay"/>
+</outfit>
+<outfit id="116" quest="100112">
+	<list gender="0" lookType="3609" name="Persian Cosplay"/>
+</outfit>
+<outfit id="117" quest="100113">
+	<list gender="1" lookType="3610" name="Vaporeon Cosplay"/>
+</outfit>
+<outfit id="118" quest="100114">
+	<list gender="0" lookType="3611" name="Flareon Cosplay"/>
+</outfit>
+<outfit id="119" quest="100115">
+	<list gender="1" lookType="3613" name="Priest Costume"/>
+</outfit>
+<outfit id="120" quest="100116">
+	<list gender="0" lookType="3614" name="Possessed Girl"/>
+</outfit>
+<outfit id="121" quest="100117">
+	<list gender="0" lookType="3618" name="Tournament 13"/>
+	<list gender="1" lookType="3619" name="Tournament 13"/>
+</outfit>
+<outfit id="122" quest="100118">
+	<list gender="0" lookType="3621" name="Special Trainer"/>
+	<list gender="1" lookType="3622" name="Special Trainer"/>
+</outfit>
+<outfit id="123" quest="100119">
+	<list gender="0" lookType="3698" name="Lugia Order"/>
+	<list gender="1" lookType="3697" name="Lugia Order"/>
+</outfit>
+<outfit id="124" quest="100120">
+	<list gender="0" lookType="3730" name="Valak Nun"/>
+</outfit>
+<outfit id="125" quest="100121">
+	<list gender="1" lookType="3731" name="The Shape"/>
+</outfit>
+<outfit id="126" quest="100122">
+	<list gender="0" lookType="3738" name="Vandal"/>
+	<list gender="1" lookType="3739" name="Vandal"/>
+</outfit>
+<outfit id="127" quest="100123">
+	<list gender="0" lookType="1446" name="Fantasy"/>
+	<list gender="1" lookType="1445" name="Fantasy"/>
+</outfit>
+<outfit id="128" quest="100124">
+	<list gender="0" lookType="1450" name="Rocket Criminal"/>
+	<list gender="1" lookType="1447" name="Rocket Criminal"/>
+</outfit>
+<outfit id="129" quest="100125">
+	<list gender="0" lookType="1449" name="Police Colonel"/>
+	<list gender="1" lookType="1448" name="Police Colonel"/>
+</outfit>
+<outfit id="130" quest="100126">
+	<list gender="0" lookType="1452" name="Orange Archipelago"/>
+	<list gender="1" lookType="1451" name="Orange Archipelago"/>
+</outfit>
+<outfit id="131" quest="100127">
+	<list gender="0" lookType="1508" name="Tournament 1"/>
+	<list gender="1" lookType="1507" name="Tournament 1"/>
+</outfit>
+<outfit id="132" quest="100128">
+	<list gender="0" lookType="1836" name="Tournament 3"/>
+	<list gender="1" lookType="1837" name="Tournament 3"/>
+</outfit>
+<outfit id="133" quest="100129">
+	<list gender="0" lookType="3847" name="Sarkies Trooper"/>
+	<list gender="1" lookType="3848" name="Sarkies Trooper"/>
+</outfit>
+<outfit id="134" quest="100130">
+	<list gender="0" lookType="3864" name="Citizen Nightmare"/>
+	<list gender="1" lookType="3865" name="Citizen Nightmare"/>
+</outfit>
+<outfit id="165" quest="100131">
+	<list gender="0" lookType="3969" name="Tournament 14"/>
+	<list gender="1" lookType="3968" name="Tournament 14"/>
+</outfit>
+<outfit id="166" quest="100132">
+	<list gender="0" lookType="4015" name="The Chosen One"/>
+	<list gender="1" lookType="4014" name="The Chosen One"/>
+</outfit>
+<outfit id="167" quest="100133">
+	<list gender="1" lookType="4846" name="Barba Negra"/>
+</outfit>
+<outfit id="168" quest="100134">
+	<list gender="1" lookType="4847" name="Shanks"/>
+</outfit>
+<outfit id="169" quest="100135">
+	<list gender="1" lookType="4848" name="Kizaru"/>
+</outfit>
+<outfit id="170" quest="100136">
+	<list gender="1" lookType="4849" name="Crocodile"/>
+</outfit>
+<outfit id="171" quest="100137">
+	<list gender="1" lookType="4850" name="Kuma"/>
+</outfit>
+<outfit id="171" quest="100138">
+	<list gender="0" lookType="4851" name="Reiju"/>
+</outfit>
+<outfit id="172" quest="100139">
+	<list gender="1" lookType="4852" name="Niji"/>
+</outfit>
+<outfit id="173" quest="100140">
+	<list gender="1" lookType="4853" name="Ichiji"/>
+</outfit>
+<outfit id="174" quest="100141">
+	<list gender="1" lookType="4854" name="Yonji"/>
+</outfit>
+<outfit id="175" quest="100142">
+	<list gender="0" lookType="4855" name="Perona"/>
+</outfit>
+<outfit id="176" quest="100143">
+	<list gender="1" lookType="4856" name="Ivankov"/>
+</outfit>
+<outfit id="177" quest="100144">
+	<list gender="1" lookType="4857" name="Zoro"/>
+</outfit>
+<outfit id="178" quest="100145">
+	<list gender="1" lookType="4858" name="Luffy"/>
+</outfit>
+<outfit id="179" quest="100146">
+	<list gender="1" lookType="4859" name="Jinbe"/>
+</outfit>
+<outfit id="180" quest="100147">
+	<list gender="1" lookType="4860" name="Brook"/>
+</outfit>
+<outfit id="181" quest="100148">
+	<list gender="0" lookType="4861" name="Robin"/>
+</outfit>
+<outfit id="182" quest="100149">
+	<list gender="1" lookType="4862" name="Chopper"/>
+</outfit>
+<outfit id="183" quest="100150">
+	<list gender="1" lookType="4863" name="Usopp"/>
+</outfit>
+<outfit id="184" quest="100151">
+	<list gender="1" lookType="4864" name="Sanji"/>
+</outfit>
+<outfit id="185" quest="100152">
+	<list gender="0" lookType="4865" name="Hancock"/>
+</outfit>
+<outfit id="186" quest="100153">
+	<list gender="1" lookType="4866" name="Mihawk"/>
+</outfit>
+<outfit id="187" quest="100154">
+	<list gender="1" lookType="4867" name="Kid"/>
+</outfit>
+<outfit id="188" quest="100155">
+	<list gender="0" lookType="4868" name="Nami"/>
+</outfit>
+<outfit id="189" quest="100156">
+	<list gender="1" lookType="4869" name="Zoro TimeSkip"/>
+</outfit>
+<outfit id="190" quest="100157">
+	<list gender="1" lookType="4870" name="Luffy TimeSkip"/>
+</outfit>
+<!-- PROMOTE -->
+
+<outfit id="300" quest="181612">
+<list gender="0" lookType="629" name="Naturia"/>
+<list gender="1" lookType="619" name="Naturia"/>
+</outfit>
+<outfit id="301" quest="181613">
+<list gender="0" lookType="626" name="Volcanic"/>
+<list gender="1" lookType="624" name="Volcanic"/>
+</outfit>
+<outfit id="302" quest="181614">
+<list gender="0" lookType="632" name="Gardestrike"/>
+<list gender="1" lookType="623" name="Gardestrike"/>
+</outfit>
+<outfit id="303" quest="181615">
+<list gender="0" lookType="625" name="Malefic"/>
+<list gender="1" lookType="621" name="Malefic"/>
+</outfit>
+<outfit id="304" quest="181616">
+<list gender="0" lookType="630" name="Wingeon"/>
+<list gender="1" lookType="620" name="Wingeon"/>
+</outfit>
+<outfit id="305" quest="181617">
+<list gender="0" lookType="631" name="Raibolt"/>
+<list gender="1" lookType="617" name="Raibolt"/>
+</outfit>
+<outfit id="306" quest="181618">
+<list gender="0" lookType="633" name="Psycraft"/>
+<list gender="1" lookType="618" name="Psycraft"/>
+</outfit>
+<outfit id="307" quest="181619">
+<list gender="0" lookType="627" name="Seavell"/>
+<list gender="1" lookType="616" name="Seavell"/>
+</outfit>
+<outfit id="308" quest="181620">
+<list gender="0" lookType="628" name="Orebound"/>
+<list gender="1" lookType="622" name="Orebound"/>
+</outfit>
+
+
+
+<outfit id="309" quest="181621">
+<list gender="0" lookType="673" name="Raibolt Master"/>
+<list gender="1" lookType="639" name="Raibolt Master"/>
+</outfit>
+<outfit id="310" quest="181622">
+<list gender="0" lookType="672" name="Seavell Master"/>
+<list gender="1" lookType="640" name="Seavell Master"/>
+</outfit>
+<outfit id="311" quest="181623">
+<list gender="0" lookType="671" name="Naturia Master"/>
+<list gender="1" lookType="641" name="Naturia Master"/>
+</outfit>
+<outfit id="312" quest="181624">
+<list gender="0" lookType="670" name="Malefic Master"/>
+<list gender="1" lookType="642" name="Malefic Master"/>
+</outfit>
+<outfit id="313" quest="181625">
+<list gender="0" lookType="674" name="Volcanic Superior"/>
+<list gender="1" lookType="643" name="Volcanic Superior"/>
+</outfit>
+<outfit id="314" quest="181626">
+<list gender="0" lookType="669" name="Wingeon Master"/>
+<list gender="1" lookType="644" name="Wingeon Master"/>
+</outfit>
+<outfit id="315" quest="181627">
+<list gender="0" lookType="668" name="Orebound Master"/>
+<list gender="1" lookType="645" name="Orebound Master"/>
+</outfit>
+<outfit id="316" quest="181628">
+<list gender="0" lookType="667" name="Gardestrike Master"/>
+<list gender="1" lookType="646" name="Gardestrike Master"/>
+</outfit>
+<outfit id="317" quest="181629">
+<list gender="0" lookType="675" name="Psycraft Master"/>
+<list gender="1" lookType="647" name="Psycraft Master"/>
+</outfit>
+
+
+
+<outfit id="318" quest="10051">
+<list gender="0" lookType="2038" name="Ironhard Master"/>
+<list gender="1" lookType="2037" name="Ironhard Master"/>
+</outfit>
+<outfit id="319" quest="10050">
+<list gender="0" lookType="2040" name="Ironhard"/>
+<list gender="1" lookType="2039" name="Ironhard"/>
+</outfit>
+<outfit id="320" quest="10052">
+<list gender="0" lookType="4478" name="Cleopatra"/>
+<list gender="1" lookType="4477" name="Anubis"/>
+</outfit>
+<outfit id="321" quest="10053">
+<list gender="0" lookType="3645" name="Expert Mapper"/>
+<list gender="1" lookType="3645" name="Expert Mapper"/>
+</outfit>
+
+
+
+</outfits>

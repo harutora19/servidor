@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bayleef" nameDescription="a bayleef" race="grass" experience="450" speed="219" manacost="0">
+  <health now="110" max="110"/>
+  <look type="319" corpse="3271"/>
+ <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="1501" chance="20" range="1"/>
+		<attack name="Razor Leaf" interval="1452" chance="30" range="6"/>
+		<attack name="Magical Leaf" interval="1553" chance="15" range="6"/>
+		<attack name="Petal Dance" interval="1979" chance="12" range="6"/>
+		<attack name="Synthesis" interval="2955" chance="6" range="6"/>
+		<attack name="Solar Beam" interval="3156" chance="5" range="6"/>
+		<attack name="Sleep Powder" interval="4707" chance="5" range="6"/>
+		<attack name="Poison Powder" interval="1983" chance="12" range="6"/>
+		<attack name="Aromateraphy" interval="2284" chance="7" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="BAY!"/>
+<voice sentence="LEEF!"/>
+    <voice sentence="BAYLEEF!"/>
+   </voices>
+    <loot>
+        <item id="11441" chance="3000" count="1" countmax="1"/> --leaf stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

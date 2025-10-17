@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Magmar" nameDescription="a Shiny magmar" race="fire" experience="1072" speed="217" manacost="0">
+    <health now="160" max="160"/>
+    <look type="1779" corpse="12744"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Scratch" interval="751" chance="30" range="1"/>
+		<attack name="Fire Punch" interval="1352" chance="10" range="1"/>
+		<attack name="Ember" interval="753" chance="30" range="6"/>
+		<attack name="Flamethrower" interval="804" chance="20" range="6"/>
+		<attack name="Fireball" interval="855" chance="15" range="6"/>
+		<attack name="Fire Blast" interval="1506" chance="8" range="6"/>
+		<attack name="Magma Storm" interval="3057" chance="4" range="6"/>
+		<attack name="Sunny Day" interval="4008" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="MAGMAR!"/>
+    </voices>
+    <loot>
+        <item id="11447" chance="20000" count="1"/> --fire stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

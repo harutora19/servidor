@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Natu" nameDescription="a natu" race="psychic" experience="250" speed="250" manacost="0">
+  <health now="40" max="40"/>
+  <look type="346" corpse="3580"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Peck" interval="1551" chance="30" range="1"/>
+		<attack name="Feather Dance" interval="1602" chance="20" range="6"/>
+		<attack name="Confuse Ray" interval="2078" chance="12" range="6"/>
+		<attack name="Psy Pulse" interval="1654" chance="15" range="6"/>
+		<attack name="Night Shade" interval="2155" chance="10" range="6"/>
+		<attack name="Psychic" interval="2156" chance="10" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="NAAA!"/>
+<voice sentence="TUUU!"/>
+<voice sentence="NATU!"/>
+  </voices>
+  <loot>
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

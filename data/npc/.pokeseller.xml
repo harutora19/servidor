@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Noah" script=".pokeseller.lua" walkinterval="0" floorchange="0" speed="50" lookdir="2">
+<health now="150" max="150"/>
+<look type="171" head="97" body="114" legs="114" feet="0"/>
+
+	<parameters>
+		<parameter key="message_greet" value="I sell {pokemon}s, reanimate {fossils}, transform some {shinys}, if they're at least +20."/>
+	</parameters>
+
+</npc>

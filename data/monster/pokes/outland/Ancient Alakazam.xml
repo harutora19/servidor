@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ancient Alakazam" nameDescription="a ancient alakazam" race="psychic" experience="4000" speed="500" manacost="0">
+    <health now="260" max="260"/>
+    <look type="218" corpse="11840"/>
+    <targetchange interval="0" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="3"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Psybeam" interval="801" chance="20" range="6"/>
+		<attack name="Psywave" interval="852" chance="15" range="6"/>
+		<attack name="Psy Pulse" interval="803" chance="20" range="5"/>
+		<attack name="Confusion" interval="1429" chance="9" range="6"/>
+		<attack name="Psychic" interval="1505" chance="8" range="6"/>
+		<attack name="Psyusion" interval="3056" chance="4" range="6"/>
+		<attack name="Calm Mind" interval="2257" chance="6" range="6"/>
+		<attack name="Hypnosis" interval="4508" chance="4" range="4"/>
+		<attack name="Reflect" interval="2459" chance="5" range="6"/>
+		<attack name="Restore" interval="13610" chance="2" range="6"/>
+		<attack name="Miracle Eye" interval="1511" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="ALAKAZAM!"/>
+    </voices>
+   <loot>
+        <item id="11452" chance="5000" count="1"/> --enigma stone
+        <item id="15644" chance="5000" count="3"/> <!--Mighty Token-->
+        
+	</loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

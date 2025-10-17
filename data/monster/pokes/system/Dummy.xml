@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dummy" nameDescription="a dummy" race="normal" experience="0" speed="0" manacost="0" minLevel="1000" maxLevel="1000">
+  <health now="15000000" max="15000000"/>
+  <look type="2463" head="25" body="25" legs="56" feet="56" corpse="3058"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="0"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="0"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="0"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+</flags>
+
+<script>
+	<event name="Spawn"/>
+</script>
+
+</monster>

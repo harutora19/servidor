@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mega Swampert" nameDescription="a mega swampert" race="ground" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="2176" corpse="14751"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="751" chance="30" range="1"/>
+		<attack name="Mud Shot" interval="802" chance="20" range="6"/>
+		<attack name="Aqua Tail" interval="803" chance="20" range="1"/>
+		<attack name="Water Gun" interval="854" chance="15" range="6"/>
+		<attack name="Waterfall" interval="4185" chance="20" range="6"/>
+		<attack name="Hydropump" interval="2656" chance="5" range="6"/>
+		<attack name="Muddy Water" interval="1432" chance="9" range="6"/>
+		<attack name="Earthquake" interval="4548" chance="7" range="6"/>
+		<attack name="Protect" interval="10609" chance="10" range="6"/>
+   </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Swampert"/>
+    </voices>
+  <loot>
+        <item id="11451" chance="4000" count="1"/> -- earth stone
+        <item id="15790" chance="100" count="1"/> --mega stone
+        <item id="18421" chance="1000" count="1"/>
+  </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

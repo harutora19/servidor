@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chikorita" nameDescription="a chikorita" race="grass" experience="350" speed="258" manacost="0">
+  <health now="60" max="60"/>
+  <look type="318" corpse="3275"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Body Slam" interval="1751" chance="20" range="1"/>
+		<attack name="Razor Leaf" interval="1702" chance="30" range="6"/>
+		<attack name="Magical Leaf" interval="1803" chance="15" range="6"/>
+		<attack name="Synthesis" interval="3204" chance="6" range="6"/>
+		<attack name="Solar Beam" interval="3405" chance="5" range="6"/>
+		<attack name="Sleep Powder" interval="4956" chance="5" range="6"/>
+		<attack name="Poison Powder" interval="2232" chance="12" range="6"/>
+		<attack name="Aromateraphy" interval="2533" chance="7" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="CHIKO!"/>
+    <voice sentence="CHIKORITA!"/>
+  </voices>
+   <loot>
+    </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

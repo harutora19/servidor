@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Infernape" nameDescription="an infernape" race="ghost" experience="200" speed="300" manacost="0">
+    <health now="130" max="130"/>
+    <look type="2087" corpse="17303"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Low Kick" interval="741" chance="34" range="1"/>
+		<attack name="Ember" interval="722" chance="43" range="6"/>
+		<attack name="Fire Punch" interval="813" chance="19" range="1"/>
+		<attack name="Close Combat" interval="1264" chance="13" range="1"/>
+		<attack name="Acrobatics" interval="835" chance="17" range="6"/>
+		<attack name="Blaze Kick" interval="1296" chance="12" range="6"/>
+		<attack name="Magma Fist" interval="1327" chance="11" range="6"/>
+		<attack name="Focus Blast" interval="1448" chance="9" range="6"/>
+		<attack name="Sky Uppercut" interval="1479" chance="8" range="6"/>
+		<attack name="Flare Blitz" interval="2560" chance="5" range="6"/>
+		<attack name="Magma Storm" interval="2461" chance="5" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="INFERNAPE!"/>
+        <voice sentence="AAAPE!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

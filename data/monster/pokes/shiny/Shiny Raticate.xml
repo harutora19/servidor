@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Raticate" nameDescription="a Shiny raticate" race="normal" experience="332" speed="302" manacost="0">
+  <health now="100" max="100"/>
+  <look type="519" corpse="12439"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1381" chance="38" range="2"/>
+		<attack name="Bite" interval="1402" chance="30" range="6"/>
+		<attack name="Scratch" interval="1433" chance="24" range="6"/>
+		<attack name="Pursuit" interval="1504" chance="15" range="6"/>
+		<attack name="Super Fang" interval="1505" chance="15" range="1"/>
+		<attack name="Scary Face" interval="2231" chance="7" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="RATICATE!"/>
+ </voices>
+
+  <loot>
+  		  <item id="11453" chance="20000" count="1"/> --heart stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

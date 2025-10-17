@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lairon" nameDescription="a lairon" race="ghost" experience="400" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1862" corpse="14778"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="901" chance="20" range="6"/>
+		<attack name="Iron Tail" interval="852" chance="30" range="6"/>
+		<attack name="Rock Throw" interval="853" chance="30" range="4"/>
+		<attack name="Rock Slide" interval="904" chance="20" range="3"/>
+		<attack name="Stone Edge" interval="955" chance="15" range="3"/>
+		<attack name="Earth Power" interval="1606" chance="8" range="6"/>
+		<attack name="Crunch" interval="907" chance="20" range="1"/>
+		<attack name="Earthquake" interval="4828" chance="5" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Lairon!"/>
+    </voices>
+    <loot>
+	<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+	
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

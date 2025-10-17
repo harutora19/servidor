@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Aggron" nameDescription="a aggron" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1863" corpse="14753"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Head" interval="851" chance="15" range="1"/>
+		<attack name="Iron Tail" interval="752" chance="30" range="1"/>
+		<attack name="Mud Slap" interval="1278" chance="12" range="1"/>
+		<attack name="Stone Edge" interval="804" chance="20" range="1"/>
+		<attack name="Metal Burst" interval="1280" chance="12" range="1"/>
+		<attack name="Metal Claw" interval="1356" chance="10" range="1"/>
+		<attack name="Meteor Mash" interval="1432" chance="9" range="6"/>
+		<attack name="Flash Cannon" interval="1508" chance="8" range="6"/>
+		<attack name="Harden" interval="1359" chance="10" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Aggron!"/>
+    </voices>
+  <loot>
+        <item id="11445" chance="4000" count="1"/> --rock stone
+		<item id="12232" chance="1000" count="1"/> <!--Metal Stone-->
+  </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

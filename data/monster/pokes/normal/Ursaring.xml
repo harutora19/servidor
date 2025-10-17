@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ursaring" nameDescription="an ursaring" race="normal" experience="1100" speed="305" manacost="0">
+  <health now="40" max="40"/>
+  <look type="372" corpse="4569"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Scratch" interval="1151" chance="30" range="1"/>
+		<attack name="Slash" interval="1202" chance="20" range="1"/>
+		<attack name="Hammer Arm" interval="4403" chance="5" range="6"/>
+		<attack name="Fury Swipes" interval="1204" chance="20" range="6"/>
+		<attack name="Body Slam" interval="1680" chance="12" range="1"/>
+		<attack name="Thrash" interval="1756" chance="10" range="6"/>
+		<attack name="Ground Crusher" interval="3257" chance="4" range="6"/>
+		<attack name="Hyper Beam" interval="2658" chance="6" range="6"/>
+		<attack name="Scary Face" interval="1909" chance="8" range="6"/>
+		<attack name="Rest" interval="13110" chance="3" range="6"/>
+       </attacks>
+<defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="URSAAA!"/>
+<voice sentence="RIING!"/>
+<voice sentence="URSARING!"/>
+  </voices>
+  <loot>
+        <item id="11453" chance="5" count="1" countmax="1"/> --heart stone
+        <item id="12244" chance="7" count="1" countmax="1"/> --ancient stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

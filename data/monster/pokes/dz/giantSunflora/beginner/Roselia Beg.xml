@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Roselia" nameDescription="a roselia" race="grass" experience="1" speed="200" manacost="0">
+    <health now="10000000" max="10000000"/>
+    <look type="3279" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="5000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Razor Leaf" interval="1200" chance="30" range="6"/>
+		<attack name="Leaf Blade" interval="1200" chance="30" range="6"/>
+		<attack name="Magical Leaf" interval="1500" chance="30" range="6"/>
+		<attack name="Poison Bomb" interval="1500" chance="30" range="6"/>
+		<attack name="Petal Dance" interval="3000" chance="30" range="6"/>
+		<attack name="Petal Blizzard" interval="3000" chance="30" range="6"/>
+	</attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Roselia!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

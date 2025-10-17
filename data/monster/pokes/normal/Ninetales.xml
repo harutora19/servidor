@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ninetales" nameDescription="a ninetales" race="fire" experience="650" speed="268" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="114" corpse="11930"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="1251" chance="30" range="2"/>
+		<attack name="Iron Tail" interval="1302" chance="20" range="1"/>
+		<attack name="Ember" interval="1303" chance="20" range="6"/>
+		<attack name="Flamethrower" interval="1354" chance="15" range="6"/>
+		<attack name="Flame Wheel" interval="4745" chance="15" range="6"/>
+		<attack name="Fireball" interval="1356" chance="15" range="6"/>
+		<attack name="Confuse Ray" interval="1782" chance="12" range="6"/>
+		<attack name="Fire Blast" interval="1858" chance="10" range="6"/>
+		<attack name="Magma Storm" interval="2959" chance="5" range="6"/>
+		<attack name="Safeguard" interval="2010" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="NINETALES!"/>
+    </voices>
+    <loot>
+        <item id="11447" chance="3000" count="1" countmax="1"/> --fire stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

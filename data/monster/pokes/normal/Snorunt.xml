@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snorunt" nameDescription="a snorunt" race="ghost" experience="1100" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1877" corpse="14718"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Ice Shards" interval="1041" chance="34" range="6"/>
+		<attack name="Doubleslap" interval="1062" chance="28" range="1"/>
+		<attack name="Ice Punch" interval="1123" chance="18" range="1"/>
+		<attack name="Powder Snow" interval="1154" chance="15" range="6"/>
+		<attack name="Ice Beam" interval="1655" chance="10" range="6"/>
+		<attack name="Icy Wind" interval="1596" chance="12" range="6"/>
+		<attack name="Aurora Beam" interval="1627" chance="11" range="6"/>
+		<attack name="Blizzard" interval="3158" chance="4" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Snorunt!"/>
+    </voices>
+    <loot>
+        <item id="11454" chance="3000" count="1" countmax="1"/> --ice stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

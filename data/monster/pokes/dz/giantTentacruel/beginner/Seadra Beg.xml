@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Seadra" nameDescription="a seadra" race="water" experience="1" speed="200" manacost="0">
+    <health now="10000000" max="10000000"/>
+    <look type="276" corpse="0"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="1501" chance="20" range="6"/>
+		<attack name="SmokeScreen" interval="2202" chance="8" range="6"/>
+		<attack name="Quick Attack" interval="1453" chance="30" range="2"/>
+		<attack name="Bubbles" interval="1504" chance="20" range="6"/>
+		<attack name="BubbleBeam" interval="1555" chance="15" range="6"/>
+		<attack name="Water Gun" interval="1981" chance="12" range="6"/>
+		<attack name="Dragon Pulse" interval="2282" chance="7" range="6"/>
+		<attack name="Hydro Cannon" interval="2133" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="SEADRA!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

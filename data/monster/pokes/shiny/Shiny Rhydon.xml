@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Rhydon" nameDescription="a shiny rhydon" race="ground" experience="712" speed="287" manacost="0">
+    <health now="200" max="200"/>
+    <look type="1573" corpse="12596"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Horn Attack" interval="781" chance="24" range="1"/>
+		<attack name="Stone Edge" interval="792" chance="22" range="6"/>
+		<attack name="Rock Throw" interval="733" chance="38" range="6"/>
+		<attack name="Dig" interval="10524" chance="12" range="6"/>
+		<attack name="Rock Drill" interval="1235" chance="14" range="6"/>
+		<attack name="Bulldoze" interval="1386" chance="10" range="6"/>
+		<attack name="Hammer Arm" interval="3382" chance="9" range="6"/>
+		<attack name="Fissure" interval="2258" chance="6" range="6"/>
+		<attack name="Epicenter" interval="2359" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="RHYDON!"/>
+    </voices>
+    <loot>
+        <item id="11451" chance="600" count="1" countmax="1"/>
+        <item id="12337" chance="10500" countmax="80"/> --small stone
+        <item id="12196" chance="5500" countmax="1"/> --stone orb
+        <item id="12177" chance="5500" countmax="1"/> --sandbag --sandbag
+        <item id="11445" chance="600" count="1" countmax="1"/>
+        <item id="12178" chance="3500" countmax="1"/> --long horn
+        <item id="12338" chance="550" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

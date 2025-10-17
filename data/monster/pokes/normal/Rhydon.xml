@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rhydon" nameDescription="a rhydon" race="ground" experience="1100" speed="237" manacost="0">
+    <health now="200" max="200"/>
+    <look type="200" corpse="11954"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Horn Attack" interval="1476" chance="12" range="2"/>
+		<attack name="Stone Edge" interval="1052" chance="15" range="6"/>
+		<attack name="Rock Throw" interval="1478" chance="12" range="6"/>
+		<attack name="Crusher Stomp" interval="1779" chance="7" range="6"/>
+		<attack name="Horn Drill" interval="1555" chance="10" range="2"/>
+		<attack name="Bulldoze" interval="2456" chance="6" range="6"/>
+		<attack name="Hammer Arm" interval="4207" chance="5" range="6"/>
+		<attack name="Falling Rocks" interval="3058" chance="4" range="6"/>
+		<attack name="Rock Drill" interval="1634" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="RHYDON!"/>
+    </voices>
+    <loot>
+        <item id="11451" chance="3000" count="1" countmax="1"/> --earth stone
+        <item id="11445" chance="3000" count="1" countmax="1"/> --rock stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Tentacool" nameDescription="a Shiny tentacool" race="water" experience="204" speed="264" manacost="0">
+  <health now="40" max="40"/>
+  <look type="502" corpse="12491"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Super Sonic" interval="1551" chance="20" range="6"/>
+		<attack name="Wrap" interval="3752" chance="15" range="6"/>
+		<attack name="Bubbles" interval="1503" chance="30" range="6"/>
+		<attack name="Poison Jab" interval="1564" chance="19" range="6"/>
+		<attack name="Waterball" interval="1605" chance="15" range="6"/>
+		<attack name="BubbleBeam" interval="1606" chance="15" range="6"/>
+		<attack name="Acid" interval="1557" chance="20" range="6"/>
+		<attack name="Poison Bomb" interval="2033" chance="12" range="6"/>
+		<attack name="Mortal Gas" interval="2334" chance="7" range="6"/>
+		<attack name="Hydropump" interval="3210" chance="5" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="TENTACOOL!"/>
+ </voices>
+
+  <loot>
+            <item id="11442" chance="20000" count="1"/> --water stone
+			<item id="11443" chance="20000" count="1"/> --venom stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

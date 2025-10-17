@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Espeon" nameDescription="an espeon" race="psychic" experience="450" speed="262" manacost="0">
+  <health now="110" max="110"/>
+  <look type="377" corpse="3287"/>
+	 <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Swift" interval="1401" chance="20" range="6"/>
+		<attack name="Bite" interval="1402" chance="20" range="1"/>
+		<attack name="Psywave" interval="1403" chance="20" range="6"/>
+		<attack name="Psybeam" interval="1454" chance="15" range="6"/>
+		<attack name="Psy Pulse" interval="1455" chance="15" range="6"/>
+		<attack name="Confusion" interval="2031" chance="9" range="6"/>
+		<attack name="Psychic" interval="2032" chance="9" range="6"/>
+		<attack name="Psyshock" interval="2183" chance="7" range="6"/>
+		<attack name="Miracle Eye" interval="2109" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="ESPEE!"/>
+      <voice sentence="PEOON!"/>
+      <voice sentence="ESPEON!"/>
+  </voices>
+    <loot>
+        <item id="11452" chance="3000" count="1" countmax="1"/> --enigma stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+
+

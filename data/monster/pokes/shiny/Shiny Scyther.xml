@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Scyther" nameDescription="a Shiny scyther" race="bug" experience="1044" speed="437" manacost="0">
+  <health now="110" max="110"/>
+  <look type="525" corpse="12543"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="731" chance="38" range="2"/>
+		<attack name="Night Slash" interval="1232" chance="14" range="6"/>
+		<attack name="Wing Attack" interval="1278" chance="12" range="6"/>
+		<attack name="Fury Cutter" interval="794" chance="22" range="6"/>
+		<attack name="Shredder Team" interval="4293" chance="13" range="6"/>
+		<attack name="Air Slash" interval="1251" chance="14" range="6"/>
+		<attack name="Agility" interval="1327" chance="11" range="6"/>
+		<attack name="Team Slice" interval="4056" chance="75" range="6"/>
+		<attack name="Swords Dance" interval="2359" chance="6" range="6"/>
+</attacks>
+
+
+  <defenses armor="0" defense="0">
+  </defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="SCYTHER!"/>
+ </voices>
+
+  <loot>
+            <item id="11448" chance="3000" count="1"/> --coccon stone
+			<item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

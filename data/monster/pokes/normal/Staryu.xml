@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Staryu" nameDescription="a staryu" race="water" experience="100" speed="207" manacost="0">
+    <health now="500" max="500"/>
+    <look type="42" corpse="11969"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Swift" interval="1601" chance="30" range="6"/>
+		<attack name="Water Gun" interval="1702" chance="15" range="6"/>
+		<attack name="BubbleBeam" interval="1703" chance="15" range="6"/>
+		<attack name="Psyshock" interval="2279" chance="9" range="6"/>
+		<attack name="Psychic" interval="2205" chance="10" range="6"/>
+		<attack name="Harden" interval="2131" chance="12" range="6"/>
+		<attack name="Restore" interval="11457" chance="10" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="STARYU!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="20"/> --water gem
+        <item id="12170" chance="40" count="1" countmax="1"/> --water pendant
+        <item id="13870" chance="20" count="1" countmax="1"/> --star gem
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

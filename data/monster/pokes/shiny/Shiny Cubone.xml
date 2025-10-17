@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Cubone" nameDescription="a Shiny cubone" race="ground" experience="168" speed="267" manacost="0">
+  <health now="50" max="50"/>
+  <look type="578" corpse="12524"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Mud Shot" interval="1471" chance="25" range="6"/>
+		<attack name="Headbutt" interval="1432" chance="38" range="1"/>
+		<attack name="Bonemerang" interval="1473" chance="25" range="6"/>
+		<attack name="Bone Club" interval="1514" chance="19" range="6"/>
+		<attack name="Bone Rush" interval="1980" chance="12" range="6"/>
+		<attack name="Earth Power" interval="1966" chance="13" range="6"/>
+		<attack name="Bulldoze" interval="2027" chance="11" range="6"/>
+		<attack name="Rage" interval="1558" chance="15" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="CUBONE!"/>
+ </voices>
+
+  <loot>
+          <item id="11451" chance="50" count="1"/> --earth stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

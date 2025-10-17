@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Pidgeot" nameDescription="a elder pidgeot" race="flying" experience="6500" speed="255" manacost="0">
+  <health now="340" max="340"/>
+  <look type="573" head="65" body="10" legs="95" feet="113" corpse="12437"/>
+  <targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+ 
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Quick Attack" interval="731" chance="38" range="2"/>
+		<attack name="Sand Attack" interval="772" chance="25" range="6"/>
+		<attack name="Whirlwind" interval="833" chance="17" range="6"/>
+		<attack name="Drill Peck" interval="814" chance="19" range="1"/>
+		<attack name="Wing Attack" interval="1280" chance="12" range="6"/>
+		<attack name="Hurricane" interval="1281" chance="12" range="6"/>
+		<attack name="Tornado" interval="1357" chance="10" range="6"/>
+		<attack name="Strafe" interval="858" chance="15" range="6"/>
+		<attack name="Roost" interval="10409" chance="15" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="PIDGEOT!"/>
+ </voices>
+
+   <loot>
+        <item id="11453" chance="3500" count="1" countmax="1"/> --heart stone
+		<item id="12417" chance="3500" count="1"/> <!--Feather Stone-->
+		<item id="15644" chance="7000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

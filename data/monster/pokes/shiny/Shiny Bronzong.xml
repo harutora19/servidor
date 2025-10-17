@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Bronzong" nameDescription="a shiny bronzong" race="blood" experience="200" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="3236" corpse="14727"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Spiner" interval="681" chance="100" range="6"/>
+		<attack name="Extrasensory" interval="832" chance="17" range="6"/>
+		<attack name="Heavy Slam" interval="1323" chance="11" range="6"/>
+		<attack name="Psychic" interval="1354" chance="10" range="6"/>
+		<attack name="Metal Sound" interval="1580" chance="7" range="6"/>
+		<attack name="Psy Impact" interval="2556" chance="5" range="6"/>
+		<attack name="Meteor Mash" interval="2857" chance="4" range="6"/>
+		<attack name="Light Screen" interval="2358" chance="6" range="6"/>
+		<attack name="Iron Defense" interval="11009" chance="6" range="6"/>
+  </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Beldum!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiftry" nameDescription="a shiftry" race="ghost" experience="900" speed="217" manacost="0">
+    <health now="130" max="130"/>
+    <look type="2030" corpse="14775"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Absorb" interval="731" chance="38" range="1"/>
+		<attack name="Sucker Punch" interval="792" chance="22" range="1"/>
+		<attack name="Dark Pulse" interval="753" chance="30" range="6"/>
+		<attack name="Leaf Blade" interval="744" chance="34" range="6"/>
+		<attack name="Whirlwind" interval="805" chance="20" range="6"/>
+		<attack name="Bamboo Spikes" interval="816" chance="19" range="6"/>
+		<attack name="Grassy Terrain" interval="1387" chance="10" range="6"/>
+		<attack name="Tornado" interval="1583" chance="7" range="6"/>
+		<attack name="Leaf Storm" interval="2359" chance="6" range="6"/>
+		<attack name="Sunny Day" interval="3760" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="Shiftry!"/>
+    </voices>
+    <loot>
+        <item id="11441" chance="4000" count="1" countmax="1"/> --leaf stone
+        <item id="11450" chance="4000" count="1" countmax="1"/> --darkness stone
+		
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Furious Ampharos" nameDescription="a Furious ampharos" race="electric" experience="4100" speed="500" manacost="0">
+  <health now="305" max="305"/>
+  <look type="361" head="65" body="80" legs="95" feet="113" corpse="3268"/>
+	 <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Charge" interval="1501" chance="8" range="6"/>
+		<attack name="Tackle" interval="752" chance="30" range="1"/>
+		<attack name="Fire Punch" interval="1278" chance="12" range="1"/>
+		<attack name="Cotton Spore" interval="1429" chance="9" range="6"/>
+		<attack name="Thunder Shock" interval="755" chance="30" range="4"/>
+		<attack name="Thunder Wave" interval="856" chance="15" range="6"/>
+		<attack name="Thunder Punch" interval="1282" chance="12" range="1"/>
+		<attack name="Thunder" interval="1583" chance="7" range="6"/>
+		<attack name="Electro Field" interval="2859" chance="4" range="6"/>
+		<attack name="Thunderbolt" interval="860" chance="15" range="4"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="AMPHAA!"/>
+      <voice sentence="PHAROOS!"/>
+      <voice sentence="AMPHAROS!"/>
+  </voices>
+   <loot>
+        <item id="11444" chance="5000" count="1"/> --thunder stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

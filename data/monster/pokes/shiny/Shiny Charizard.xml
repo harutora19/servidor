@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Charizard" nameDescription="a Shiny charizard" race="fire" experience="1604" speed="297" manacost="0">
+  <health now="170" max="170"/>
+  <look type="294" corpse="12425"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Ember" interval="751" chance="30" range="6"/>
+		<attack name="Flamethrower" interval="812" chance="19" range="6"/>
+		<attack name="Fireball" interval="853" chance="15" range="6"/>
+		<attack name="Fire Fang" interval="814" chance="19" range="1"/>
+		<attack name="Flame Burst" interval="1325" chance="11" range="6"/>
+		<attack name="Fire Blast" interval="2336" chance="6" range="6"/>
+		<attack name="Air Slash" interval="1507" chance="8" range="6"/>
+		<attack name="Wing Attack" interval="1328" chance="11" range="6"/>
+		<attack name="Magma Storm" interval="2879" chance="4" range="6"/>
+		<attack name="Scary Face" interval="1585" chance="7" range="6"/>
+		<attack name="Ancient Fury" interval="1391" chance="10" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="CHARIZARD!"/>
+ </voices>
+
+  <loot>
+          <item id="11447" chance="3000" count="1"/> --fire stone
+		  <item id="12417" chance="3000" count="1"/> <!--Feather Stone-->
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

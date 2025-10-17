@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venomoth" nameDescription="a venomoth" race="bug" experience="450" speed="230" manacost="0">
+    <health now="900" max="900"/>
+    <look type="49" corpse="11975"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+		<flag targetdistance="3"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Super Sonic" interval="1301" chance="20" range="6"/>
+		<attack name="Psybeam" interval="1352" chance="15" range="6"/>
+		<attack name="Silver Wind" interval="1778" chance="12" range="6"/>
+		<attack name="Confusion" interval="1779" chance="12" range="6"/>
+		<attack name="Psychic" interval="1355" chance="15" range="6"/>
+		<attack name="Pin Missile" interval="1306" chance="20" range="6"/>
+		<attack name="Bug Buzz" interval="1357" chance="15" range="6"/>
+		<attack name="Sleep Powder" interval="4508" chance="5" range="6"/>
+		<attack name="Poison Powder" interval="1359" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="VENOMOTH!"/>
+    </voices>
+    <loot>
+        <item id="12171" chance="50" count="1" countmax="1"/> --pot of moss bug
+        <item id="12184" chance="35" count="1" countmax="1"/> --bug antenna
+        <item id="12185" chance="35" count="1" countmax="1"/> --bug venom
+        <item id="11443" chance="4" count="1" countmax="1"/> --venom stone
+        <item id="11448" chance="4" count="1" countmax="1"/> --coccon stone
+		<item id="13783" chance="100" countmax="60"/> --bug gosme
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

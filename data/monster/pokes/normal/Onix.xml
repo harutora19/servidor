@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Onix" nameDescription="a onix" race="rock" experience="650" speed="235" manacost="0">
+    <health now="1700" max="1700"/>
+    <look type="248" corpse="11934"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="1401" chance="20" range="6"/>
+		<attack name="Iron Tail" interval="1352" chance="30" range="1"/>
+		<attack name="Rock Throw" interval="1353" chance="30" range="6"/>
+		<attack name="Rock Slide" interval="1404" chance="20" range="6"/>
+		<attack name="Earth Power" interval="1955" chance="10" range="6"/>
+		<attack name="Falling Rocks" interval="2856" chance="6" range="6"/>
+		<attack name="Earthquake" interval="5147" chance="7" range="6"/>
+		<attack name="Harden" interval="2033" chance="9" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="ONIX!"/>
+    </voices>
+	<loot>
+        <item id="11445" chance="3000" count="1" countmax="1"/> --rock stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

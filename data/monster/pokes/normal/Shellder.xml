@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shellder" nameDescription="a shellder" race="water" experience="100" speed="207" manacost="0">
+    <health now="400" max="400"/>
+    <look type="54" corpse="11962"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Lick" interval="1701" chance="20" range="1"/>
+		<attack name="Super Sonic" interval="1702" chance="20" range="6"/>
+		<attack name="Clamp" interval="1653" chance="30" range="6"/>
+		<attack name="Bubbles" interval="1654" chance="30" range="6"/>
+		<attack name="Ice Beam" interval="1755" chance="15" range="6"/>
+		<attack name="Harden" interval="2181" chance="12" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="SHELLDER!"/>
+    </voices>
+    <loot>
+
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

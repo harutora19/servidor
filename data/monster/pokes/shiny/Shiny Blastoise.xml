@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Blastoise" nameDescription="a Shiny blastoise" race="water" experience="1584" speed="277" manacost="0">
+  <health now="280" max="280"/>
+  <look type="495" corpse="12428"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Headbutt" interval="751" chance="30" range="1"/>
+		<attack name="Bubbles" interval="722" chance="43" range="6"/>
+		<attack name="Water Gun" interval="793" chance="22" range="6"/>
+		<attack name="Waterball" interval="814" chance="19" range="6"/>
+		<attack name="Water Pulse" interval="855" chance="15" range="6"/>
+		<attack name="Bubble Blast" interval="1236" chance="14" range="6"/>
+		<attack name="Hydro Cannon" interval="1582" chance="7" range="6"/>
+		<attack name="Skull Bash" interval="1358" chance="10" range="6"/>
+		<attack name="Hydropump" interval="2259" chance="6" range="6"/>
+		<attack name="Ancient Fury" interval="1390" chance="10" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="BLASTOISE!"/>
+ </voices>
+
+  <loot>
+            <item id="11442" chance="100" count="1"/> --water stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Magneton" nameDescription="a shiny magneton" race="electric" experience="356" speed="315" manacost="0">
+    <health now="130" max="130"/>
+    <look type="1671" corpse="12599"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="2"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="physical" interval="1000" chance="100" range="8" min="-50" max="-100">
+			<attribute key="shootEffect" value="eartharrow"/>
+		</attack>
+		<attack name="Super Sonic" interval="801" chance="20" range="6"/>
+		<attack name="Thunderbolt" interval="782" chance="24" range="6"/>
+		<attack name="Spark" interval="803" chance="20" range="6"/>
+		<attack name="Sonicboom" interval="854" chance="15" range="6"/>
+		<attack name="Tri-Attack" interval="1280" chance="12" range="6"/>
+		<attack name="Zap Cannon" interval="1506" chance="8" range="6"/>
+		<attack name="Flash Cannon" interval="1282" chance="12" range="6"/>
+		<attack name="Thunder" interval="1433" chance="9" range="6"/>
+		<attack name="Electric Storm" interval="2259" chance="6" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MAGNETON!"/>
+    </voices>
+    <loot>
+        <item id="12164" chance="10500" countmax="80"/> --screw
+        <item id="12176" chance="4500" countmax="1"/> --electric box
+        <item id="12198" chance="4500" count="1" countmax="1"/> -imans
+        <item id="11444" chance="600" count="1" countmax="1"/>
+        <item id="12338" chance="550" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

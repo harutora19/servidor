@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arbok" nameDescription="a arbok" race="poison" experience="450" speed="245" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="39" corpse="11841"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Bite" interval="1401" chance="30" range="1"/>
+		<attack name="Poison Fang" interval="1452" chance="20" range="1"/>
+		<attack name="Sting Gun" interval="1453" chance="20" range="6"/>
+		<attack name="Wrap" interval="3654" chance="15" range="6"/>
+		<attack name="Pin Missile" interval="1930" chance="12" range="6"/>
+		<attack name="Acid" interval="1456" chance="20" range="6"/>
+		<attack name="Iron Tail" interval="1457" chance="20" range="1"/>
+		<attack name="Poison Jab" interval="1468" chance="19" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="ARBOK!"/>
+    </voices>
+    <loot>
+        <item id="11443" chance="3000" count="1"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Brute Rhydon" nameDescription="a brute rhydon" race="ground" experience="4000" speed="500" manacost="0">
+    <health now="305" max="305"/>
+    <look type="200" head="60" body="80" legs="95" feet="113" corpse="11954"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Iron Tail" interval="801" chance="20" range="1"/>
+		<attack name="Horn Attack" interval="1277" chance="12" range="2"/>
+		<attack name="Rock Throw" interval="1278" chance="12" range="3"/>
+		<attack name="Horn Drill" interval="1354" chance="10" range="2"/>
+		<attack name="Bulldoze" interval="2255" chance="6" range="6"/>
+		<attack name="Falling Rocks" interval="2856" chance="4" range="6"/>
+		<attack name="Rock Drill" interval="1432" chance="9" range="3"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="RHYDON!"/>
+    </voices>
+   <loot>
+        <item id="11451" chance="2500" count="1"/>  --earth stone
+        <item id="11445" chance="2500" count="1"/> --rock stone
+		<item id="15644" chance="5000" countmax="3"/> <!--Mighty Token-->
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

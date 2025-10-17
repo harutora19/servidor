@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Mr. Mime" nameDescription="a shiny mr. mime" race="psychic" experience="688" speed="267" manacost="0">
+    <health now="90" max="90"/>
+    <look type="1506" corpse="12595"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Dazzling Gleam" interval="751" chance="30" range="6"/>
+		<attack name="Psywave" interval="732" chance="38" range="6"/>
+		<attack name="Play Rough" interval="833" chance="17" range="6"/>
+		<attack name="Confusion" interval="1279" chance="12" range="6"/>
+		<attack name="Psychic" interval="1430" chance="9" range="6"/>
+		<attack name="Psyusion" interval="2756" chance="4" range="6"/>
+		<attack name="Ice Punch" interval="1282" chance="12" range="1"/>
+		<attack name="Reflect" interval="1358" chance="10" range="6"/>
+		<attack name="Barrier" interval="1434" chance="9" range="6"/>
+		<attack name="Mimic Wall" interval="710" chance="60" range="6"/>
+		<attack name="Miracle Eye" interval="861" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MR. MIME!"/>
+    </voices>
+    <loot>
+	         <item id="11452" chance="20000" count="1"/> --enigma stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
